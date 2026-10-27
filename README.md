@@ -25,7 +25,8 @@
 ```
 honor-play-20-phone-rescue-kit/
 ├── README.md                       本文件
-├── Boot-HONOR-Play20.cmd           软解锁设备的一键辅助开机脚本
+├── Boot-HONOR-Play20.cmd           软解锁设备的一键辅助开机脚本（Windows）
+├── Boot-HONOR-Play20.sh            软解锁设备的一键辅助开机脚本（Linux / macOS）
 ├── [WriteFlash].txt                ResearchDownload 的 [WriteFlash] 分区路径模板
 ├── pac文件（含REC分区）/t610.pac    救砖用 PAC 固件（含 REC 分区）
 ├── SPD Research Tool/              SPD ResearchDownload 刷机工具（含驱动说明）
@@ -112,6 +113,19 @@ honor-play-20-phone-rescue-kit/
 1. 用 USB 数据线连接电脑（两份 SPL 已清空，通常会自动进入下载模式，无需再次短接）。
 2. 双击根目录的 `Boot-HONOR-Play20.cmd`，等待 Android 启动完成。
 3. 出现解锁警告属于预期现象；首次初始化会明显更久。
+
+Linux / macOS 下用等价脚本：
+
+```bash
+chmod +x Boot-HONOR-Play20.sh      # 仅首次需要
+./Boot-HONOR-Play20.sh             # 等待 300 秒；可用 -w 30 调整
+./Boot-HONOR-Play20.sh --dry-run   # 只打印将要执行的命令
+```
+
+脚本首次运行会从 `rescue-dependencies/spreadtrum_flash-source` 自动编译
+`spd_dump` 到 `.build/`（需要 `libusb-1.0`、`libxml2` 与 `pkg-config`，
+缺少时脚本会打印对应平台的安装命令）。Linux 上如果提示设备打不开，
+需为展锐下载模式（VID `1782` / PID `4d00`）配置 udev 权限，详见脚本 `--help`。
 
 脚本只把 `spl-unlock.bin` 发送到内存，**不写入任何分区**。
 若工具在 `EXEC FDL1` 之后报 `usb_send failed`，多为手机启动瞬间 USB 断开所致，

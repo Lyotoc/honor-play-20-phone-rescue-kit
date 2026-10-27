@@ -7,6 +7,12 @@
 /rescue-dependencies/persistent-boot-test/compiler/
 /rescue-dependencies/persistent-boot-test/zig-cache/
 
+# 本地构建产物与刷机产生的临时文件
+/.build/
+/rescue-dependencies/spreadtrum_flash-source/spd_dump
+/rescue-dependencies/honor-play-20-bootrom-flash/spd_dump
+/rescue-dependencies/honor-play-20-bootrom-flash/partition_*.xml
+
 # 系统杂项
 .DS_Store
 Thumbs.db
