@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\spd_dump.exe",
+    "Hash": "407D1F64E8CBA64BBC5BAAEE8F8DBEA067C06C724F5B0DCC13966780B45AD451"
+  },
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\fdl1-dl-patched.bin",
+    "Hash": "AB240640838174EE741B1DEAB3404482C0577AD8BC728434C68B64E510098638"
+  },
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\fdl2-sign.bin",
+    "Hash": "C139E680A7D79E4072BC7D71CF58FA85E17A19D2F32B07211F6F93C197B7C27C"
+  },
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\spl-unlock.bin",
+    "Hash": "5703BB1378894E698DC17286343F8F11F1D474070B6C16F6D7D6D6DDE0AB2785"
+  },
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\custom_exec_no_verify_3ee8.bin",
+    "Hash": "3DEF40ED711D28233FD9C9A577558D2943FCDA28638BB30307F0E6357F336CE1"
+  },
+  {
+    "Path": "D:\\honor-play-20-phone-rescue-kit\\rescue-dependencies\\honor-play-20-bootrom-flash\\utilizes\\uboot_patched.bin",
+    "Hash": "CF98408F2AD57E3E5CC06B6535DED4088CB79E977B7A66FB99044EBC4588E036"
+  }
+]

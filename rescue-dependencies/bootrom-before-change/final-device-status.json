@@ -1,0 +1,11 @@
+{
+  "model": "KOZ-AL00",
+  "firmware": "4.0.0.136(C00E3R2P5)",
+  "flash_locked": "0",
+  "vbmeta_device_state": "unlocked",
+  "verified_boot_state": "orange",
+  "boot_completed": "1",
+  "boot_animation": "stopped",
+  "tethered_startup_required": true,
+  "checked_at_utc": "2026-10-25T16:56:25.5612318Z"
+}

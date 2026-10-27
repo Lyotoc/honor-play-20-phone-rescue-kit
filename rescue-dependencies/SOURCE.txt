@@ -1,0 +1,4 @@
+Source: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+Download: https://download.microsoft.com/download/1/6/5/165255E7-1014-4D0A-B094-B6A430A6BFFC/vcredist_x86.exe
+Package and both extracted CRT DLLs: Authenticode Valid, Microsoft Corporation.
+Only msvcr100.dll and msvcp100.dll copied next to ResearchDownload.exe. No system installation.

@@ -1,0 +1,2 @@
+--wipe_data
+--locale=zh-Hans-CN

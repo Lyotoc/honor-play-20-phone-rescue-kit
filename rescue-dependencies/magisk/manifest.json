@@ -1,0 +1,34 @@
+{
+  "Magisk-v30.7.apk": {
+    "bytes": 11613864,
+    "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5"
+  },
+  "original-ramdisk.img": {
+    "bytes": 2097152,
+    "sha256": "0e4175783d2e1dc4bc2b2189118da65bbb1fd28e1730981630df2c6ce0bfb642"
+  },
+  "magisk-patched-ramdisk-30.7.img": {
+    "bytes": 2097152,
+    "sha256": "25dd69cdef8ff94f83a0e681b41b12e5944ffa904bf59a04563194a8c213dd3b"
+  },
+  "magisk-patched-boot-30.7.img": {
+    "bytes": 36700160,
+    "sha256": "214ade6effd0a2ad1e0b13521b0077aefbbd31ff8292b3a90c960e6da6962c43",
+    "kernel_and_dtb_unchanged": true
+  },
+  "magisk-patched-boot-28.1.img": {
+    "bytes": 36700160,
+    "sha256": "8fe8e513379d2cc2fe840f0ca7a3fc7eb723517041344eb67ed588642e137be8",
+    "kernel_and_dtb_unchanged": true
+  },
+  "Magisk-v28.1.apk": {
+    "sha256": "8bfd3346b3da5814f82eff6f1b1b5fedd0ad585f39a25709b23eb54aac45691d",
+    "source": "https://github.com/topjohnwu/Magisk/releases/download/v28.1/Magisk-v28.1.apk"
+  },
+  "magisk-patched-merged-boot-28.1.img": {
+    "bytes": 36700160,
+    "sha256": "51ca5c7b35c57a3f67acda7b97c680ff39edc369bd1ed34de4ccf497181abfc9",
+    "kernel_and_dtb_unchanged": true,
+    "original_init_backup_present": true
+  }
+}

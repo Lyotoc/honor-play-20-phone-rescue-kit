@@ -1,0 +1,2 @@
+[Options]
+Command=%_SFX_CAB_EXE_PATH%\Setup.exe %_SFX_CAB_EXE_PARAMETERS%

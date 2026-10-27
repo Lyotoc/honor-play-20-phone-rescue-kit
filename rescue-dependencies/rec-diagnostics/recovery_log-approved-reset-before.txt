@@ -1,0 +1,202 @@
+
+
+##########################################################
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:enter_recovery=1
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:enter_erecovery=0
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:normal_reset_type=BR_KEY_VOLUMN_UP
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:reboot_reason=not found
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:last_bootup_keypoint=not found
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:recovery_update=not found
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:userlock=locked
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:bootlock=not found
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:androidboot.verifiedbootstate=green
+[1970-01-01 00:28:42 129] Info:PrintKernelCmdline,line=968:androidboot.veritymode=enforcing
+[1970-01-01 00:28:42 129] Info:huawei_recovery_main,line=1007:push RECOVERY_BEGIN_L0
+[1970-01-01 00:28:42 129] Info:hw_resize_userdata_get_flag,line=1743:get property value=, len 0, fail.
+[1970-01-01 00:28:42 134] Info:hw_ensure_path_unmounted,line=1103:path:/cache
+[1970-01-01 00:28:42 162] Warn:RecordRescueResult,line=262:GetKernelCmdlineValue fail
+[1970-01-01 00:28:42 162] Info:huawei_recovery_main,line=1030:Starting recovery (pid 3523) on Thu Jan  1 00:28:42 1970
+
+[1970-01-01 00:28:42 166] Err:is_support_fota,line=1761:read OEMINFO_FOTA_MODE = 127 fail.
+[1970-01-01 00:28:42 166] Info:set_enter_erecovery_prop,line=1593:it is erecvoery mode, and property set success.
+[1970-01-01 00:28:42 169] Err:is_support_fota,line=1761:read OEMINFO_FOTA_MODE = 127 fail.
+[1970-01-01 00:28:42 169] Err:IsDataPartitionCanBeMounted,line=776:ReadBfiMiscMsg failed: No such file or directory!
+
+[1970-01-01 00:28:42 169] Info:set_enter_erecovery_with_damaged_userdata_prop,line=1608:it is not erecvoery with damaged userdata, and property set success.
+[1970-01-01 00:28:42 169] Err:hw_load_volume_table,line=391:areadly load recovery filesystem table
+[1970-01-01 00:28:42 172] Err:is_support_fota,line=1761:read OEMINFO_FOTA_MODE = 127 fail.
+[1970-01-01 00:28:42 172] Info:IsAllowMountRoPartition,line=2707:do not allow mount read only partition
+[1970-01-01 00:28:42 173] hw_get_args,line=1502:[cmd_from_misc][command]boot-recovery[status][recovery]recovery
+--locale=zh-Hans-CN
+[stage][reserved]
+[1970-01-01 00:28:42 176] Info:is_oversea_version,line=619:country code string [cn].
+[1970-01-01 00:28:42 176] Info:is_oversea_version,line=623:is chinese version.
+/log/recovery/recovery_log_upload is exist.
+/splash2/recovery/recovery_log_upload is not exist.
+/log/recovery/recovery_log_upload is exist.
+[1970-01-01 00:28:42 179] Info:hw_get_args,line=1504:Boot command: boot-recovery
+[1970-01-01 00:28:42 179] Info:hw_resize_userdata_get_flag,line=1743:get property value=, len 0, fail.
+[1970-01-01 00:28:42 182] Err:check_if_reboot_by_hwouc,line=1477:Fail to open /cache/recovery/command,No such file or directory
+[1970-01-01 00:28:42 182] Info:hw_get_args,line=1536:Got arguments from boot message
+[1970-01-01 00:28:42 182] Info:hw_get_property_args,line=225:prop_value is not equal to true, do not need to set prop.
+[1970-01-01 00:28:42 182] Info:hw_get_property_args,line=225:prop_value is not equal to true, do not need to set prop.
+[1970-01-01 00:28:42 182] Info:hw_get_property_args,line=225:prop_value is not equal to false, do not need to set prop.
+[1970-01-01 00:28:42 182] Info:hw_get_property_args,line=225:prop_value is not equal to true, do not need to set prop.
+[1970-01-01 00:28:42 182] Info:hw_get_property_args,line=225:prop_value is not equal to true, do not need to set prop.
+[1970-01-01 00:28:42 182] hw_get_args,line=1559:[cmd_finial]recovery
+--locale=zh-Hans-CN
+/splash2/recovery/recovery_log_upload is not exist.
+/log/recovery/recovery_log_upload is exist.
+[1970-01-01 00:28:42 183] Info:hw_get_args,line=1560:[keyinfo]:
+[1970-01-01 00:28:42 184] Info:hw_get_args,line=1562:set bootloader message ok
+[1970-01-01 00:28:42 184] Info:SetForceFactoryUpdate,line=466:[g_isForceFactoryUpdate]: 0
+[1970-01-01 00:28:42 184] Info:IsStartFastbootd,line=931:not find fastboot in misc
+[1970-01-01 00:28:42 187] Err:is_support_fota,line=1761:read OEMINFO_FOTA_MODE = 127 fail.
+[1970-01-01 00:28:42 187] Info:unmount_system_str_seek,line=158:erecovery mode ,can't mount system and newsys
+[1970-01-01 00:28:42 187] Info:hw_ensure_path_unmounted,line=1103:path:/newsys
+[1970-01-01 00:28:42 188] Info:check_mounts_service,line=263:no need to mount system and start services in update mode
+[1970-01-01 00:28:42 188] Info:get_recovery_locale,line=617:get locale from command line
+[1970-01-01 00:28:42 188] Info:get_recovery_locale,line=662:locale is [zh-Hans-CN]
+[1970-01-01 00:28:42 189] Info:save_locale_file_to_cache,line=678:Saving locale "zh-Hans-CN"
+[1970-01-01 00:28:42 189] Info:hw_resize_userdata_get_flag,line=1743:get property value=, len 0, fail.
+[1970-01-01 00:28:42 194] Info:InitDisplayMagicUi,line=198:read oeminfo ro.build.version.magic success,value is 4.0
+[1970-01-01 00:28:42 197] Info:InitFoldStatus,line=156:Fold status not found
+[1970-01-01 00:28:42 200] Err:GetUiRotation,line=97:read oeminfo ro.recovery.ui.rotation failed.
+[1970-01-01 00:28:42 200] Err:IsDataPartitionCanBeMounted,line=776:ReadBfiMiscMsg failed: No such file or directory!
+
+[1970-01-01 00:28:42 200] Err:hw_load_volume_table,line=391:areadly load recovery filesystem table
+SELinux:  Skipping /product_file_contexts:  empty file
+SELinux:  Skipping /odm_file_contexts:  empty file
+SELinux: Loaded file_contexts
+[1970-01-01 00:28:42 203] Err:EreWlanStopWifiAgent,line=950:wlanInfoPtr is null
+[1970-01-01 00:28:42 206] Warn:EreKillProcessWithDelay,line=327:Can not find process [wpa_supplicant]
+[1970-01-01 00:28:42 207] Warn:EreKillProcessWithDelay,line=327:Can not find process [wpa_supplicant_hisi]
+[1970-01-01 00:28:42 207] Err:EreWlanStopWifiCli,line=1187:wlanInfoPtr is null
+[1970-01-01 00:28:42 208] Warn:EreKillProcessWithDelay,line=327:Can not find process [wpa_cli]
+[1970-01-01 00:28:42 210] Warn:EreKillProcessWithDelay,line=327:Can not find process [wpa_cli_hisi]
+[1970-01-01 00:28:42 211] Warn:EreKillProcessWithoutDelay,line=78:find no process [dhcpcd]!
+[1970-01-01 00:28:42 211] Info:EreRemountRootfs,line=739:Remount root system successfully!
+[1970-01-01 00:28:42 211] Info:hw_ensure_path_unmounted,line=1103:path:/system
+[1970-01-01 00:28:42 211] Info:hw_ensure_path_unmounted,line=1103:path:/vendor
+[1970-01-01 00:28:42 211] Info:init_erecovery,line=114:Call erecovery_chipsets_init!
+[1970-01-01 00:28:42 211] Info:init_erecovery,line=122:the mode is unify, not need erecovery common init!
+[1970-01-01 00:28:42 211] Info:set_sd_status,line=149:set_sd_status to 1
+[1970-01-01 00:28:42 211] Info:AutoUnlockSd,line=1868:sd card is not inserted
+[1970-01-01 00:28:42 211] Info:huawei_recovery_main,line=1072:auto unlock sdcard ok
+[1970-01-01 00:28:42 211] Info:SetHotaRollbackUpdateFlag,line=629:set hota rollback flag: 0.
+[1970-01-01 00:28:42 211] Info:get_run_mode_str,line=2439:[mode]UNIFY
+/data/update/hota_process is not exist.
+[1970-01-01 00:28:42 212] Err:RecordHotaStatusInfo,line=376:/data/update/hota_process is not exist
+[1970-01-01 00:28:42 212] Warn:record_init_info,line=2245:failed to add run_mode
+/data/update/hota_process is not exist.
+[1970-01-01 00:28:42 212] Err:RecordHotaStatusInfo,line=376:/data/update/hota_process is not exist
+[1970-01-01 00:28:42 212] Warn:record_init_info,line=2258:failed to add reboot reason
+[1970-01-01 00:28:42 212] Info:hw_resize_userdata_get_flag,line=1743:get property value=, len 0, fail.
+[1970-01-01 00:28:42 212] Warn:is_hota_update_in_cache_cmdline,line=2489:fail to open /cache/recovery/command,No such file or directory
+/data/update/hota_process is not exist.
+[1970-01-01 00:28:42 212] Err:RecordHotaStatusInfo,line=376:/data/update/hota_process is not exist
+[1970-01-01 00:28:42 212] Warn:record_init_info,line=2264:failed to add reboot reason
+[1970-01-01 00:28:42 212] Warn:SetLocalLangIfZh,line=130:zh_CN_#Hans, local language is Chinese.
+[1970-01-01 00:28:42 212] Err:GalGrInit,line=497:can't open /dev/tty0
+[1970-01-01 00:28:42 215] Info:InitFoldScreen,line=1130:InitFoldScreen 720 1600 
+[1970-01-01 00:28:42 215] Info:InitFoldScreen,line=1135:InitFoldScreen 0 
+[1970-01-01 00:28:42 215] Info:SetDpiPixelRate,line=127:resolution 720 x 1600
+[1970-01-01 00:28:42 215] Info:SetDpiPixelRate,line=131:The LCD resolution is 720 x 1600, and pixel rate is 2.000000
+[1970-01-01 00:28:42 216] Info:LoadPages,line=755:mode is 11 device type is 3
+[1970-01-01 00:28:42 216] Info:LoadUnifyPages,line=660:Load LoadUnifyPages Pages.
+[1970-01-01 00:28:43 840] Info:GetUiLayout,line=54:curLayout == nullptr, use default layout
+[1970-01-01 00:28:43 845] Info:GetPicHeightByName,line=150:pic height: 161
+[1970-01-01 00:28:43 847] Info:GetInputBoxWidth,line=176:input box width: 624
+[1970-01-01 00:28:43 858] Info:GetUiStrCn,line=94:retFlag is 1
+[1970-01-01 00:28:43 861] Info:Init,line=202:btn_default_normal
+[1970-01-01 00:28:43 864] Info:Init,line=202:btn_default_select
+[1970-01-01 00:28:43 867] Info:Init,line=202:btn_default_normal
+[1970-01-01 00:28:43 868] Info:Init,line=202:btn_change_default
+[1970-01-01 00:28:43 868] Info:Init,line=202:switch_icon
+[1970-01-01 00:28:43 869] Info:Init,line=202:button_return
+[1970-01-01 00:28:43 872] Info:Init,line=202:btn_dark_normal
+[1970-01-01 00:28:43 875] Info:Init,line=202:btn_dark_select
+[1970-01-01 00:28:43 875] Err:HwGalCreateDisplaySurface,line=296:pngpixel: /res/images/hwui720x1280/bg_circle_btn.png: could not open file
+[1970-01-01 00:28:43 875] Err:ResCreateSurfaceToRgba,line=373:create display surface failed. ret-value 0xffffffff.
+[1970-01-01 00:28:43 875] Err:LoadBitmap,line=456:missing bitmap bg_circle_btn[hwui720x1280/bg_circle_btn]
+(Code -1)
+[1970-01-01 00:28:43 875] Info:Init,line=202:bg_circle_btn
+[1970-01-01 00:28:43 875] Err:HwGalCreateDisplaySurface,line=296:pngpixel: /res/images/hwui720x1280/ic_linear_back.png: could not open file
+[1970-01-01 00:28:43 875] Err:ResCreateSurfaceToRgba,line=373:create display surface failed. ret-value 0xffffffff.
+[1970-01-01 00:28:43 875] Err:LoadBitmap,line=456:missing bitmap ic_linear_back[hwui720x1280/ic_linear_back]
+(Code -1)
+[1970-01-01 00:28:43 875] Info:Init,line=202:ic_linear_back
+[1970-01-01 00:28:43 875] Err:HwGalCreateDisplaySurface,line=296:pngpixel: /res/images/hwui720x1280/ic_list_pre.png: could not open file
+[1970-01-01 00:28:43 875] Err:ResCreateSurfaceToRgba,line=373:create display surface failed. ret-value 0xffffffff.
+[1970-01-01 00:28:43 876] Err:LoadBitmap,line=456:missing bitmap ic_list_pre[hwui720x1280/ic_list_pre]
+(Code -1)
+[1970-01-01 00:28:43 876] Info:Init,line=202:ic_list_pre
+[1970-01-01 00:28:43 876] Err:HwGalCreateDisplaySurface,line=296:pngpixel: /res/images/hwui720x1280/ic_list_next.png: could not open file
+[1970-01-01 00:28:43 876] Err:ResCreateSurfaceToRgba,line=373:create display surface failed. ret-value 0xffffffff.
+[1970-01-01 00:28:43 876] Err:LoadBitmap,line=456:missing bitmap ic_list_next[hwui720x1280/ic_list_next]
+(Code -1)
+[1970-01-01 00:28:43 876] Info:Init,line=202:ic_list_next
+[1970-01-01 00:28:43 960] Err:GetGapHoleToMarginY,line=279:open pre_camera_position fail No such file or directory
+[1970-01-01 00:28:43 960] Info:GetCameraMarginHeightByNode,line=69:-1
+[1970-01-01 00:28:43 972] Err:is_support_fota,line=1761:read OEMINFO_FOTA_MODE = 127 fail.
+[1970-01-01 00:28:43 972] Info:LoadRecoveryPages,line=484:Load Recovery Pages.
+[1970-01-01 00:28:44 047] Info:LoadSDUpdatePages,line=632:Load SD Update Pages.
+[1970-01-01 00:28:45 666] Info:LoadUSBUpdatePages,line=650:Load USB Update Pages.
+[1970-01-01 00:28:47 282] Info:LoadeRecoveryPages,line=606:Load eRecovery Pages.
+[1970-01-01 00:28:47 282] Info:LoadeRecoveryDefaultPages,line=527:Load eRecovery Pages.
+[1970-01-01 00:28:47 282] Info:GetUiStrCn,line=94:retFlag is 1
+[1970-01-01 00:28:47 282] Err:EngineValid,line=190:invalid.
+[1970-01-01 00:28:47 282] Info:EreBackupAvailable,line=460:null
+[1970-01-01 00:28:49 102] Info:LoadeRecoveryDefaultPages,line=539:Load EreUserConfirmPage Pages.
+[1970-01-01 00:28:49 102] Err:EngineValid,line=190:invalid.
+[1970-01-01 00:28:49 102] Info:LoadeRecoveryDefaultPages,line=546:Load EreWifiConnectPage Pages.
+[1970-01-01 00:28:49 102] Info:LoadeRecoveryDefaultPages,line=553:Load EreSpacePage Pages.
+[1970-01-01 00:28:49 103] Info:LoadeRecoveryDefaultPages,line=564:Load EreDownloadPage Pages.
+[1970-01-01 00:28:49 103] Info:LoadeRecoveryWlanPages,line=502:Load EreWlanSelectPage Pages.
+[1970-01-01 00:28:49 106] Info:LoadeRecoveryWlanPages,line=513:Load EreWlanInputPage Pages.
+[1970-01-01 00:28:49 171] Info:DrmBlank,line=119:maxValue = 10000
+[1970-01-01 00:28:49 323] Info:DrmBlank,line=119:maxValue = 10000
+[1970-01-01 00:28:49 492] Info:DrmBlank,line=136:setLevel = 4000
+[1970-01-01 00:28:49 789] Info:InitUi,line=574:RUN MODE UNIFY !
+[1970-01-01 00:28:49 789] Info:IsContainPage,line=858:find page e00, frame e00
+[1970-01-01 00:28:49 789] Err:Draw,line=431:current surface null!
+[1970-01-01 00:28:49 904] Err:RecoveryInputThread,line=1097:Input invalid.
+[1970-01-01 00:28:49 905] Info:RecoveryInputOtherEvents,line=976:Report TOUCH_DOWN.
+SELinux:  Skipping /product_file_contexts:  empty file
+SELinux:  Skipping /odm_file_contexts:  empty file
+SELinux: Loaded file_contexts
+Command: "recovery" "--locale=zh-Hans-CN"
+ro.board.platform = ums512
+ro.build.date = Sun Apr  5 06:20:35 CST 2026
+ro.build.date.utc = 1775341235
+ro.build.display.id = 
+ro.build.product = ums512_1h10
+ro.build.description = ums512_lwfq_1h10_Natv-user 10 QP1A.190711.020 13006 dev-keys
+ro.build.fingerprint = Honor/a75_a55/a75_a55:10/QP1A.190711.020/base format error.cust format error.:user/dev-keys
+ro.confg.hw_systemversion = 
+ro.confg.hw_fastbootversion = Chipset-d527fb 11.0.1.(049F)_FASTBOOT
+ro.confg.hw_recoveryversion = 
+ro.product.name = a75_a55
+ro.product.board = ums512_1h10
+ro.product.brand = Honor
+ro.product.model = a75_a55
+ro.product.device = a75_a55
+ro.product.locale.region = 
+ro.product.locale.language = 
+ro.product.CustCVersion = 
+ro.product.CustDVersion = 
+ro.runmode = normal
+ro.boot.oemmode = user
+
+[1970-01-01 00:28:49 913] huawei_engine_enter,line=2065:Recovery boot ->cmd: boot-recovery, ->status: , ->recovery: recovery
+--locale=zh-Hans-CN
+ 
+/splash2/recovery/recovery_log_upload is not exist.
+/log/recovery/recovery_log_upload is exist.
+[1970-01-01 00:28:49 915] Info:hw_resize_userdata_get_flag,line=1743:get property value=, len 0, fail.
+[1970-01-01 00:28:49 915] Err:hw_ensure_path_mounted,line=946:fail to mount /sdcard,No such file or directory
+[1970-01-01 00:28:49 915] Info:hw_ensure_path_mounted,line=950:mount ext sd card
+[1970-01-01 00:28:49 915] Err:hw_ensure_path_mounted,line=986:failed with ntfs try for sdcard
+[1970-01-01 00:28:49 915] Info:set_sd_status,line=149:set_sd_status to 9
+[1970-01-01 00:28:49 915] Warn:huawei_engine_enter,line=2084:mount external sd card to /sdcard fail
+[1970-01-01 00:28:49 920] Info:huawei_engine_enter,line=2090:GetFirstRunMode RUN_MODE_UNIFY

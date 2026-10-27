@@ -1,0 +1,2559 @@
+boot-erecovery
+fastboot_log
+last_kmsg
+fastboot_log
+last_kmsg
+fastboot_log
+last_kmsg
+fastboot_log
+last_kmsg
+fastboot_log
+last_kmsg
+panic backtrace:
+[00000812] 
+U-Boot 2015.07-g8aa7df7d5e (Dec 09 2021 - 02:46:45 +0800)SHARKL5PRO
+[00000819] i2c0, sprd_i2c_init() freq=100000
+[00000844] found dtb 00000000b0035f50 size 27331
+[00000847] 1 GiB
+[00000849] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000853] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000857] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000862] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000872] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000880] cert_key
+[00000880] dumpHex:32 bytes
+[00000882] c1441a50e2f78a7fd2df488e599c7c36
+[00000885] f70997f1e45ed31923ba919468b80ea0
+[00000888] 
+[00000917] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000931] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000944] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000959] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000967] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000974] [LED] init led]sprd_sdhci_init: host version: 4
+[00000986] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000991] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000997] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00001002] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00001030] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001087] mmc_init: 0, time 108
+[00001091]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001098] serial
+[00001100] serial
+[00001101] serial
+[00001105] i2c2, sprd_i2c_init() freq=100000
+[00001108] i2c2, sprd_i2c_init() freq=100000
+[00001313] Timed out in wait_for_ack: status=210202
+[00001316] I2C_CTL = 0x182007
+[00001318] I2C_ADDR_CFG = 0x76
+[00001320] I2C_COUNT = 0x1
+[00001321] I2C_STATUS = 0x210202
+[00001323] ADDR_DVD0 = 0x33004c
+[00001325] ADDR_DVD1 = 0x0
+[00001326] ADDR_STA0_DVD = 0x68
+[00001328] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001332] i2c2, sprd_i2c_init() freq=100000
+[00001336] vendor id=0x6b, ret=0x11
+[00001682] i2c2, sprd_i2c_init() freq=100000
+[00001887] Timed out in wait_for_ack: status=210202
+[00001890] I2C_CTL = 0x182007
+[00001892] I2C_ADDR_CFG = 0x76
+[00001894] I2C_COUNT = 0x1
+[00001896] I2C_STATUS = 0x210202
+[00001898] ADDR_DVD0 = 0x33004c
+[00001899] ADDR_DVD1 = 0x0
+[00001901] ADDR_STA0_DVD = 0x68
+[00001903] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001907] i2c2, sprd_i2c_init() freq=100000
+[00001911] vendor id=0x6b, ret=0x11
+[00001913] i2c2, sprd_i2c_init() freq=100000
+[00001917] bq2560x_read_reg reg=0xb, value=0x11
+[00001920] i2c2, sprd_i2c_init() freq=100000
+[00001929] eica status bat8
+[00001933] [gpio keys] init!
+[00001945] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00001954] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00001961] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00001978] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00002096] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00002104] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00002111] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00002118] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00002150] cannot get oeminfo rdlock type info
+[00002155] get_securedebug_efuse_value: secure debug mode is setted
+[00002193] hwdog_certify->lock_state.fb_lock_stat = 0
+[00002197] hwdog_certify->lock_state.user_lock_stat = 0
+[00002201] hwdog_certify->lock_state.check_root_stat = 0
+[00002205] hwdog_certify->lock_state.check_sign_stat = 0
+[00002212] check_reboot_mode:get raw rst_mode is 80 and sysdump_flag is 0
+[00002218] hw watchdog int raw status 0x8
+[00002221] bootfail: func: process_bootfail line: 1013, reset reason is 1
+[00002226] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00002308] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002316] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00002324] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00002332] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00002341] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00002349] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00002361] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002369] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00002399] bootfail: func: process_bootfail_after_reboot line: 780, process_bootfail_after_reboot:780
+[00002416] bootfail: func: is_recovery_bootfail line: 755, is_recovery_bootfail, flag: 
+[00002423] bootfail: func: format_after_reboot_bootfail_params line: 990, real stage is: 0x3ffffffe
+[00002502] bootfail: func: get_panic_detail_info line: 962, bootfail:snprintf_s detail_info fail
+[00002509] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 30000005, bootstage: 3ffffffe, suggest_recovery_method: 0, exception_type: c
+[00002532] data_SHA256: data SHA256 computing SUCCEED
+[00002535] data_SHA256: data SHA256 computing SUCCEED
+[00002561] data_SHA256: data SHA256 computing SUCCEED
+[00002565] data_SHA256: data SHA256 computing SUCCEED
+[00002569] bootfail: func: bootfail_print line: 577, func: read_rrecord, recovery record has been damaged, validate it here
+[00002579] data_SHA256: data SHA256 computing SUCCEED
+[00002583] data_SHA256: data SHA256 computing SUCCEED
+[00002603] bootfail: func: bootfail_print line: 577, func: try_to_recovery, errorcode: 0, selected method: 400007001
+[00002612] bootfail: func: capture_bl_log line: 383, uboot log is 80000, 80000
+SPRDulog(
+[00000732] 
+U-Boot 2015.07-g8aa7df7d5e (Dec 09 2021 - 02:46:45 +0800)SHARKL5PRO
+[00000739] i2c0, sprd_i2c_init() freq=100000
+[00000764] found dtb 00000000b0035f50 size 27331
+[00000768] 1 GiB
+[00000769] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000774] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000778] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000782] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000792] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000800] cert_key
+[00000801] dumpHex:32 bytes
+[00000803] c1441a50e2f78a7fd2df488e599c7c36
+[00000806] f70997f1e45ed31923ba919468b80ea0
+[00000809] 
+[00000838] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000851] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000864] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000880] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000887] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000894] [LED] init led]sprd_sdhci_init: host version: 4
+[00000906] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000911] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000918] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000923] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00000951] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001008] mmc_init: 0, time 108
+[00001012]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001019] serial
+[00001020] serial
+[00001022] serial
+[00001025] i2c2, sprd_i2c_init() freq=100000
+[00001028] i2c2, sprd_i2c_init() freq=100000
+[00001233] Timed out in wait_for_ack: status=210202
+[00001237] I2C_CTL = 0x182007
+[00001238] I2C_ADDR_CFG = 0x76
+[00001240] I2C_COUNT = 0x1
+[00001242] I2C_STATUS = 0x210202
+[00001244] ADDR_DVD0 = 0x33004c
+[00001245] ADDR_DVD1 = 0x0
+[00001247] ADDR_STA0_DVD = 0x68
+[00001249] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001253] i2c2, sprd_i2c_init() freq=100000
+[00001257] vendor id=0x6b, ret=0x11
+[00001350] i2c2, sprd_i2c_init() freq=100000
+[00001554] Timed out in wait_for_ack: status=210202
+[00001558] I2C_CTL = 0x182007
+[00001560] I2C_ADDR_CFG = 0x76
+[00001561] I2C_COUNT = 0x1
+[00001563] I2C_STATUS = 0x210202
+[00001565] ADDR_DVD0 = 0x33004c
+[00001567] ADDR_DVD1 = 0x0
+[00001568] ADDR_STA0_DVD = 0x68
+[00001570] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001574] i2c2, sprd_i2c_init() freq=100000
+[00001578] vendor id=0x6b, ret=0x11
+[00001580] i2c2, sprd_i2c_init() freq=100000
+[00001584] bq2560x_read_reg reg=0xb, value=0x11
+[00001588] i2c2, sprd_i2c_init() freq=100000
+[00001596] eica status bat8
+[00001601] [gpio keys] init!
+[00001612] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00001622] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00001629] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00001645] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00001665] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00001673] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00001681] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00001687] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00001719] cannot get oeminfo rdlock type info
+[00001724] get_securedebug_efuse_value: secure debug mode is setted
+[00001762] hwdog_certify->lock_state.fb_lock_stat = 0
+[00001766] hwdog_certify->lock_state.user_lock_stat = 0
+[00001770] hwdog_certify->lock_state.check_root_stat = 0
+[00001774] hwdog_certify->lock_state.check_sign_stat = 0
+[00001781] check_reboot_mode:get raw rst_mode is 40 and sysdump_flag is 0
+[00001787] hw watchdog int raw status 0x8
+[00001789] bootfail: func: process_bootfail line: 1013, reset reason is 0
+[00001795] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00001875] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001883] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00001892] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00001900] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00001908] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00001917] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00001929] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001937] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00001977] is_bat_low vbat_vol:4062,comp_vbat:3500
+[00001986] Error!common_raw_read(): read size(0x4 + 0x0) overflow the total partition size(0x0)
+[00002005] fulldumpdb partition is  not exsit ... mark flag ok 
+[00002010] (sprd_dump): (write_sysdump_before_boot): Check dump info ......
+[00002016] (sprd_dump): (get_current_time): time is 2022-02-14_00-02-14
+[00002041] (sprd_dump): (show_check_enable_status_result): ------------------	show_check_enable_status_result 	------------------ .
+[00002051] (sprd_dump): (show_check_enable_status_result): full_dump_enable : 0 .
+[00002058] (sprd_dump): (show_check_enable_status_result): mini_dump_enable : 1 .
+[00002064] (sprd_dump): (show_check_enable_status_result): full_dump_allow  : 0 .
+[00002070] (sprd_dump): (show_check_enable_status_result): mini_dump_allow  : 0 .
+[00002076] (sprd_dump): (show_check_enable_status_result): reset_mode       : (2)-(normal) .
+[00002092] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , mini_dump_allow : 0 .  !!!
+[00002100] (sprd_dump): (write_sysdump_before_boot): NO need minidump !!!
+[00002105] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , full_dump_allow : 0 .  !!!
+[00002113] (sprd_dump): (write_sysdump_before_boot): NO need full  dump memory !!!
+[00002197] enter boot mode 2
+[00002198] lcd start init time:2198ms
+[00002207] [LCD_KIT/I]lcd_kit_get_detect_type: LCD panel detect type = 2
+[00002253] [LCD_KIT/I]lcdkit_get_lcd_id: [uboot]:lcdkit_get_lcd_id ,lcd_id_status=5.
+[00002259] [LCD_KIT/E]lcd_kit_init: lcd_id:5, product_id:1000, compatible:250_a04_6p6, lcd_name:/huawei,lcd_config/lcd_kit_koz_250_a04_6p6
+[00002271] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-on-cmds-state
+[00002278] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-off-cmds-state
+[00002286] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,backlight-cmds
+[00002293] [LCD_KIT/E]lcd_kit_buf_trans: inbuf is null!
+[00002297] [LCD_KIT/E]lcd_scan_dcs_cmd: cnt <= 0 or > MAX_CNT
+[00002302] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-bl-support
+[00002309] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002314] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-on-support
+[00002321] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002326] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-off-support
+[00002333] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002338] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vci
+[00002345] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-iovcc
+[00002351] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-backlight
+[00002358] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-te0
+[00002365] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,tp-reset
+[00002371] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vdd
+[00002378] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-aod
+[00002384] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-poweric
+[00002391] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,effect-on-support
+[00002399] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002403] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-btb-support
+[00002410] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002415] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,mipi-read-gerneric
+[00002423] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002427] [LCD_KIT/I]lcd_kit_panel_init: not find ops
+[00002431] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find ti,tps65132 node by compatible
+[00002439] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002444] [LCD_KIT/E]tps65132_init: not support tps65132!
+[00002448] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find rt,rt4801h node by compatible
+[00002455] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002460] [LCD_KIT/E]rt4801h_init: not support rt4801h
+[00002464] [LCD_KIT/I]sm5109_init: sm5109 is support
+[00002468] [LCD_KIT/I]lm36923_init: lm36923 in lm36923_init
+[00002473] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find lm,lm36923 node by compatible
+[00002480] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002485] [LCD_KIT/E]lm36923_init: not support lm36923!
+[00002489] [LCD_KIT/I]sgm37603a_init: sgm37603a in sgm37603a_init
+[00002494] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find sgm,sgm37603a node by compatible
+[00002501] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002506] [LCD_KIT/E]sgm37603a_init: not support sgm37603a!
+[00002511] [LCD_KIT/I]ktz8864_init: ktz8864 init
+[00002514] [LCD_KIT/I]ktz8864_init: can not find ktz,ktz8864 node
+[00002519] [LCD_KIT/I]lm36274_init: lm36274 init
+[00002522] [LCD_KIT/I]lm36274_init: can not find ti,lm36274 node
+[00002527] [LCD_KIT/I]rt4831_init: rt4831 in
+[00002530] [LCD_KIT/I]rt4831_init: can not find rt,rt4831 node
+[00002535] [LCD_KIT/I]aw99703_init: aw99703 enter
+[00002544] i2c4, sprd_i2c_init() freq=100000
+[00002547] i2c4, sprd_i2c_init() freq=100000
+[00002551] [LCD_KIT/I]aw99703_parse_dts: aw99703_parse_dts
+[00002556] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_67 value = 0x1c
+[00002561] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_headroom_23 value = 0x61
+[00002568] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_threshold_25 value = 0x61
+[00002575] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_hys_24 value = 0x4c
+[00002581] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_led_current value = 0x9b
+[00002587] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol1 value = 0x29
+[00002594] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_high value = 0x10
+[00002600] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_low value = 0x5
+[00002606] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68 value = 0x2c
+[00002612] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31 value = 0xc0
+[00002619] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash value = 0x8
+[00002624] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_lsb value = 0x0
+[00002630] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_msb value = 0x1
+[00002636] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2 value = 0x80
+[00002642] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_mode value = 0x11
+[00002648] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31_1 value = 0x0
+[00002654] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash_1 value = 0x58
+[00002660] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68_1 value = 0x0
+[00002667] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2_1 value = 0x0
+[00002674] [LCD_KIT/I]aw99703_backlight_ic_check: aw99703 is right backlight ic
+[00002680] [LCD_KIT/I]aw99703_init: aw99703 is checked succ
+[00002684] [LCD_KIT/I]aw99703_init: aw99703 is support
+[00002688] [LCD_KIT/I]sm5350_init: sm5350 enter
+[00002691] [LCD_KIT/E]sm5350_init: bl ic is checked
+[00002695] [LCD_KIT/I]ktd3136_init: ktd3136 enter
+[00002698] [LCD_KIT/E]ktd3136_init: bl ic is checked
+[00002702] [LCD_KIT/I]nt50356_init: nt50356 init
+[00002705] [LCD_KIT/E]nt50356_init: bias bl ic checked
+[00002709] [sprdfb][mipi_dsi_init] escape clk div = 7
+[00002713] [sprdfb][sprd_dsi_resume] dsi init OK
+[00002716] [sprdfb][mipi_dphy_configure] lanes : 3
+[00002720] [sprdfb][mipi_dphy_configure] freq : 1100000
+[00002724] [sprdfb][sprd_dphy_resume] dphy init OK
+[00002728] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002736] [LCD_KIT/I]lcd_kit_event_handler: event = 0x3, data = 0x1, delay = 2
+[00002744] [LCD_KIT/I]lcd_kit_event_handler: event = 0x4, data = 0x1, delay = 3
+[00002750] i2c4, sprd_i2c_init() freq=100000
+[00002754] [LCD_KIT/I]sm5109_device_verify: sm5109 verify ok, app_dis = 0x3
+[00002759] [LCD_KIT/I]sm5109_bias_recognize: sm5109 is right bias
+[00002764] [LCD_KIT/I]lcd_kit_bias_recognize_call: bias recognize call success
+[00002770] [LCD_KIT/I]sm5109_set_bias: sm5109 vsp voltage:0x14
+[00002775] [LCD_KIT/I]sm5109_set_bias: sm5109 vsn voltage:0x14
+[00002779] i2c4, sprd_i2c_init() freq=100000
+[00002783] i2c4, sprd_i2c_init() freq=100000
+[00002787] i2c4, sprd_i2c_init() freq=100000
+[00002791] i2c4, sprd_i2c_init() freq=100000
+[00002797] i2c4, sprd_i2c_init() freq=100000
+[00002802] i2c4, sprd_i2c_init() freq=100000
+[00002807] [LCD_KIT/I]sm5109_reg_init: vpos = 0x54, vneg = 0x14, app_dis = 0x3
+[00002813] i2c4, sprd_i2c_init() freq=100000
+[00002817] i2c4, sprd_i2c_init() freq=100000
+[00002822] [LCD_KIT/I]sm5109_reg_init: vol_save_value = 0xff
+[00002827] [LCD_KIT/I]sm5109_set_voltage: sm5109 set voltage succeed
+[00002835] [LCD_KIT/I]lcd_kit_event_handler: event = 0xb, data = 0x1, delay = 10
+[00002841] [LCD_KIT/I]lcd_kit_event_handler: event not exist
+[00002855] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 6
+[00002867] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002875] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 11
+[00002892] [LCD_KIT/I]lcd_kit_event_handler: event = 0x7, data = 0x1, delay = 0
+[00002898] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002904] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x7 error!
+[00002909] [LCD_KIT/I]lcd_kit_event_handler: event = 0x8, data = 0x1, delay = 0
+[00002915] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002921] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x8 error!
+[00002926] [LCD_KIT/I]lcd_kit_event_handler: event = 0x6, data = 0x1, delay = 0
+[00003017] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: read the 0 value is 0x4
+[00003021] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: buffer is full, out_len is 1
+[00003027] [LCD_KIT/I]lcd_kit_read_bl_maxnit: lcd_kit_brightness_ddic_info = 0x4
+[00003033] [LCD_KIT/I]lcd_kit_get_tp_color: Not support tp color
+[00003038] [LCD_KIT/I]lcd_kit_event_handler: event = 0x0, data = 0x0, delay = 0
+[00003044] [LCD_KIT/I]lcd_kit_event_handler: none event
+[00003048] [sprdfb][dispc_clk_init] DPU_CORE_CLK = 384000000
+[00003052] [sprdfb][dispc_clk_init] DPI_CLK_SRC = 96000000
+[00003056] [sprdfb][dispc_clk_update] the actual dpi_clk = 96000000
+[00003062] [sprdfb][dpu_run] dpu run
+[00003064] [sprdfb][sprd_dispc_resume] dispc init OK
+[00003068] [sprdfb][lcd_ctrl_init] splashimage addr is 0x000000009d000000, fb size is 0x11b400
+[00003121] width is 720 height is 1600
+[00003124] Gzipped BMP image detected!
+[00003130] [sprdfb][lcd_enable] start flip
+[00003146] [LCD_KIT/I]lcd_kit_backlight_recognize_call: backlight recognize call success.
+[00003153] i2c4, sprd_i2c_init() freq=100000
+[00003158] i2c4, sprd_i2c_init() freq=100000
+[00003164] i2c4, sprd_i2c_init() freq=100000
+[00003169] i2c4, sprd_i2c_init() freq=100000
+[00003174] i2c4, sprd_i2c_init() freq=100000
+[00003179] i2c4, sprd_i2c_init() freq=100000
+[00003185] i2c4, sprd_i2c_init() freq=100000
+[00003190] i2c4, sprd_i2c_init() freq=100000
+[00003195] i2c4, sprd_i2c_init() freq=100000
+[00003201] i2c4, sprd_i2c_init() freq=100000
+[00003206] i2c4, sprd_i2c_init() freq=100000
+[00003211] i2c4, sprd_i2c_init() freq=100000
+[00003216] i2c4, sprd_i2c_init() freq=100000
+[00003222] i2c4, sprd_i2c_init() freq=100000
+[00003227] i2c4, sprd_i2c_init() freq=100000
+[00003239] i2c4, sprd_i2c_init() freq=100000
+[00003245] i2c4, sprd_i2c_init() freq=100000
+[00003250] i2c4, sprd_i2c_init() freq=100000
+[00003255] i2c4, sprd_i2c_init() freq=100000
+[00003260] i2c4, sprd_i2c_init() freq=100000
+[00003266] i2c4, sprd_i2c_init() freq=100000
+[00003271] [LCD_KIT/I]aw99703_set_backlight: write aw99703 backlight 2047 success
+[00003277] [LCD_KIT/I]lcd_kit_uboot_setbacklight: backlight: level = 255, ret is 0
+[00003283] uboot consume time:2448ms, lcd init consume:1085ms, backlight on time:3283ms 
+[00003302] is_wr_rpmb_key rpmb key has been written
+[00003307] uboot_write_rpmb_key: rpmb key has been written.
+[00003318] read write count successed
+[00003333]  data  write successed
+[00003338] sprd_init_all_imgversion: init imgversion susseccful,rpmb write blk 65534 
+[00003350] read write count successed
+[00003363]  data  write successed
+[00003367] sprd_init_all_imgversion: init modemimgver susseccful,rpmb write blk 65532 
+[00003428] sprd_get_all_imgversion: ab_slot_flag is 0 
+[00003438] read  successed
+[00005611] preas image has extheader
+[00005657] preavs image has extheader
+[00005702] preload image has extheader
+[00005748] version image has extheader
+[00005815] socko image has no extheader
+[00005861] odmko image has no extheader
+[00005884] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[00005931] boot other file system
+[00005941] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'boot'.
+[00005981] ramdisk other file system
+[00005992] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'ramdisk'.
+[00006032] vbmeta_system other file system
+[00006043] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006047] avb_slot_verify.c:657: DEBUG: vbmeta_system: No footer detected.
+[00006053] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_system'.
+[00006093] vbmeta_vendor other file system
+[00006103] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006108] avb_slot_verify.c:657: DEBUG: vbmeta_vendor: No footer detected.
+[00006114] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_vendor'.
+[00006153] vbmeta_odm other file system
+[00006164] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006168] avb_slot_verify.c:657: DEBUG: vbmeta_odm: No footer detected.
+[00006173] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_odm'.
+[00006213] eng_vendor other file system
+[00006223] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_vendor'.
+[00006264] eng_system other file system
+[00006275] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_system'.
+[00006323] socko image has no extheader
+[00006334] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'socko'.
+[00006382] odmko image has no extheader
+[00006393] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'odmko'.
+[00006433] dtbo other file system
+[00006443] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'dtbo'.
+[00006491] version image has extheader
+[00006502] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'version'.
+[00006542] vbmeta_hw_product other file system
+[00006553] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006557] avb_slot_verify.c:657: DEBUG: vbmeta_hw_product: No footer detected.
+[00006564] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_hw_product'.
+[00006611] preload image has extheader
+[00006622] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preload'.
+[00006670] preas image has extheader
+[00006681] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preas'.
+[00006729] preavs image has extheader
+[00006739] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preavs'.
+[00006780] vbmeta_cust other file system
+[00006790] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006795] avb_slot_verify.c:657: DEBUG: vbmeta_cust: No footer detected.
+[00006800] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_cust'.
+[00006840] l_modem other file system
+[00006850] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_modem'.
+[00006890] l_ldsp other file system
+[00006901] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_ldsp'.
+[00006941] l_gdsp other file system
+[00006951] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_gdsp'.
+[00006991] pm_sys other file system
+[00007002] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'pm_sys'.
+[00007042] l_agdsp other file system
+[00007052] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_agdsp'.
+[00007093] l_cdsp other file system
+[00007103] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_cdsp'.
+[00007162] g_sprd_vboot_cmdline is androidboot.vbmeta.device=PARTUUID=1.0 androidboot.vbmeta.avb_version=1.1 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=45056 androidboot.vbmeta.digest=8a5b1c6a036be4dd2102218a84c6cccac0d80429ba8ac018ce2c47dfbc034d79 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing.
+[00007194] boot state: green
+[00007196] set_root_of_trust succeeded.
+[00007198] get boot info
+[00007209] boot_img_hdr header_version: 2
+[00007211] boot_img_offset.dt_offset is 0x17bd000
+[00007881] ** File not found /adc.bin **
+[00007884] Error!do_fs_file_read(): ** Error ext4_read_file() **
+[00007889] read_adc_calibration_data: cannot read prodnv /adb.bin.
+[00007933] Error!fdt_fixup_cp_reserved_mem(): cann't find cp-modem@xxxx node
+[00008027] get_cid: get CID SUCCEED
+[00008029] get_hun_by_length: get HUN SUCCEED
+[00008033] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008043] second get boardid, dtbo.info = 4007
+[00008140] get_valid_oeminfo_header: id 23 data not find
+[00008169] get_valid_oeminfo_header: id 45 data not find
+[00008197] get_valid_oeminfo_header: id 99 data not find
+[00008225] get_valid_oeminfo_header: id 1536 data not find
+[00008253] read_reused_oeminfo_core: id 1102 sub_id 6 oeminfo data not find
+[00008318] get_cid: get CID SUCCEED
+[00008320] get_hun_by_length: get HUN SUCCEED
+[00008323] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008340] run_mode_append: cmdline run_mode is androidboot.swtype=normal ,ret = 0
+[00008380] sku_data_append: tmpbuf is androidboot.product.hardware.sku=KOZ-AL00
+[00008443] read_reused_oeminfo_core: id 1102 sub_id 39 oeminfo data not find
+[00008449] uart_log_para_append: cmdline read oeminfo fail
+[00008454] fdt_fixup_oba_version: cmdline oba version is oba_version=20211209024645_OBA_VERSION
+[00008484] fdt_fixup_charger_cycle_cnt:line1997: charge_accumulate_cnt = 1509950168
+[00008498] fdt_fixup_charger_cycle_cnt:line2004: charge_cycle_cnt = 160
+[00008503] fdt_fixup_charger_cycle_cnt:line2028: str_len = 83, buf = charge_miscdata_migic_number=90,charge_cycle_cnt=160,charge_accumulate_percent=728 
+[00008525] fdt_fixup_charger_last_shutdown_rtc_time:line1878: rong charge_rtc_time.tm_sec = 58
+[00008540] fdt_fixup_charger_last_shutdown_rtc_time:line1885: rong charge_rtc_time.tm_min = 1
+[00008555] fdt_fixup_charger_last_shutdown_rtc_time:line1892: rong charge_rtc_time.tm_hour = 16
+[00008570] fdt_fixup_charger_last_shutdown_rtc_time:line1899: rong charge_rtc_time.tm_mday = 14
+[00008585] fdt_fixup_charger_last_shutdown_rtc_time:line1906: rong charge_rtc_time.tm_mon = 1
+[00008600] fdt_fixup_charger_last_shutdown_rtc_time:line1913: rong charge_rtc_time.tm_year = 122
+[00008616] fdt_fixup_charger_last_shutdown_rtc_time:line1921: rong magic num = 1515890085
+[00008623] fdt_fixup_charger_last_shutdown_rtc_time:line1947: rong str_len = 148
+[00008629] fdt_fixup_charger_last_shutdown_rtc_time:line1948: rong buf = charge_miscdata_rtc_migic_number=1515890085,charge_tm_year=122,charge_tm_mon=1,charge_tm_mday=14,charge_tm_hour=16,charge_tm_min=1,charge_tm_sec=58 
+[00008656] fdt_fixup_charger_basp_para:line2066: rong basp_get = 0x5a000000
+[00008662] fdt_fixup_charger_basp_para:line2084: str_len = 54, buf = charge_miscdata_basp_migic_number=90,basp_ocv_index=0 
+[00008682] bootfail: func: process_recovery_flag line: 867, process_recovery_flag:867, flag: recovery_flag
+[00008702] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_detector_enable=1  set success
+[00008711] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_recovery_enable=1  set success
+[00008720] bootfail: func: sprd_cmdline_append line: 167, cmdline last_bootup_keypoint=1073741822 set success
+[00008729] no sysdump, kaslr init ok!
+[00008755] second get boardid, dtbo.info = 4007
+[00008758] matches dtbo entry id 4007!
+[00008761] merge_dtbo : offset = 0x20 size=0xfcae
+[00010036] [LCD_KIT/E]tps65132_set_bias_status: Could not find tps65132 node, change dts failed
+[00010046] [LCD_KIT/E]rt4801h_set_bias_status: can not find node, change status failed
+[00010054] [LCD_KIT/I]sm5109_set_bias_status: sm5109 set bias status OK!
+[00010062] [LCD_KIT/E]lm3697_set_backlight_status: Could not find lm3697 node,change dts failed
+[00010072] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010083] [LCD_KIT/E]lm36923_set_backlight_status: Could not find lm36923 node, change dts failed
+[00010094] [LCD_KIT/E]ktz8864_set_backlight_status: Could not find ktz8864 node, change dts failed
+[00010104] [LCD_KIT/E]rt4831_set_backlight_status: Could not find rt4831 node, change dts failed
+[00010114] [LCD_KIT/E]lm36274_set_backlight_status: Could not find lm36274 node, change dts failed
+[00010125] [LCD_KIT/E]nt50356_set_backlight_status: Could not find nt50356 node, change dts failed
+[00010136] [LCD_KIT/E]sgm37603a_set_backlight_status: Could not find sgm37603a node, change dts failed
+[00010145] [LCD_KIT/I]aw99703_set_backlight_status: aw99703_set_backlight_status OK!
+[00010152] [LCD_KIT/I]ktd3136_set_backlight_status: ktd3136_set_backlight_status OK!
+[00010162] [LCD_KIT/E]sm5350_set_backlight_status: Could not find sm5350 node, change dts failed
+[00010172] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010183] [LCD_KIT/E]lp8556_set_backlight_status: Could not find lp8556 node, change dts failed
+[00010193] [LCD_KIT/E]rt8555_set_backlight_status: Could not find rt8555 node, change dts failed
+[00010247] pass_chip_uid_to_tos()... sizeof(blocks)=8
+[00010255] blks:0x00804989 0x0e3cd012, result: 0x0 
+[00010258] uboot_set_rpmb_size: rpmb size 16777216
+[00010268] is_wr_rpmb_key rpmb key has been written
+[00010282] uboot_check_rpmb_key get rpmb package, call tos to check rpmb key 
+[00010288] enter mode normal, consume time: 9453ms, boot_reason: Reboot into normal
+[00010303] boot count 2
+[00010312] bootup init log success on 108 times
+[00010371] bootfail: func: bf_sprd_copy_uboot_log line: 405, uboot log copy start
+[00010377] bootfail: func: bf_sprd_copy_uboot_log line: 421, 92400028,len:3ffd8, copy target:fd609400
+[00010387] bootfail: func: bf_sprd_copy_uboot_log line: 426, uboot log copy end
+[00010404] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 3ffffffe
+[00000739] 
+U-Boot 2015.07-g8aa7df7 (Aug 31 2022 - 02:48:08 +0800)SHARKL5PRO
+[00000746] i2c0, sprd_i2c_init() freq=100000
+[00000770] found dtb 00000000b0035f50 size 27331
+[00000774] 1 GiB
+[00000776] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000780] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000784] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000789] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000799] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000806] cert_key
+[00000807] dumpHex:32 bytes
+[00000809] c1441a50e2f78a7fd2df488e599c7c36
+[00000812] f70997f1e45ed31923ba919468b80ea0
+[00000815] 
+[00000844] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000858] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000871] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000886] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000893] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000900] [LED] init led]sprd_sdhci_init: host version: 4
+[00000912] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000917] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000924] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000929] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00000957] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001014] mmc_init: 0, time 108
+[00001018]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001025] serial
+[00001027] serial
+[00001028] serial
+[00001032] i2c2, sprd_i2c_init() freq=100000
+[00001035] i2c2, sprd_i2c_init() freq=100000
+[00001239] Timed out in wait_for_ack: status=210202
+[00001243] I2C_CTL = 0x182007
+[00001245] I2C_ADDR_CFG = 0x76
+[00001246] I2C_COUNT = 0x1
+[00001248] I2C_STATUS = 0x210202
+[00001250] ADDR_DVD0 = 0x33004c
+[00001252] ADDR_DVD1 = 0x0
+[00001253] ADDR_STA0_DVD = 0x68
+[00001255] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001259] i2c2, sprd_i2c_init() freq=100000
+[00001263] vendor id=0x6b, ret=0x11
+[00001677] i2c2, sprd_i2c_init() freq=100000
+[00001882] Timed out in wait_for_ack: status=210202
+[00001886] I2C_CTL = 0x182007
+[00001887] I2C_ADDR_CFG = 0x76
+[00001889] I2C_COUNT = 0x1
+[00001891] I2C_STATUS = 0x210202
+[00001893] ADDR_DVD0 = 0x33004c
+[00001895] ADDR_DVD1 = 0x0
+[00001896] ADDR_STA0_DVD = 0x68
+[00001898] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001902] i2c2, sprd_i2c_init() freq=100000
+[00001906] vendor id=0x6b, ret=0x11
+[00001908] i2c2, sprd_i2c_init() freq=100000
+[00001912] bq2560x_read_reg reg=0xb, value=0x11
+[00001915] i2c2, sprd_i2c_init() freq=100000
+[00001924] eica status bat8
+[00001928] [gpio keys] init!
+[00001940] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00001949] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00001957] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00001973] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00002060] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00002069] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00002076] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00002082] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00002114] cannot get oeminfo rdlock type info
+[00002119] get_securedebug_efuse_value: secure debug mode is setted
+[00002158] hwdog_certify->lock_state.fb_lock_stat = 0
+[00002162] hwdog_certify->lock_state.user_lock_stat = 0
+[00002166] hwdog_certify->lock_state.check_root_stat = 0
+[00002170] hwdog_certify->lock_state.check_sign_stat = 0
+[00002177] check_reboot_mode:get raw rst_mode is 0 and sysdump_flag is 0
+[00002182] hw watchdog int raw status 0x9
+[00002185] bootfail: func: process_bootfail line: 1013, reset reason is 1
+[00002190] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00002272] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002280] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00002289] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00002297] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00002305] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00002313] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00002325] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002334] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00002364] bootfail: func: process_bootfail_after_reboot line: 780, process_bootfail_after_reboot:780
+[00002381] bootfail: func: is_recovery_bootfail line: 755, is_recovery_bootfail, flag: 
+[00002387] bootfail: func: format_after_reboot_bootfail_params line: 990, real stage is: 0x3ffffffe
+[00002461] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 30000005, bootstage: 3ffffffe, suggest_recovery_method: 0, exception_type: 8
+[00002483] data_SHA256: data SHA256 computing SUCCEED
+[00002500] data_SHA256: data SHA256 computing SUCCEED
+[00002503] data_SHA256: data SHA256 computing SUCCEED
+[00002507] data_SHA256: data SHA256 computing SUCCEED
+[00002527] bootfail: func: bootfail_print line: 577, func: try_to_recovery, errorcode: 0, selected method: 400007001
+[00002536] bootfail: func: capture_bl_log line: 383, uboot log is 80000, 80000
+SPRDulog(
+[00000735] 
+U-Boot 2015.07-g8aa7df7 (Aug 31 2022 - 02:48:08 +0800)SHARKL5PRO
+[00000742] i2c0, sprd_i2c_init() freq=100000
+[00000766] found dtb 00000000b0035f50 size 27331
+[00000770] 1 GiB
+[00000772] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000776] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000780] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000784] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000795] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000802] cert_key
+[00000803] dumpHex:32 bytes
+[00000805] c1441a50e2f78a7fd2df488e599c7c36
+[00000808] f70997f1e45ed31923ba919468b80ea0
+[00000811] 
+[00000840] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000854] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000867] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000882] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000889] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000896] [LED] init led]sprd_sdhci_init: host version: 4
+[00000908] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000913] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000920] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000925] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00000953] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001010] mmc_init: 0, time 108
+[00001014]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001021] serial
+[00001022] serial
+[00001024] serial
+[00001027] i2c2, sprd_i2c_init() freq=100000
+[00001030] i2c2, sprd_i2c_init() freq=100000
+[00001235] Timed out in wait_for_ack: status=210202
+[00001239] I2C_CTL = 0x182007
+[00001241] I2C_ADDR_CFG = 0x76
+[00001242] I2C_COUNT = 0x1
+[00001244] I2C_STATUS = 0x210202
+[00001246] ADDR_DVD0 = 0x33004c
+[00001248] ADDR_DVD1 = 0x0
+[00001249] ADDR_STA0_DVD = 0x68
+[00001251] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001255] i2c2, sprd_i2c_init() freq=100000
+[00001259] vendor id=0x6b, ret=0x11
+[00001380] i2c2, sprd_i2c_init() freq=100000
+[00001585] Timed out in wait_for_ack: status=210202
+[00001588] I2C_CTL = 0x182007
+[00001590] I2C_ADDR_CFG = 0x76
+[00001592] I2C_COUNT = 0x1
+[00001593] I2C_STATUS = 0x210202
+[00001595] ADDR_DVD0 = 0x33004c
+[00001597] ADDR_DVD1 = 0x0
+[00001599] ADDR_STA0_DVD = 0x68
+[00001601] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001605] i2c2, sprd_i2c_init() freq=100000
+[00001609] vendor id=0x6b, ret=0x11
+[00001611] i2c2, sprd_i2c_init() freq=100000
+[00001615] bq2560x_read_reg reg=0xb, value=0x11
+[00001618] i2c2, sprd_i2c_init() freq=100000
+[00001626] eica status bat8
+[00001631] [gpio keys] init!
+[00001643] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00001652] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00001659] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00001675] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00001696] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00001704] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00001711] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00001718] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00001749] cannot get oeminfo rdlock type info
+[00001754] get_securedebug_efuse_value: secure debug mode is setted
+[00001793] hwdog_certify->lock_state.fb_lock_stat = 0
+[00001796] hwdog_certify->lock_state.user_lock_stat = 0
+[00001800] hwdog_certify->lock_state.check_root_stat = 0
+[00001804] hwdog_certify->lock_state.check_sign_stat = 0
+[00001811] check_reboot_mode:get raw rst_mode is 40 and sysdump_flag is 0
+[00001817] hw watchdog int raw status 0x8
+[00001820] bootfail: func: process_bootfail line: 1013, reset reason is 0
+[00001825] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00001905] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001914] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00001922] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00001930] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00001939] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00001947] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00001959] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001967] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00002008] is_bat_low vbat_vol:3826,comp_vbat:3500
+[00002017] Error!common_raw_read(): read size(0x4 + 0x0) overflow the total partition size(0x0)
+[00002036] fulldumpdb partition is  not exsit ... mark flag ok 
+[00002041] (sprd_dump): (write_sysdump_before_boot): Check dump info ......
+[00002046] (sprd_dump): (get_current_time): time is 2022-10-19_02-40-03
+[00002071] (sprd_dump): (show_check_enable_status_result): ------------------	show_check_enable_status_result 	------------------ .
+[00002082] (sprd_dump): (show_check_enable_status_result): full_dump_enable : 0 .
+[00002088] (sprd_dump): (show_check_enable_status_result): mini_dump_enable : 1 .
+[00002094] (sprd_dump): (show_check_enable_status_result): full_dump_allow  : 0 .
+[00002101] (sprd_dump): (show_check_enable_status_result): mini_dump_allow  : 0 .
+[00002107] (sprd_dump): (show_check_enable_status_result): reset_mode       : (2)-(normal) .
+[00002122] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , mini_dump_allow : 0 .  !!!
+[00002130] (sprd_dump): (write_sysdump_before_boot): NO need minidump !!!
+[00002136] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , full_dump_allow : 0 .  !!!
+[00002143] (sprd_dump): (write_sysdump_before_boot): NO need full  dump memory !!!
+[00002227] enter boot mode 2
+[00002229] lcd start init time:2229ms
+[00002237] [LCD_KIT/I]lcd_kit_get_detect_type: LCD panel detect type = 2
+[00002283] [LCD_KIT/I]lcdkit_get_lcd_id: [uboot]:lcdkit_get_lcd_id ,lcd_id_status=5.
+[00002290] [LCD_KIT/E]lcd_kit_init: lcd_id:5, product_id:1000, compatible:250_a04_6p6, lcd_name:/huawei,lcd_config/lcd_kit_koz_250_a04_6p6
+[00002301] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-on-cmds-state
+[00002309] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-off-cmds-state
+[00002316] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,backlight-cmds
+[00002323] [LCD_KIT/E]lcd_kit_buf_trans: inbuf is null!
+[00002327] [LCD_KIT/E]lcd_scan_dcs_cmd: cnt <= 0 or > MAX_CNT
+[00002332] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-bl-support
+[00002339] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002344] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-on-support
+[00002352] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002356] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-off-support
+[00002364] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002369] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vci
+[00002375] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-iovcc
+[00002382] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-backlight
+[00002389] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-te0
+[00002395] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,tp-reset
+[00002402] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vdd
+[00002408] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-aod
+[00002415] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-poweric
+[00002422] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,effect-on-support
+[00002429] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002434] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-btb-support
+[00002441] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002446] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,mipi-read-gerneric
+[00002453] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002458] [LCD_KIT/I]lcd_kit_panel_init: not find ops
+[00002462] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find ti,tps65132 node by compatible
+[00002469] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002474] [LCD_KIT/E]tps65132_init: not support tps65132!
+[00002478] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find rt,rt4801h node by compatible
+[00002486] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002491] [LCD_KIT/E]rt4801h_init: not support rt4801h
+[00002495] [LCD_KIT/I]sm5109_init: sm5109 is support
+[00002499] [LCD_KIT/I]lm36923_init: lm36923 in lm36923_init
+[00002503] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find lm,lm36923 node by compatible
+[00002510] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002515] [LCD_KIT/E]lm36923_init: not support lm36923!
+[00002519] [LCD_KIT/I]sgm37603a_init: sgm37603a in sgm37603a_init
+[00002524] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find sgm,sgm37603a node by compatible
+[00002532] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002537] [LCD_KIT/E]sgm37603a_init: not support sgm37603a!
+[00002541] [LCD_KIT/I]ktz8864_init: ktz8864 init
+[00002545] [LCD_KIT/I]ktz8864_init: can not find ktz,ktz8864 node
+[00002549] [LCD_KIT/I]lm36274_init: lm36274 init
+[00002553] [LCD_KIT/I]lm36274_init: can not find ti,lm36274 node
+[00002558] [LCD_KIT/I]rt4831_init: rt4831 in
+[00002561] [LCD_KIT/I]rt4831_init: can not find rt,rt4831 node
+[00002565] [LCD_KIT/I]aw99703_init: aw99703 enter
+[00002575] i2c4, sprd_i2c_init() freq=100000
+[00002578] i2c4, sprd_i2c_init() freq=100000
+[00002582] [LCD_KIT/I]aw99703_parse_dts: aw99703_parse_dts
+[00002586] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_67 value = 0x1c
+[00002592] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_headroom_23 value = 0x61
+[00002599] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_threshold_25 value = 0x61
+[00002605] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_hys_24 value = 0x4c
+[00002612] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_led_current value = 0x9b
+[00002618] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol1 value = 0x29
+[00002625] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_high value = 0x10
+[00002631] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_low value = 0x5
+[00002636] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68 value = 0x2c
+[00002643] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31 value = 0xc0
+[00002649] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash value = 0x8
+[00002655] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_lsb value = 0x0
+[00002660] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_msb value = 0x1
+[00002666] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2 value = 0x80
+[00002673] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_mode value = 0x11
+[00002678] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31_1 value = 0x0
+[00002685] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash_1 value = 0x58
+[00002691] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68_1 value = 0x0
+[00002697] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2_1 value = 0x0
+[00002704] [LCD_KIT/I]aw99703_backlight_ic_check: aw99703 is right backlight ic
+[00002710] [LCD_KIT/I]aw99703_init: aw99703 is checked succ
+[00002714] [LCD_KIT/I]aw99703_init: aw99703 is support
+[00002718] [LCD_KIT/I]sm5350_init: sm5350 enter
+[00002722] [LCD_KIT/E]sm5350_init: bl ic is checked
+[00002725] [LCD_KIT/I]ktd3136_init: ktd3136 enter
+[00002729] [LCD_KIT/E]ktd3136_init: bl ic is checked
+[00002732] [LCD_KIT/I]nt50356_init: nt50356 init
+[00002736] [LCD_KIT/E]nt50356_init: bias bl ic checked
+[00002740] [sprdfb][mipi_dsi_init] escape clk div = 7
+[00002743] [sprdfb][sprd_dsi_resume] dsi init OK
+[00002747] [sprdfb][mipi_dphy_configure] lanes : 3
+[00002750] [sprdfb][mipi_dphy_configure] freq : 1100000
+[00002755] [sprdfb][sprd_dphy_resume] dphy init OK
+[00002758] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002766] [LCD_KIT/I]lcd_kit_event_handler: event = 0x3, data = 0x1, delay = 2
+[00002774] [LCD_KIT/I]lcd_kit_event_handler: event = 0x4, data = 0x1, delay = 3
+[00002780] i2c4, sprd_i2c_init() freq=100000
+[00002784] [LCD_KIT/I]sm5109_device_verify: sm5109 verify ok, app_dis = 0x3
+[00002790] [LCD_KIT/I]sm5109_bias_recognize: sm5109 is right bias
+[00002795] [LCD_KIT/I]lcd_kit_bias_recognize_call: bias recognize call success
+[00002801] [LCD_KIT/I]sm5109_set_bias: sm5109 vsp voltage:0x14
+[00002805] [LCD_KIT/I]sm5109_set_bias: sm5109 vsn voltage:0x14
+[00002810] i2c4, sprd_i2c_init() freq=100000
+[00002814] i2c4, sprd_i2c_init() freq=100000
+[00002818] i2c4, sprd_i2c_init() freq=100000
+[00002822] i2c4, sprd_i2c_init() freq=100000
+[00002827] i2c4, sprd_i2c_init() freq=100000
+[00002832] i2c4, sprd_i2c_init() freq=100000
+[00002838] [LCD_KIT/I]sm5109_reg_init: vpos = 0x54, vneg = 0x14, app_dis = 0x3
+[00002844] i2c4, sprd_i2c_init() freq=100000
+[00002848] i2c4, sprd_i2c_init() freq=100000
+[00002853] [LCD_KIT/I]sm5109_reg_init: vol_save_value = 0xff
+[00002857] [LCD_KIT/I]sm5109_set_voltage: sm5109 set voltage succeed
+[00002865] [LCD_KIT/I]lcd_kit_event_handler: event = 0xb, data = 0x1, delay = 10
+[00002871] [LCD_KIT/I]lcd_kit_event_handler: event not exist
+[00002886] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 6
+[00002898] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002906] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 11
+[00002923] [LCD_KIT/I]lcd_kit_event_handler: event = 0x7, data = 0x1, delay = 0
+[00002929] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002934] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x7 error!
+[00002940] [LCD_KIT/I]lcd_kit_event_handler: event = 0x8, data = 0x1, delay = 0
+[00002946] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002951] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x8 error!
+[00002956] [LCD_KIT/I]lcd_kit_event_handler: event = 0x6, data = 0x1, delay = 0
+[00003047] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: read the 0 value is 0x4
+[00003052] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: buffer is full, out_len is 1
+[00003057] [LCD_KIT/I]lcd_kit_read_bl_maxnit: lcd_kit_brightness_ddic_info = 0x4
+[00003063] [LCD_KIT/I]lcd_kit_get_tp_color: Not support tp color
+[00003068] [LCD_KIT/I]lcd_kit_event_handler: event = 0x0, data = 0x0, delay = 0
+[00003074] [LCD_KIT/I]lcd_kit_event_handler: none event
+[00003078] [sprdfb][dispc_clk_init] DPU_CORE_CLK = 384000000
+[00003083] [sprdfb][dispc_clk_init] DPI_CLK_SRC = 96000000
+[00003087] [sprdfb][dispc_clk_update] the actual dpi_clk = 96000000
+[00003092] [sprdfb][dpu_run] dpu run
+[00003095] [sprdfb][sprd_dispc_resume] dispc init OK
+[00003098] [sprdfb][lcd_ctrl_init] splashimage addr is 0x000000009d000000, fb size is 0x11b400
+[00003149] width is 720 height is 1600
+[00003151] Gzipped BMP image detected!
+[00003158] [sprdfb][lcd_enable] start flip
+[00003176] [LCD_KIT/I]lcd_kit_backlight_recognize_call: backlight recognize call success.
+[00003182] i2c4, sprd_i2c_init() freq=100000
+[00003188] i2c4, sprd_i2c_init() freq=100000
+[00003193] i2c4, sprd_i2c_init() freq=100000
+[00003198] i2c4, sprd_i2c_init() freq=100000
+[00003204] i2c4, sprd_i2c_init() freq=100000
+[00003209] i2c4, sprd_i2c_init() freq=100000
+[00003214] i2c4, sprd_i2c_init() freq=100000
+[00003220] i2c4, sprd_i2c_init() freq=100000
+[00003225] i2c4, sprd_i2c_init() freq=100000
+[00003230] i2c4, sprd_i2c_init() freq=100000
+[00003235] i2c4, sprd_i2c_init() freq=100000
+[00003241] i2c4, sprd_i2c_init() freq=100000
+[00003246] i2c4, sprd_i2c_init() freq=100000
+[00003251] i2c4, sprd_i2c_init() freq=100000
+[00003256] i2c4, sprd_i2c_init() freq=100000
+[00003269] i2c4, sprd_i2c_init() freq=100000
+[00003274] i2c4, sprd_i2c_init() freq=100000
+[00003279] i2c4, sprd_i2c_init() freq=100000
+[00003285] i2c4, sprd_i2c_init() freq=100000
+[00003290] i2c4, sprd_i2c_init() freq=100000
+[00003295] i2c4, sprd_i2c_init() freq=100000
+[00003300] [LCD_KIT/I]aw99703_set_backlight: write aw99703 backlight 2047 success
+[00003307] [LCD_KIT/I]lcd_kit_uboot_setbacklight: backlight: level = 255, ret is 0
+[00003313] uboot consume time:2476ms, lcd init consume:1084ms, backlight on time:3313ms 
+[00003329] is_wr_rpmb_key rpmb key has been written
+[00003335] uboot_write_rpmb_key: rpmb key has been written.
+[00003345] read write count successed
+[00003360]  data  write successed
+[00003365] sprd_init_all_imgversion: init imgversion susseccful,rpmb write blk 65534 
+[00003377] read write count successed
+[00003390]  data  write successed
+[00003395] sprd_init_all_imgversion: init modemimgver susseccful,rpmb write blk 65532 
+[00003455] sprd_get_all_imgversion: ab_slot_flag is 0 
+[00003465] read  successed
+[00005640] preas image has extheader
+[00005686] preavs image has extheader
+[00005732] preload image has extheader
+[00005778] version image has extheader
+[00005844] socko image has no extheader
+[00005890] odmko image has no extheader
+[00005913] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[00005961] boot other file system
+[00005971] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'boot'.
+[00006011] ramdisk other file system
+[00006021] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'ramdisk'.
+[00006062] vbmeta_system other file system
+[00006073] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006077] avb_slot_verify.c:657: DEBUG: vbmeta_system: No footer detected.
+[00006083] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_system'.
+[00006122] vbmeta_vendor other file system
+[00006133] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006137] avb_slot_verify.c:657: DEBUG: vbmeta_vendor: No footer detected.
+[00006143] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_vendor'.
+[00006183] vbmeta_odm other file system
+[00006193] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006198] avb_slot_verify.c:657: DEBUG: vbmeta_odm: No footer detected.
+[00006203] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_odm'.
+[00006242] eng_vendor other file system
+[00006253] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_vendor'.
+[00006293] eng_system other file system
+[00006304] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_system'.
+[00006353] socko image has no extheader
+[00006363] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'socko'.
+[00006412] odmko image has no extheader
+[00006422] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'odmko'.
+[00006463] dtbo other file system
+[00006473] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'dtbo'.
+[00006521] version image has extheader
+[00006531] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'version'.
+[00006571] vbmeta_hw_product other file system
+[00006583] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006587] avb_slot_verify.c:657: DEBUG: vbmeta_hw_product: No footer detected.
+[00006593] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_hw_product'.
+[00006641] preload image has extheader
+[00006651] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preload'.
+[00006700] preas image has extheader
+[00006710] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preas'.
+[00006759] preavs image has extheader
+[00006769] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preavs'.
+[00006809] vbmeta_cust other file system
+[00006820] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006824] avb_slot_verify.c:657: DEBUG: vbmeta_cust: No footer detected.
+[00006830] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_cust'.
+[00006869] l_modem other file system
+[00006879] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_modem'.
+[00006920] l_ldsp other file system
+[00006930] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_ldsp'.
+[00006970] l_gdsp other file system
+[00006981] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_gdsp'.
+[00007021] pm_sys other file system
+[00007031] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'pm_sys'.
+[00007072] l_agdsp other file system
+[00007082] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_agdsp'.
+[00007122] l_cdsp other file system
+[00007132] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_cdsp'.
+[00007192] g_sprd_vboot_cmdline is androidboot.vbmeta.device=PARTUUID=1.0 androidboot.vbmeta.avb_version=1.1 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=45056 androidboot.vbmeta.digest=48054316addf3239b9868f6356e48ccd90bb79b082a04f0b80325a89c431e9f4 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing.
+[00007224] boot state: green
+[00007225] set_root_of_trust succeeded.
+[00007228] get boot info
+[00007238] boot_img_hdr header_version: 2
+[00007241] boot_img_offset.dt_offset is 0x17cd000
+[00007912] ** File not found /adc.bin **
+[00007915] Error!do_fs_file_read(): ** Error ext4_read_file() **
+[00007919] read_adc_calibration_data: cannot read prodnv /adb.bin.
+[00007963] Error!fdt_fixup_cp_reserved_mem(): cann't find cp-modem@xxxx node
+[00008057] get_cid: get CID SUCCEED
+[00008060] get_hun_by_length: get HUN SUCCEED
+[00008063] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008074] second get boardid, dtbo.info = 4007
+[00008171] get_valid_oeminfo_header: id 23 data not find
+[00008199] get_valid_oeminfo_header: id 45 data not find
+[00008227] get_valid_oeminfo_header: id 99 data not find
+[00008256] get_valid_oeminfo_header: id 1536 data not find
+[00008284] read_reused_oeminfo_core: id 1102 sub_id 6 oeminfo data not find
+[00008348] get_cid: get CID SUCCEED
+[00008350] get_hun_by_length: get HUN SUCCEED
+[00008354] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008371] run_mode_append: cmdline run_mode is androidboot.swtype=normal ,ret = 0
+[00008411] sku_data_append: tmpbuf is androidboot.product.hardware.sku=KOZ-AL00
+[00008474] read_reused_oeminfo_core: id 1102 sub_id 39 oeminfo data not find
+[00008480] uart_log_para_append: cmdline read oeminfo fail
+[00008485] fdt_fixup_oba_version: cmdline oba version is oba_version=20220831024808_OBA_VERSION
+[00008514] fdt_fixup_charger_cycle_cnt:line1997: charge_accumulate_cnt = 1509949598
+[00008528] fdt_fixup_charger_cycle_cnt:line2004: charge_cycle_cnt = 31
+[00008534] fdt_fixup_charger_cycle_cnt:line2028: str_len = 82, buf = charge_miscdata_migic_number=90,charge_cycle_cnt=31,charge_accumulate_percent=158 
+[00008555] fdt_fixup_charger_last_shutdown_rtc_time:line1878: rong charge_rtc_time.tm_sec = 48
+[00008570] fdt_fixup_charger_last_shutdown_rtc_time:line1885: rong charge_rtc_time.tm_min = 39
+[00008585] fdt_fixup_charger_last_shutdown_rtc_time:line1892: rong charge_rtc_time.tm_hour = 18
+[00008601] fdt_fixup_charger_last_shutdown_rtc_time:line1899: rong charge_rtc_time.tm_mday = 19
+[00008616] fdt_fixup_charger_last_shutdown_rtc_time:line1906: rong charge_rtc_time.tm_mon = 9
+[00008631] fdt_fixup_charger_last_shutdown_rtc_time:line1913: rong charge_rtc_time.tm_year = 122
+[00008646] fdt_fixup_charger_last_shutdown_rtc_time:line1921: rong magic num = 1515890085
+[00008653] fdt_fixup_charger_last_shutdown_rtc_time:line1947: rong str_len = 149
+[00008659] fdt_fixup_charger_last_shutdown_rtc_time:line1948: rong buf = charge_miscdata_rtc_migic_number=1515890085,charge_tm_year=122,charge_tm_mon=9,charge_tm_mday=19,charge_tm_hour=18,charge_tm_min=39,charge_tm_sec=48 
+[00008687] fdt_fixup_charger_basp_para:line2066: rong basp_get = 0x5a000000
+[00008693] fdt_fixup_charger_basp_para:line2084: str_len = 54, buf = charge_miscdata_basp_migic_number=90,basp_ocv_index=0 
+[00008712] bootfail: func: process_recovery_flag line: 867, process_recovery_flag:867, flag: recovery_flag
+[00008732] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_detector_enable=1  set success
+[00008741] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_recovery_enable=1  set success
+[00008750] bootfail: func: sprd_cmdline_append line: 167, cmdline last_bootup_keypoint=1073741822 set success
+[00008759] no sysdump, kaslr init ok!
+[00008786] second get boardid, dtbo.info = 4007
+[00008789] matches dtbo entry id 4007!
+[00008792] merge_dtbo : offset = 0x20 size=0xfd46
+[00010069] [LCD_KIT/E]tps65132_set_bias_status: Could not find tps65132 node, change dts failed
+[00010079] [LCD_KIT/E]rt4801h_set_bias_status: can not find node, change status failed
+[00010087] [LCD_KIT/I]sm5109_set_bias_status: sm5109 set bias status OK!
+[00010095] [LCD_KIT/E]lm3697_set_backlight_status: Could not find lm3697 node,change dts failed
+[00010105] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010116] [LCD_KIT/E]lm36923_set_backlight_status: Could not find lm36923 node, change dts failed
+[00010127] [LCD_KIT/E]ktz8864_set_backlight_status: Could not find ktz8864 node, change dts failed
+[00010137] [LCD_KIT/E]rt4831_set_backlight_status: Could not find rt4831 node, change dts failed
+[00010148] [LCD_KIT/E]lm36274_set_backlight_status: Could not find lm36274 node, change dts failed
+[00010158] [LCD_KIT/E]nt50356_set_backlight_status: Could not find nt50356 node, change dts failed
+[00010169] [LCD_KIT/E]sgm37603a_set_backlight_status: Could not find sgm37603a node, change dts failed
+[00010178] [LCD_KIT/I]aw99703_set_backlight_status: aw99703_set_backlight_status OK!
+[00010186] [LCD_KIT/I]ktd3136_set_backlight_status: ktd3136_set_backlight_status OK!
+[00010195] [LCD_KIT/E]sm5350_set_backlight_status: Could not find sm5350 node, change dts failed
+[00010205] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010216] [LCD_KIT/E]lp8556_set_backlight_status: Could not find lp8556 node, change dts failed
+[00010226] [LCD_KIT/E]rt8555_set_backlight_status: Could not find rt8555 node, change dts failed
+[00010279] pass_chip_uid_to_tos()... sizeof(blocks)=8
+[00010286] blks:0x00804989 0x0e3cd012, result: 0x0 
+[00010290] uboot_set_rpmb_size: rpmb size 16777216
+[00010300] is_wr_rpmb_key rpmb key has been written
+[00010314] uboot_check_rpmb_key get rpmb package, call tos to check rpmb key 
+[00010320] enter mode normal, consume time: 9483ms, boot_reason: Reboot into normal
+[00010334] boot count 5
+[00010344] bootup init log success on 144 times
+[00010402] bootfail: func: bf_sprd_copy_uboot_log line: 405, uboot log copy start
+[00010408] bootfail: func: bf_sprd_copy_uboot_log line: 421, 92400028,len:3ffd8, copy target:fd609400
+[00010418] bootfail: func: bf_sprd_copy_uboot_log line: 426, uboot log copy end
+[00010436] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 3ffffffe
+[00000732] 
+U-Boot 2015.07-g8aa7df7d5e (Apr 14 2023 - 18:48:33 +0800)SHARKL5PRO
+[00000739] i2c0, sprd_i2c_init() freq=100000
+[00000764] found dtb 00000000b0035f40 size 27331
+[00000768] 1 GiB
+[00000769] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000773] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000778] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000782] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000792] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000800] cert_key
+[00000801] dumpHex:32 bytes
+[00000802] c1441a50e2f78a7fd2df488e599c7c36
+[00000805] f70997f1e45ed31923ba919468b80ea0
+[00000808] 
+[00000837] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000851] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000864] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000880] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000887] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000894] [LED] init led]sprd_sdhci_init: host version: 4
+[00000906] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000911] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000918] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000923] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00000951] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001008] mmc_init: 0, time 109
+[00001012]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001019] serial
+[00001020] serial
+[00001021] serial
+[00001025] i2c2, sprd_i2c_init() freq=100000
+[00001028] i2c2, sprd_i2c_init() freq=100000
+[00001233] Timed out in wait_for_ack: status=210202
+[00001236] I2C_CTL = 0x182007
+[00001238] I2C_ADDR_CFG = 0x76
+[00001240] I2C_COUNT = 0x1
+[00001241] I2C_STATUS = 0x210202
+[00001243] ADDR_DVD0 = 0x33004c
+[00001245] ADDR_DVD1 = 0x0
+[00001247] ADDR_STA0_DVD = 0x68
+[00001249] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001253] i2c2, sprd_i2c_init() freq=100000
+[00001257] vendor id=0x6b, ret=0x11
+[00001741] i2c2, sprd_i2c_init() freq=100000
+[00001946] Timed out in wait_for_ack: status=210202
+[00001949] I2C_CTL = 0x182007
+[00001951] I2C_ADDR_CFG = 0x76
+[00001953] I2C_COUNT = 0x1
+[00001954] I2C_STATUS = 0x210202
+[00001956] ADDR_DVD0 = 0x33004c
+[00001958] ADDR_DVD1 = 0x0
+[00001960] ADDR_STA0_DVD = 0x68
+[00001962] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001966] i2c2, sprd_i2c_init() freq=100000
+[00001970] vendor id=0x6b, ret=0x11
+[00001972] i2c2, sprd_i2c_init() freq=100000
+[00001976] bq2560x_read_reg reg=0xb, value=0x11
+[00001979] i2c2, sprd_i2c_init() freq=100000
+[00001988] eica status bat8
+[00001992] [gpio keys] init!
+[00002004] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00002013] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00002020] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00002037] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00002092] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00002100] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00002108] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00002114] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00002146] cannot get oeminfo rdlock type info
+[00002151] get_securedebug_efuse_value: secure debug mode is setted
+[00002189] hwdog_certify->lock_state.fb_lock_stat = 0
+[00002193] hwdog_certify->lock_state.user_lock_stat = 0
+[00002197] hwdog_certify->lock_state.check_root_stat = 0
+[00002201] hwdog_certify->lock_state.check_sign_stat = 0
+[00002208] check_reboot_mode:get raw rst_mode is 0 and sysdump_flag is 0
+[00002214] hw watchdog int raw status 0x9
+[00002216] bootfail: func: process_bootfail line: 1013, reset reason is 1
+[00002222] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00002303] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002311] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00002320] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00002328] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00002336] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00002345] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00002357] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00002365] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00002395] bootfail: func: process_bootfail_after_reboot line: 780, process_bootfail_after_reboot:780
+[00002412] bootfail: func: is_recovery_bootfail line: 755, is_recovery_bootfail, flag: 
+[00002418] bootfail: func: format_after_reboot_bootfail_params line: 990, real stage is: 0x3ffffffe
+[00002492] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 30000005, bootstage: 3ffffffe, suggest_recovery_method: 0, exception_type: 8
+[00002514] data_SHA256: data SHA256 computing SUCCEED
+[00002530] data_SHA256: data SHA256 computing SUCCEED
+[00002534] data_SHA256: data SHA256 computing SUCCEED
+[00002537] data_SHA256: data SHA256 computing SUCCEED
+[00002584] bootfail: func: bootfail_print line: 577, func: try_to_recovery, errorcode: 0, selected method: 400007010
+[00002593] bootfail: func: capture_bl_log line: 383, uboot log is 80000, 80000
+SPRDulog(
+[00000733] 
+U-Boot 2015.07-g8aa7df7d5e (Apr 14 2023 - 18:48:33 +0800)SHARKL5PRO
+[00000740] i2c0, sprd_i2c_init() freq=100000
+[00000764] found dtb 00000000b0035f40 size 27331
+[00000768] 1 GiB
+[00000770] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00000774] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0.
+[00000778] sprd_get_vboot_key(): sechdr_addr is 0x9f20b6e0.
+[00000783] sprd_get_vboot_key(): sechdr_addr: 0x9f20b6e0. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. cert_addr: 0x9f20b740. 
+[00000793] sprd_get_vboot_key(): sechdr_offset is 0x20b8e0, sechdr_addr->cert_offset is 0x20b940.
+[00000801] cert_key
+[00000801] dumpHex:32 bytes
+[00000803] c1441a50e2f78a7fd2df488e599c7c36
+[00000806] f70997f1e45ed31923ba919468b80ea0
+[00000809] 
+[00000838] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00000852] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00000865] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00000880] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00000888] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00000895] [LED] init led]sprd_sdhci_init: host version: 4
+[00000907] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000911] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00000918] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00000923] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00000951] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00001008] mmc_init: 0, time 108
+[00001012]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00001019] serial
+[00001021] serial
+[00001022] serial
+[00001026] i2c2, sprd_i2c_init() freq=100000
+[00001029] i2c2, sprd_i2c_init() freq=100000
+[00001233] Timed out in wait_for_ack: status=210202
+[00001237] I2C_CTL = 0x182007
+[00001239] I2C_ADDR_CFG = 0x76
+[00001240] I2C_COUNT = 0x1
+[00001242] I2C_STATUS = 0x210202
+[00001244] ADDR_DVD0 = 0x33004c
+[00001246] ADDR_DVD1 = 0x0
+[00001247] ADDR_STA0_DVD = 0x68
+[00001249] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001253] i2c2, sprd_i2c_init() freq=100000
+[00001257] vendor id=0x6b, ret=0x11
+[00001336] i2c2, sprd_i2c_init() freq=100000
+[00001541] Timed out in wait_for_ack: status=210202
+[00001544] I2C_CTL = 0x182007
+[00001546] I2C_ADDR_CFG = 0x76
+[00001548] I2C_COUNT = 0x1
+[00001549] I2C_STATUS = 0x210202
+[00001551] ADDR_DVD0 = 0x33004c
+[00001553] ADDR_DVD1 = 0x0
+[00001555] ADDR_STA0_DVD = 0x68
+[00001557] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00001560] i2c2, sprd_i2c_init() freq=100000
+[00001565] vendor id=0x6b, ret=0x11
+[00001567] i2c2, sprd_i2c_init() freq=100000
+[00001571] bq2560x_read_reg reg=0xb, value=0x11
+[00001574] i2c2, sprd_i2c_init() freq=100000
+[00001582] i2c2, sprd_i2c_init() freq=100000
+[00001586] bq2560x_read_reg reg=0x0, value=0x4
+[00001590] i2c2, sprd_i2c_init() freq=100000
+[00001595] i2c2, sprd_i2c_init() freq=100000
+[00001599] bq2560x_read_reg reg=0x2, value=0xa2
+[00001602] i2c2, sprd_i2c_init() freq=100000
+[00001607] eica status bat8
+[00001612] eica status bat8
+[00001614] [gpio keys] init!
+[00001625] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00001634] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00001642] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00001658] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00001678] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00001686] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00001694] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00001700] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00001732] cannot get oeminfo rdlock type info
+[00001737] get_securedebug_efuse_value: secure debug mode is setted
+[00001775] hwdog_certify->lock_state.fb_lock_stat = 0
+[00001779] hwdog_certify->lock_state.user_lock_stat = 0
+[00001783] hwdog_certify->lock_state.check_root_stat = 0
+[00001787] hwdog_certify->lock_state.check_sign_stat = 0
+[00001794] check_reboot_mode:get raw rst_mode is 40 and sysdump_flag is 0
+[00001800] hw watchdog int raw status 0x8
+[00001802] bootfail: func: process_bootfail line: 1013, reset reason is 0
+[00001808] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00001889] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001897] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00001906] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00001914] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00001922] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00001930] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00001942] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00001950] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00001983] is_bat_low vbat_vol:3813,comp_vbat:3300
+[00001993] Error!common_raw_read(): read size(0x4 + 0x0) overflow the total partition size(0x0)
+[00002012] fulldumpdb partition is  not exsit ... mark flag ok 
+[00002016] (sprd_dump): (write_sysdump_before_boot): Check dump info ......
+[00002022] (sprd_dump): (get_current_time): time is 2023-07-20_16-39-00
+[00002047] (sprd_dump): (show_check_enable_status_result): ------------------	show_check_enable_status_result 	------------------ .
+[00002057] (sprd_dump): (show_check_enable_status_result): full_dump_enable : 0 .
+[00002063] (sprd_dump): (show_check_enable_status_result): mini_dump_enable : 1 .
+[00002070] (sprd_dump): (show_check_enable_status_result): full_dump_allow  : 0 .
+[00002076] (sprd_dump): (show_check_enable_status_result): mini_dump_allow  : 0 .
+[00002082] (sprd_dump): (show_check_enable_status_result): reset_mode       : (2)-(normal) .
+[00002098] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , mini_dump_allow : 0 .  !!!
+[00002106] (sprd_dump): (write_sysdump_before_boot): NO need minidump !!!
+[00002111] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , full_dump_allow : 0 .  !!!
+[00002119] (sprd_dump): (write_sysdump_before_boot): NO need full  dump memory !!!
+[00002203] enter boot mode 2
+[00002205] lcd start init time:2205ms
+[00002213] [LCD_KIT/I]lcd_kit_get_detect_type: LCD panel detect type = 2
+[00002259] [LCD_KIT/I]lcdkit_get_lcd_id: [uboot]:lcdkit_get_lcd_id ,lcd_id_status=1.
+[00002266] [LCD_KIT/E]lcd_kit_init: lcd_id:1, product_id:1000, compatible:320_a03_6p6, lcd_name:/huawei,lcd_config/lcd_kit_koz_320_a03_6p6
+[00002277] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-on-cmds-state
+[00002285] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-off-cmds-state
+[00002293] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,backlight-cmds
+[00002300] [LCD_KIT/E]lcd_kit_buf_trans: inbuf is null!
+[00002304] [LCD_KIT/E]lcd_scan_dcs_cmd: cnt <= 0 or > MAX_CNT
+[00002308] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-bl-support
+[00002315] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002320] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-on-support
+[00002328] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002332] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-off-support
+[00002340] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002345] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vci
+[00002351] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-iovcc
+[00002358] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-backlight
+[00002365] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-te0
+[00002372] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,tp-reset
+[00002378] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vdd
+[00002385] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-aod
+[00002391] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-poweric
+[00002398] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,effect-on-support
+[00002405] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002410] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-btb-support
+[00002417] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002422] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,mipi-read-gerneric
+[00002429] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00002434] [LCD_KIT/I]lcd_kit_panel_init: not find ops
+[00002438] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find ti,tps65132 node by compatible
+[00002445] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002450] [LCD_KIT/E]tps65132_init: not support tps65132!
+[00002455] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find rt,rt4801h node by compatible
+[00002462] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002467] [LCD_KIT/E]rt4801h_init: not support rt4801h
+[00002471] [LCD_KIT/I]sm5109_init: sm5109 is support
+[00002475] [LCD_KIT/I]lm36923_init: lm36923 in lm36923_init
+[00002479] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find lm,lm36923 node by compatible
+[00002487] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002491] [LCD_KIT/E]lm36923_init: not support lm36923!
+[00002495] [LCD_KIT/I]sgm37603a_init: sgm37603a in sgm37603a_init
+[00002500] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find sgm,sgm37603a node by compatible
+[00002508] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00002513] [LCD_KIT/E]sgm37603a_init: not support sgm37603a!
+[00002517] [LCD_KIT/I]ktz8864_init: ktz8864 init
+[00002521] [LCD_KIT/I]ktz8864_init: can not find ktz,ktz8864 node
+[00002526] [LCD_KIT/I]lm36274_init: lm36274 init
+[00002529] [LCD_KIT/I]lm36274_init: can not find ti,lm36274 node
+[00002534] [LCD_KIT/I]rt4831_init: rt4831 in
+[00002537] [LCD_KIT/I]rt4831_init: can not find rt,rt4831 node
+[00002541] [LCD_KIT/I]aw99703_init: aw99703 enter
+[00002551] i2c4, sprd_i2c_init() freq=100000
+[00002554] i2c4, sprd_i2c_init() freq=100000
+[00002558] [LCD_KIT/I]aw99703_parse_dts: aw99703_parse_dts
+[00002562] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_67 value = 0x1c
+[00002568] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_headroom_23 value = 0x61
+[00002575] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_threshold_25 value = 0x61
+[00002582] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_hys_24 value = 0x4c
+[00002588] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_led_current value = 0x9b
+[00002594] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol1 value = 0x29
+[00002601] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_high value = 0x10
+[00002607] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_low value = 0x5
+[00002613] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68 value = 0x2c
+[00002619] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31 value = 0xc0
+[00002625] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash value = 0x8
+[00002631] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_lsb value = 0x0
+[00002637] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_msb value = 0x1
+[00002642] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2 value = 0x80
+[00002649] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_mode value = 0x11
+[00002655] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31_1 value = 0x0
+[00002661] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash_1 value = 0x58
+[00002667] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68_1 value = 0x0
+[00002674] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2_1 value = 0x0
+[00002680] [LCD_KIT/I]aw99703_backlight_ic_check: aw99703 is right backlight ic
+[00002686] [LCD_KIT/I]aw99703_init: aw99703 is checked succ
+[00002691] [LCD_KIT/I]aw99703_init: aw99703 is support
+[00002694] [LCD_KIT/I]sm5350_init: sm5350 enter
+[00002698] [LCD_KIT/E]sm5350_init: bl ic is checked
+[00002701] [LCD_KIT/I]ktd3136_init: ktd3136 enter
+[00002705] [LCD_KIT/E]ktd3136_init: bl ic is checked
+[00002709] [LCD_KIT/I]nt50356_init: nt50356 init
+[00002712] [LCD_KIT/E]nt50356_init: bias bl ic checked
+[00002716] [sprdfb][mipi_dsi_init] escape clk div = 7
+[00002720] [sprdfb][sprd_dsi_resume] dsi init OK
+[00002723] [sprdfb][mipi_dphy_configure] lanes : 3
+[00002727] [sprdfb][mipi_dphy_configure] freq : 1100000
+[00002731] [sprdfb][sprd_dphy_resume] dphy init OK
+[00002734] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002742] [LCD_KIT/I]lcd_kit_event_handler: event = 0x3, data = 0x1, delay = 2
+[00002750] [LCD_KIT/I]lcd_kit_event_handler: event = 0x4, data = 0x1, delay = 3
+[00002756] i2c4, sprd_i2c_init() freq=100000
+[00002760] [LCD_KIT/I]sm5109_device_verify: sm5109 verify ok, app_dis = 0x3
+[00002766] [LCD_KIT/I]sm5109_bias_recognize: sm5109 is right bias
+[00002771] [LCD_KIT/I]lcd_kit_bias_recognize_call: bias recognize call success
+[00002777] [LCD_KIT/I]sm5109_set_bias: sm5109 vsp voltage:0x14
+[00002781] [LCD_KIT/I]sm5109_set_bias: sm5109 vsn voltage:0x14
+[00002786] i2c4, sprd_i2c_init() freq=100000
+[00002790] i2c4, sprd_i2c_init() freq=100000
+[00002794] i2c4, sprd_i2c_init() freq=100000
+[00002798] i2c4, sprd_i2c_init() freq=100000
+[00002803] i2c4, sprd_i2c_init() freq=100000
+[00002809] i2c4, sprd_i2c_init() freq=100000
+[00002814] [LCD_KIT/I]sm5109_reg_init: vpos = 0x54, vneg = 0x14, app_dis = 0x3
+[00002820] i2c4, sprd_i2c_init() freq=100000
+[00002824] i2c4, sprd_i2c_init() freq=100000
+[00002829] [LCD_KIT/I]sm5109_reg_init: vol_save_value = 0xff
+[00002833] [LCD_KIT/I]sm5109_set_voltage: sm5109 set voltage succeed
+[00002842] [LCD_KIT/I]lcd_kit_event_handler: event = 0xb, data = 0x1, delay = 10
+[00002848] [LCD_KIT/I]lcd_kit_event_handler: event not exist
+[00002862] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 6
+[00002874] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00002882] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 11
+[00002899] [LCD_KIT/I]lcd_kit_event_handler: event = 0x7, data = 0x1, delay = 0
+[00002905] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002911] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x7 error!
+[00002916] [LCD_KIT/I]lcd_kit_event_handler: event = 0x8, data = 0x1, delay = 0
+[00002922] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00002928] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x8 error!
+[00002933] [LCD_KIT/I]lcd_kit_event_handler: event = 0x6, data = 0x1, delay = 0
+[00003023] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: read the 0 value is 0x17
+[00003028] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: buffer is full, out_len is 1
+[00003033] [LCD_KIT/I]lcd_kit_read_bl_maxnit: lcd_kit_brightness_ddic_info = 0x17
+[00003039] [LCD_KIT/I]lcd_kit_get_tp_color: Not support tp color
+[00003044] [LCD_KIT/I]lcd_kit_event_handler: event = 0x0, data = 0x0, delay = 0
+[00003050] [LCD_KIT/I]lcd_kit_event_handler: none event
+[00003054] [sprdfb][dispc_clk_init] DPU_CORE_CLK = 384000000
+[00003059] [sprdfb][dispc_clk_init] DPI_CLK_SRC = 96000000
+[00003063] [sprdfb][dispc_clk_update] the actual dpi_clk = 96000000
+[00003069] [sprdfb][dpu_run] dpu run
+[00003071] [sprdfb][sprd_dispc_resume] dispc init OK
+[00003075] [sprdfb][lcd_ctrl_init] splashimage addr is 0x000000009d000000, fb size is 0x11b400
+[00003125] width is 720 height is 1600
+[00003128] Gzipped BMP image detected!
+[00003134] [sprdfb][lcd_enable] start flip
+[00003152] [LCD_KIT/I]lcd_kit_backlight_recognize_call: backlight recognize call success.
+[00003159] i2c4, sprd_i2c_init() freq=100000
+[00003164] i2c4, sprd_i2c_init() freq=100000
+[00003170] i2c4, sprd_i2c_init() freq=100000
+[00003175] i2c4, sprd_i2c_init() freq=100000
+[00003180] i2c4, sprd_i2c_init() freq=100000
+[00003185] i2c4, sprd_i2c_init() freq=100000
+[00003191] i2c4, sprd_i2c_init() freq=100000
+[00003196] i2c4, sprd_i2c_init() freq=100000
+[00003201] i2c4, sprd_i2c_init() freq=100000
+[00003207] i2c4, sprd_i2c_init() freq=100000
+[00003212] i2c4, sprd_i2c_init() freq=100000
+[00003217] i2c4, sprd_i2c_init() freq=100000
+[00003222] i2c4, sprd_i2c_init() freq=100000
+[00003228] i2c4, sprd_i2c_init() freq=100000
+[00003233] i2c4, sprd_i2c_init() freq=100000
+[00003245] i2c4, sprd_i2c_init() freq=100000
+[00003251] i2c4, sprd_i2c_init() freq=100000
+[00003256] i2c4, sprd_i2c_init() freq=100000
+[00003261] i2c4, sprd_i2c_init() freq=100000
+[00003266] i2c4, sprd_i2c_init() freq=100000
+[00003272] i2c4, sprd_i2c_init() freq=100000
+[00003277] [LCD_KIT/I]aw99703_set_backlight: write aw99703 backlight 2047 success
+[00003283] [LCD_KIT/I]lcd_kit_uboot_setbacklight: backlight: level = 255, ret is 0
+[00003289] uboot consume time:2454ms, lcd init consume:1084ms, backlight on time:3289ms 
+[00003303] is_wr_rpmb_key rpmb key has been written
+[00003309] uboot_write_rpmb_key: rpmb key has been written.
+[00003319] read write count successed
+[00003619]  data  write successed
+[00003623] sprd_init_all_imgversion: init imgversion susseccful,rpmb write blk 65534 
+[00003636] read write count successed
+[00003649]  data  write successed
+[00003653] sprd_init_all_imgversion: init modemimgver susseccful,rpmb write blk 65532 
+[00003714] sprd_get_all_imgversion: ab_slot_flag is 0 
+[00003724] read  successed
+[00005899] preas image has extheader
+[00005945] preavs image has extheader
+[00005991] preload image has extheader
+[00006037] version image has extheader
+[00006103] socko image has no extheader
+[00006150] odmko image has no extheader
+[00006173] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[00006220] boot other file system
+[00006230] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'boot'.
+[00006271] ramdisk other file system
+[00006281] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'ramdisk'.
+[00006322] vbmeta_system other file system
+[00006332] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006337] avb_slot_verify.c:657: DEBUG: vbmeta_system: No footer detected.
+[00006343] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_system'.
+[00006382] vbmeta_vendor other file system
+[00006393] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006397] avb_slot_verify.c:657: DEBUG: vbmeta_vendor: No footer detected.
+[00006403] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_vendor'.
+[00006443] vbmeta_odm other file system
+[00006453] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006458] avb_slot_verify.c:657: DEBUG: vbmeta_odm: No footer detected.
+[00006463] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_odm'.
+[00006502] eng_vendor other file system
+[00006513] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_vendor'.
+[00006554] eng_system other file system
+[00006564] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'eng_system'.
+[00006613] socko image has no extheader
+[00006624] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'socko'.
+[00006672] odmko image has no extheader
+[00006683] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'odmko'.
+[00006723] dtbo other file system
+[00006733] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'dtbo'.
+[00006782] version image has extheader
+[00006792] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'version'.
+[00006833] vbmeta_hw_product other file system
+[00006844] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00006848] avb_slot_verify.c:657: DEBUG: vbmeta_hw_product: No footer detected.
+[00006854] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_hw_product'.
+[00006905] preload image has extheader
+[00006915] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preload'.
+[00006964] preas image has extheader
+[00006974] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preas'.
+[00007022] preavs image has extheader
+[00007033] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'preavs'.
+[00007073] vbmeta_cust other file system
+[00007084] avb_footer.c:41: ERROR: Footer magic is incorrect.
+[00007088] avb_slot_verify.c:657: DEBUG: vbmeta_cust: No footer detected.
+[00007094] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta_cust'.
+[00007133] l_modem other file system
+[00007143] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_modem'.
+[00007184] l_ldsp other file system
+[00007194] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_ldsp'.
+[00007234] l_gdsp other file system
+[00007245] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_gdsp'.
+[00007285] pm_sys other file system
+[00007295] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'pm_sys'.
+[00007336] l_agdsp other file system
+[00007346] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_agdsp'.
+[00007387] l_cdsp other file system
+[00007397] avb_slot_verify.c:680: DEBUG: Loading vbmeta struct in footer from partition 'l_cdsp'.
+[00007456] g_sprd_vboot_cmdline is androidboot.vbmeta.device=PARTUUID=1.0 androidboot.vbmeta.avb_version=1.1 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=45056 androidboot.vbmeta.digest=c4a511a574862604796efc2dbf0b3500ab3795ffe626d35698d80d678a00813d androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing.
+[00007488] boot state: green
+[00007490] set_root_of_trust succeeded.
+[00007492] get boot info
+[00007503] boot_img_hdr header_version: 2
+[00007506] boot_img_offset.dt_offset is 0x17bd000
+[00008176] ** File not found /adc.bin **
+[00008178] Error!do_fs_file_read(): ** Error ext4_read_file() **
+[00008183] read_adc_calibration_data: cannot read prodnv /adb.bin.
+[00008227] Error!fdt_fixup_cp_reserved_mem(): cann't find cp-modem@xxxx node
+[00008322] get_cid: get CID SUCCEED
+[00008324] get_hun_by_length: get HUN SUCCEED
+[00008328] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008338] second get boardid, dtbo.info = 4007
+[00008435] get_valid_oeminfo_header: id 23 data not find
+[00008464] get_valid_oeminfo_header: id 45 data not find
+[00008492] get_valid_oeminfo_header: id 99 data not find
+[00008520] get_valid_oeminfo_header: id 1536 data not find
+[00008548] read_reused_oeminfo_core: id 1102 sub_id 6 oeminfo data not find
+[00008613] get_cid: get CID SUCCEED
+[00008615] get_hun_by_length: get HUN SUCCEED
+[00008619] data_rsa_public_decrypt_padding: data RSA decrypt SUCCEEDdata_set_sha256_rsa_check_pss: pss signature verify success
+[00008635] run_mode_append: cmdline run_mode is androidboot.swtype=normal ,ret = 0
+[00008675] sku_data_append: tmpbuf is androidboot.product.hardware.sku=KOZ-AL00
+[00008739] read_reused_oeminfo_core: id 1102 sub_id 39 oeminfo data not find
+[00008745] uart_log_para_append: cmdline read oeminfo fail
+[00008750] fdt_fixup_oba_version: cmdline oba version is oba_version=20230414184833_OBA_VERSION
+[00008781] fdt_fixup_charger_cycle_cnt:line1997: charge_accumulate_cnt = 1509950232
+[00008795] fdt_fixup_charger_cycle_cnt:line2004: charge_cycle_cnt = 108
+[00008801] fdt_fixup_charger_cycle_cnt:line2028: str_len = 83, buf = charge_miscdata_migic_number=90,charge_cycle_cnt=108,charge_accumulate_percent=792 
+[00008824] fdt_fixup_charger_last_shutdown_rtc_time:line1878: rong charge_rtc_time.tm_sec = 52
+[00008839] fdt_fixup_charger_last_shutdown_rtc_time:line1885: rong charge_rtc_time.tm_min = 38
+[00008854] fdt_fixup_charger_last_shutdown_rtc_time:line1892: rong charge_rtc_time.tm_hour = 8
+[00008869] fdt_fixup_charger_last_shutdown_rtc_time:line1899: rong charge_rtc_time.tm_mday = 20
+[00008885] fdt_fixup_charger_last_shutdown_rtc_time:line1906: rong charge_rtc_time.tm_mon = 6
+[00008900] fdt_fixup_charger_last_shutdown_rtc_time:line1913: rong charge_rtc_time.tm_year = 123
+[00008915] fdt_fixup_charger_last_shutdown_rtc_time:line1921: rong magic num = 1515890085
+[00008922] fdt_fixup_charger_last_shutdown_rtc_time:line1947: rong str_len = 148
+[00008928] fdt_fixup_charger_last_shutdown_rtc_time:line1948: rong buf = charge_miscdata_rtc_migic_number=1515890085,charge_tm_year=123,charge_tm_mon=6,charge_tm_mday=20,charge_tm_hour=8,charge_tm_min=38,charge_tm_sec=52 
+[00008956] fdt_fixup_charger_basp_para:line2066: rong basp_get = 0x5a000000
+[00008961] fdt_fixup_charger_basp_para:line2084: str_len = 54, buf = charge_miscdata_basp_migic_number=90,basp_ocv_index=0 
+[00008981] bootfail: func: process_recovery_flag line: 867, process_recovery_flag:867, flag: recovery_flag
+[00009001] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_detector_enable=1  set success
+[00009010] bootfail: func: sprd_cmdline_append line: 167, cmdline boot_recovery_enable=1  set success
+[00009019] bootfail: func: sprd_cmdline_append line: 167, cmdline last_bootup_keypoint=1073741822 set success
+[00009028] no sysdump, kaslr init ok!
+[00009055] second get boardid, dtbo.info = 4007
+[00009058] matches dtbo entry id 4007!
+[00009060] merge_dtbo : offset = 0x20 size=0xfe60
+[00010346] [LCD_KIT/E]tps65132_set_bias_status: Could not find tps65132 node, change dts failed
+[00010357] [LCD_KIT/E]rt4801h_set_bias_status: can not find node, change status failed
+[00010365] [LCD_KIT/I]sm5109_set_bias_status: sm5109 set bias status OK!
+[00010373] [LCD_KIT/E]lm3697_set_backlight_status: Could not find lm3697 node,change dts failed
+[00010383] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010394] [LCD_KIT/E]lm36923_set_backlight_status: Could not find lm36923 node, change dts failed
+[00010404] [LCD_KIT/E]ktz8864_set_backlight_status: Could not find ktz8864 node, change dts failed
+[00010415] [LCD_KIT/E]rt4831_set_backlight_status: Could not find rt4831 node, change dts failed
+[00010425] [LCD_KIT/E]lm36274_set_backlight_status: Could not find lm36274 node, change dts failed
+[00010436] [LCD_KIT/E]nt50356_set_backlight_status: Could not find nt50356 node, change dts failed
+[00010446] [LCD_KIT/E]sgm37603a_set_backlight_status: Could not find sgm37603a node, change dts failed
+[00010456] [LCD_KIT/I]aw99703_set_backlight_status: aw99703_set_backlight_status OK!
+[00010463] [LCD_KIT/I]ktd3136_set_backlight_status: ktd3136_set_backlight_status OK!
+[00010473] [LCD_KIT/E]sm5350_set_backlight_status: Could not find sm5350 node, change dts failed
+[00010483] [LCD_KIT/E]ktd3133_set_backlight_status: Could not find ktd3133 node, change dts failed
+[00010494] [LCD_KIT/E]lp8556_set_backlight_status: Could not find lp8556 node, change dts failed
+[00010504] [LCD_KIT/E]rt8555_set_backlight_status: Could not find rt8555 node, change dts failed
+[00010560] pass_chip_uid_to_tos()... sizeof(blocks)=8
+[00010568] blks:0x00804989 0x0e3cd012, result: 0x0 
+[00010572] uboot_set_rpmb_size: rpmb size 16777216
+[00010581] is_wr_rpmb_key rpmb key has been written
+[00010595] uboot_check_rpmb_key get rpmb package, call tos to check rpmb key 
+[00010601] enter mode normal, consume time: 9766ms, boot_reason: Reboot into normal
+[00010616] boot count 12
+[00010625] bootup init log success on 226 times
+[00010683] bootfail: func: bf_sprd_copy_uboot_log line: 405, uboot log copy start
+[00010690] bootfail: func: bf_sprd_copy_uboot_log line: 421, 92400028,len:3ffd8, copy target:fd609400
+[00010700] bootfail: func: bf_sprd_copy_uboot_log line: 426, uboot log copy end
+[00010717] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 3ffffffe
+uboot crash, panic!
+[00003867] 
+U-Boot 2015.07-g22dcc15 (Jun 18 2021 - 16:21:02 +0800)SHARKL5PRO
+[00003874] i2c0, sprd_i2c_init() freq=100000
+[00003898] found dtb 00000000b0034410 size 26463
+[00003902] 1 GiB
+[00003904] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00003908] sprd_get_vboot_key(): sechdr_offset is 0x201420.
+[00003912] sprd_get_vboot_key(): sechdr_addr is 0x9f201220.
+[00003916] sprd_get_vboot_key(): sechdr_addr: 0x9f201220. cert_addr: 0x9f201280. cert_addr: 0x9f201280. cert_addr: 0x9f201280. 
+[00003927] sprd_get_vboot_key(): sechdr_offset is 0x201420, sechdr_addr->cert_offset is 0x201480.
+[00003934] cert_key
+[00003935] dumpHex:32 bytes
+[00003937] c1441a50e2f78a7fd2df488e599c7c36
+[00003940] f70997f1e45ed31923ba919468b80ea0
+[00003943] 
+[00003972] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_performance_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00003986] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00003998] 		regu_ldo 000000009f17e938 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00004014] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00004021] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00004028] [LED] init led]sprd_sdhci_init: host version: 4
+[00004040] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00004045] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00004052] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00004057] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00004085] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00004142] mmc_init: 0, time 108
+[00004146]  (eMMC)i2c0, sprd_i2c_init() freq=100000
+[00004153] serial
+[00004154] serial
+[00004155] serial
+[00004159] i2c2, sprd_i2c_init() freq=100000
+[00004162] i2c2, sprd_i2c_init() freq=100000
+[00004286] i2c2, sprd_i2c_init() freq=100000
+[00004289] i2c2, sprd_i2c_init() freq=100000
+[00004293] bq2560x_read_reg reg=0xb, value=0x11
+[00004296] i2c2, sprd_i2c_init() freq=100000
+[00004305] i2c2, sprd_i2c_init() freq=100000
+[00004309] bq2560x_read_reg reg=0x0, value=0x4
+[00004312] i2c2, sprd_i2c_init() freq=100000
+[00004317] i2c2, sprd_i2c_init() freq=100000
+[00004321] bq2560x_read_reg reg=0x2, value=0xa2
+[00004324] i2c2, sprd_i2c_init() freq=100000
+[00004330] eica status bat8
+[00004334] eica status bat8
+[00004336] [gpio keys] init!
+[00004343] bootfail: func: bf_reserve_mem_init line: 650, read reserve mem info from dtb, addr fd608000, size 100000
+[00004353] bootfail: func: bf_reserve_mem_init line: 664, reserve mem addr fd608000, size 3e0
+[00004360] bootfail: func: bf_reserve_mem_init line: 665, extend reserve mem addr fd609000, size ff000
+[00004376] bootfail: func: update_last_boot_phase line: 635, get last boot stage 3ffffffe
+[00004723] bootfail: func: sprd_set_boot_stage line: 494, set boot stage storge succ, boot stage 2ffffffe
+[00004731] bootfail: func: bootfail_print line: 577, func: boot_detector_init, error: 0(BF_OK)
+[00004738] bootfail: func: bootfail_init line: 689, uboot bootfail init success
+[00004745] Hit any key to stop autoboot:  0 get_valid_oeminfo_header: id 1525 data not find
+[00004776] cannot get oeminfo rdlock type info
+[00004781] get_securedebug_efuse_value: secure debug mode is setted
+[00004819] hwdog_certify->lock_state.fb_lock_stat = 0
+[00004823] hwdog_certify->lock_state.user_lock_stat = 0
+[00004827] hwdog_certify->lock_state.check_root_stat = 0
+[00004831] hwdog_certify->lock_state.check_sign_stat = 0
+[00004838] bootfail: func: process_bootfail line: 1013, reset reason is 0
+[00004844] bootfail: func: bootfail_print line: 577, process_upper_bootfail:499
+[00004874] get_valid_oeminfo_header: id 55 data not find
+[00004878] bootfail: func: bootfail_print line: 577, get OEMINFO_USER_HOTA_UPDATE failed!
+[00004926] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00004934] bootfail: func: bootfail_print line: 577, func: read_bootfail_from_pyhs_mem, invalid bootfail info
+[00004943] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid magic number: 0
+[00004951] bootfail: func: bootfail_print line: 577, func: proc_upper_layer_bootfail, invalid bootfail info
+[00004959] bootfail: func: bootfail_print line: 577, func: boot_fail_error, continue process this bootfail
+[00004968] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 0, bootstage: 0, suggest_recovery_method: 0, exception_type: 0
+[00004980] bootfail: func: bootfail_print line: 577, func: is_valid_bootfail, Invalid bootfail_errno: 0
+[00004988] bootfail: func: bootfail_print line: 577, func: check_condition_for_boot_fail_err, error: 7(BF_INVALID_BOOTFAIL_INFO)
+[00005010] is_bat_low vbat_vol:4387,comp_vbat:3300
+[00005031] fulldumpdb partition is  not exsit ... mark flag ok 
+[00005036] (sprd_dump): (write_sysdump_before_boot): Check dump info ......
+[00005042] (sprd_dump): (get_current_time): time is 1970-01-01_08-04-07
+[00005066] (sprd_dump): (show_check_enable_status_result): ------------------	show_check_enable_status_result 	------------------ .
+[00005077] (sprd_dump): (show_check_enable_status_result): full_dump_enable : 0 .
+[00005083] (sprd_dump): (show_check_enable_status_result): mini_dump_enable : 1 .
+[00005089] (sprd_dump): (show_check_enable_status_result): full_dump_allow  : 0 .
+[00005096] (sprd_dump): (show_check_enable_status_result): mini_dump_allow  : 0 .
+[00005102] (sprd_dump): (show_check_enable_status_result): reset_mode       : (2)-(normal) .
+[00005117] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , mini_dump_allow : 0 .  !!!
+[00005125] (sprd_dump): (write_sysdump_before_boot): NO need minidump !!!
+[00005131] (sprd_dump): (write_sysdump_before_boot): is_partition_ok : 1 , full_dump_allow : 0 .  !!!
+[00005139] (sprd_dump): (write_sysdump_before_boot): NO need full  dump memory !!!
+[00005223] enter boot mode 2
+[00005224] lcd start init time:5224ms
+[00005232] [LCD_KIT/I]lcd_kit_get_detect_type: LCD panel detect type = 2
+[00005238] [LCD_KIT/E]lcd_kit_init: lcd_id:0, product_id:1000, compatible:330_d00_6p6, lcd_name:/huawei,lcd_config/lcd_kit_koz_330_d00_6p6
+[00005249] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-on-cmds-state
+[00005257] [LCD_KIT/I]lcd_kit_get_dts_string_by_property: can not find lcd-kit,panel-off-cmds-state
+[00005265] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,backlight-cmds
+[00005272] [LCD_KIT/E]lcd_kit_buf_trans: inbuf is null!
+[00005276] [LCD_KIT/E]lcd_scan_dcs_cmd: cnt <= 0 or > MAX_CNT
+[00005280] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-bl-support
+[00005288] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005292] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-on-support
+[00005300] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005305] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,check-reg-off-support
+[00005312] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005317] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vci
+[00005324] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-iovcc
+[00005330] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-backlight
+[00005337] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-te0
+[00005344] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,tp-reset
+[00005350] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-vdd
+[00005357] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-aod
+[00005363] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-poweric
+[00005370] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,effect-on-support
+[00005377] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005382] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,lcd-btb-support
+[00005389] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005394] [LCD_KIT/I]lcd_kit_get_dts_data_by_property: can not find lcd-kit,mipi-read-gerneric
+[00005402] [LCD_KIT/I]lcd_kit_get_dts_u32_default: data is null
+[00005406] [LCD_KIT/I]lcd_kit_panel_init: not find ops
+[00005410] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find ti,tps65132 node by compatible
+[00005418] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00005422] [LCD_KIT/E]tps65132_init: not support tps65132!
+[00005427] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find rt,rt4801h node by compatible
+[00005434] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00005439] [LCD_KIT/E]rt4801h_init: not support rt4801h
+[00005443] [LCD_KIT/I]sm5109_init: sm5109 is support
+[00005447] [LCD_KIT/I]lm36923_init: lm36923 in lm36923_init
+[00005451] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find lm,lm36923 node by compatible
+[00005459] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00005464] [LCD_KIT/E]lm36923_init: not support lm36923!
+[00005468] [LCD_KIT/I]sgm37603a_init: sgm37603a in sgm37603a_init
+[00005473] [LCD_KIT/I]lcd_kit_get_data_by_property: can not find sgm,sgm37603a node by compatible
+[00005480] [LCD_KIT/I]lcd_kit_parse_get_u32_default: data is null
+[00005485] [LCD_KIT/E]sgm37603a_init: not support sgm37603a!
+[00005489] [LCD_KIT/I]ktz8864_init: ktz8864 init
+[00005493] [LCD_KIT/I]ktz8864_init: can not find ktz,ktz8864 node
+[00005498] [LCD_KIT/I]lm36274_init: lm36274 init
+[00005501] [LCD_KIT/I]lm36274_init: can not find ti,lm36274 node
+[00005506] [LCD_KIT/I]rt4831_init: rt4831 in
+[00005509] [LCD_KIT/I]rt4831_init: can not find rt,rt4831 node
+[00005514] [LCD_KIT/I]aw99703_init: aw99703 enter
+[00005523] i2c4, sprd_i2c_init() freq=100000
+[00005526] i2c4, sprd_i2c_init() freq=100000
+[00005530] [LCD_KIT/I]aw99703_parse_dts: aw99703_parse_dts
+[00005534] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_67 value = 0x1c
+[00005540] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_headroom_23 value = 0x61
+[00005547] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_threshold_25 value = 0x61
+[00005554] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_pfm_hys_24 value = 0x4c
+[00005560] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_led_current value = 0x9b
+[00005566] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol1 value = 0x29
+[00005573] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_high value = 0x10
+[00005579] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_af_low value = 0x5
+[00005585] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68 value = 0x2c
+[00005591] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31 value = 0xc0
+[00005598] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash value = 0x8
+[00005603] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_lsb value = 0x0
+[00005609] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_msb value = 0x1
+[00005614] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2 value = 0x80
+[00005621] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_mode value = 0x11
+[00005627] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boot_duty_31_1 value = 0x0
+[00005633] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_flash_1 value = 0x58
+[00005639] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_soft_start_68_1 value = 0x0
+[00005646] [LCD_KIT/I]aw99703_parse_dts: get aw99703_reg_boost_conctrol2_1 value = 0x0
+[00005652] [LCD_KIT/I]aw99703_backlight_ic_check: aw99703 is right backlight ic
+[00005658] [LCD_KIT/I]aw99703_init: aw99703 is checked succ
+[00005663] [LCD_KIT/I]aw99703_init: aw99703 is support
+[00005667] [LCD_KIT/I]sm5350_init: sm5350 enter
+[00005670] [LCD_KIT/E]sm5350_init: bl ic is checked
+[00005674] [LCD_KIT/I]ktd3136_init: ktd3136 enter
+[00005677] [LCD_KIT/E]ktd3136_init: bl ic is checked
+[00005681] [LCD_KIT/I]nt50356_init: nt50356 init
+[00005684] [LCD_KIT/E]nt50356_init: bias bl ic checked
+[00005688] [sprdfb][mipi_dsi_init] escape clk div = 6
+[00005692] [sprdfb][sprd_dsi_resume] dsi init OK
+[00005695] [sprdfb][mipi_dphy_configure] lanes : 4
+[00005699] [sprdfb][mipi_dphy_configure] freq : 801600
+[00005703] [sprdfb][sprd_dphy_resume] dphy init OK
+[00005706] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00005715] [LCD_KIT/I]lcd_kit_event_handler: event = 0x3, data = 0x1, delay = 2
+[00005723] [LCD_KIT/I]lcd_kit_event_handler: event = 0x4, data = 0x1, delay = 3
+[00005729] i2c4, sprd_i2c_init() freq=100000
+[00005733] [LCD_KIT/I]sm5109_device_verify: sm5109 verify ok, app_dis = 0x3
+[00005738] [LCD_KIT/I]sm5109_bias_recognize: sm5109 is right bias
+[00005743] [LCD_KIT/I]lcd_kit_bias_recognize_call: bias recognize call success
+[00005749] [LCD_KIT/I]sm5109_set_bias: sm5109 vsp voltage:0x14
+[00005754] [LCD_KIT/I]sm5109_set_bias: sm5109 vsn voltage:0x14
+[00005758] i2c4, sprd_i2c_init() freq=100000
+[00005762] i2c4, sprd_i2c_init() freq=100000
+[00005766] i2c4, sprd_i2c_init() freq=100000
+[00005770] i2c4, sprd_i2c_init() freq=100000
+[00005775] i2c4, sprd_i2c_init() freq=100000
+[00005781] i2c4, sprd_i2c_init() freq=100000
+[00005786] [LCD_KIT/I]sm5109_reg_init: vpos = 0x54, vneg = 0x14, app_dis = 0x3
+[00005792] i2c4, sprd_i2c_init() freq=100000
+[00005796] i2c4, sprd_i2c_init() freq=100000
+[00005801] [LCD_KIT/I]sm5109_reg_init: vol_save_value = 0xff
+[00005806] [LCD_KIT/I]sm5109_set_voltage: sm5109 set voltage succeed
+[00005814] [LCD_KIT/I]lcd_kit_event_handler: event = 0xb, data = 0x1, delay = 10
+[00005820] [LCD_KIT/I]lcd_kit_event_handler: event not exist
+[00005834] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 6
+[00005846] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x2, delay = 2
+[00005854] [LCD_KIT/I]lcd_kit_event_handler: event = 0x5, data = 0x1, delay = 11
+[00005871] [LCD_KIT/I]lcd_kit_event_handler: event = 0x7, data = 0x1, delay = 0
+[00005877] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00005883] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x7 error!
+[00005888] [LCD_KIT/I]lcd_kit_event_handler: event = 0x8, data = 0x1, delay = 0
+[00005894] [LCD_KIT/E]lcd_kit_tp_reset_power_ctrl: can not get lcd reset!
+[00005900] [LCD_KIT/E]lcd_kit_panel_on_lp: send on lp event 0x8 error!
+[00005905] [LCD_KIT/I]lcd_kit_event_handler: event = 0x6, data = 0x1, delay = 0
+[00006027] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: read the 0 value is 0x27
+[00006032] [LCD_KIT/I]lcd_kit_dsi_cmds_rx: buffer is full, out_len is 1
+[00006037] [LCD_KIT/I]lcd_kit_read_bl_maxnit: lcd_kit_brightness_ddic_info = 0x27
+[00006044] [LCD_KIT/I]lcd_kit_get_tp_color: Not support tp color
+[00006049] [LCD_KIT/I]lcd_kit_event_handler: event = 0x0, data = 0x0, delay = 0
+[00006055] [LCD_KIT/I]lcd_kit_event_handler: none event
+[00006059] [sprdfb][dispc_clk_init] DPU_CORE_CLK = 384000000
+[00006063] [sprdfb][dispc_clk_init] DPI_CLK_SRC = 96000000
+[00006067] [sprdfb][dispc_clk_update] the actual dpi_clk = 96000000
+[00006073] [sprdfb][dpu_run] dpu run
+[00006075] [sprdfb][sprd_dispc_resume] dispc init OK
+[00006079] [sprdfb][lcd_ctrl_init] splashimage addr is 0x000000009d000000, fb size is 0x11b400
+[00006129] width is 720 height is 1600
+[00006131] Gzipped BMP image detected!
+[00006138] [sprdfb][lcd_enable] start flip
+[00006156] [LCD_KIT/I]lcd_kit_backlight_recognize_call: backlight recognize call success.
+[00006163] i2c4, sprd_i2c_init() freq=100000
+[00006168] i2c4, sprd_i2c_init() freq=100000
+[00006173] i2c4, sprd_i2c_init() freq=100000
+[00006178] i2c4, sprd_i2c_init() freq=100000
+[00006184] i2c4, sprd_i2c_init() freq=100000
+[00006189] i2c4, sprd_i2c_init() freq=100000
+[00006194] i2c4, sprd_i2c_init() freq=100000
+[00006200] i2c4, sprd_i2c_init() freq=100000
+[00006205] i2c4, sprd_i2c_init() freq=100000
+[00006210] i2c4, sprd_i2c_init() freq=100000
+[00006215] i2c4, sprd_i2c_init() freq=100000
+[00006221] i2c4, sprd_i2c_init() freq=100000
+[00006226] i2c4, sprd_i2c_init() freq=100000
+[00006231] i2c4, sprd_i2c_init() freq=100000
+[00006237] i2c4, sprd_i2c_init() freq=100000
+[00006249] i2c4, sprd_i2c_init() freq=100000
+[00006254] i2c4, sprd_i2c_init() freq=100000
+[00006259] i2c4, sprd_i2c_init() freq=100000
+[00006265] i2c4, sprd_i2c_init() freq=100000
+[00006270] i2c4, sprd_i2c_init() freq=100000
+[00006275] i2c4, sprd_i2c_init() freq=100000
+[00006281] [LCD_KIT/I]aw99703_set_backlight: write aw99703 backlight 2047 success
+[00006287] [LCD_KIT/I]lcd_kit_uboot_setbacklight: backlight: level = 255, ret is 0
+[00006293] uboot consume time:2324ms, lcd init consume:1069ms, backlight on time:6293ms 
+[00006307] is_wr_rpmb_key rpmb key has been written
+[00006312] uboot_write_rpmb_key: rpmb key has been written.
+[00006323] read write count successed
+[00006351]  data  write successed
+[00006355] sprd_init_all_imgversion: init imgversion susseccful,rpmb write blk 65534 
+[00006368] read write count successed
+[00006381]  data  write successed
+[00006385] sprd_init_all_imgversion: init modemimgver susseccful,rpmb write blk 65532 
+[00006486] sprd_get_all_imgversion: ab_slot_flag is 0 
+[00006496] read  successed
+[00009883] preas image has extheader
+[00009928] preavs image has extheader
+[00009977] preload image has extheader
+[00010023] version image has extheader
+[00010089] socko image has no extheader
+[00010134] odmko image has no extheader
+[00010157] avb_slot_verify.c:685: DEBUG: Loading vbmeta struct from partition 'vbmeta'.
+[00010180] avb_vbmeta_image.c:207: ERROR: Hash does not match!
+[00010185] avb_slot_verify.c:746: ERROR: vbmeta: Error verifying vbmeta image: HASH_MISMATCH
+[00010192] avb_slot_verify.c:894: DEBUG: vbmeta: VERIFICATION_DISABLED bit is set.
+[00010198] "Synchronous Abort" handler, esr 0x8600000d
+[00010202] ELR:     0
+[00010203] LR:      9f0a3b8c
+[00010205] x0 : 000000009f78a000 x1 : 000000009f8e3db0
+[00010209] x2 : 000000009f8e3c28 x3 : 0000000000000000
+[00010213] x4 : 000000009f8e3db0 x5 : 000000009f8e3a78
+[00010216] x6 : 0000000000000000 x7 : 00000000ffffffff
+[00010220] x8 : 000000009f8e3580 x9 : 0000000000000008
+[00010224] x10: 0000000000000001 x11: 0000000051304690
+[00010228] x12: 00000000f3fedc74 x13: 0000000056d5bbcd
+[00010232] x14: 000000005707c285 x15: 00000000c3f40eca
+[00010236] x16: 00000000eeeecc29 x17: 00000000cb8b61eb
+[00010240] x18: 000000009f8ede60 x19: 000000009f175000
+[00010244] x20: 000000009f170000 x21: 0000000000000003
+[00010248] x22: 000000009f8efda0 x23: 000000009f78a000
+[00010252] x24: 000000009f1488d0 x25: 000000009f1488d0
+[00010255] x26: 000000009f8e4180 x27: 000000009f8f07b0
+[00010259] x28: 0000000000000004 x29: 000000009f8e3ab0
+[00010263] 
+[00010273] boot count 2
+[00010282] bootup init log success on 2 times
+[00010340] bootfail: func: sprd_boot_fail_err line: 721, sprd_boot_fail_err:721
+[00010370] get_valid_oeminfo_header: id 55 data not find
+[00010374] bootfail: func: bootfail_print line: 577, get OEMINFO_USER_HOTA_UPDATE failed!
+[00010414] bootfail: func: bootfail_print line: 577, func: __boot_fail_error, errno: 20000004, bootstage: 2ffffffe, suggest_recovery_method: 0, exception_type: 0
+[00010436] data_SHA256: data SHA256 computing SUCCEED
+[00010452] data_SHA256: data SHA256 computing SUCCEED
+[00010455] data_SHA256: data SHA256 computing SUCCEED
+[00010459] bootfail: func: bootfail_print line: 577, func: select_method_without_bopd, bootfail in bottom: 1, bootfail in upper: 3, so do download
+[00010471] data_SHA256: data SHA256 computing SUCCEED
+[00010517] bootfail: func: bootfail_print line: 577, func: try_to_recovery, errorcode: 0, selected method: 400006008
+[00010527] bootfail: func: capture_bl_log line: 383, uboot log is 80000, 80000
+SPRDulog(
+[00102062] 
+U-Boot 2015.07-g75d9b18 (Nov 02 2021 - 04:34:30 +0800)SHARKL5PRO
+[00102069] U-Boot code: 9F000000 -> 9F19E498  BSS: -> 9F770000
+[00102074] i2c0, sprd_i2c_init() freq=100000
+[00102077] dram_init(): dram cs0 size 80000000
+dram cs1 size fffff000
+[00102083] monitor len: 00770000
+[00102085] ramsize: 20000000
+[00102086] TLB table from 9fff0000 to 9fff1000
+[00102089] Top of RAM usable for U-Boot at: 9fff0000
+[00102093] Reserving 7176k for malloc() at: 9f8ee000
+[00102097] Reserving 72 Bytes for Board Info at: 9f8edfb8
+[00102101] Reserving 344 Bytes for Global Data at: 9f8ede60
+[00102126] sprd_get_dtboinfo(): dtbo.info = 4007
+[00102129] choose_uboot_dtb(): got board id 4007
+[00102132] choose_uboot_dtb(): got hardware id 1 from fdt
+[00102137] choose_uboot_dtb(): got hardware id 4021 from fdt
+[00102141] choose_uboot_dtb(): got hardware id 4017 from fdt
+[00102145] choose_uboot_dtb(): got hardware id 4005 from fdt
+[00102150] choose_uboot_dtb(): got hardware id 4008 from fdt
+[00102154] choose_uboot_dtb(): got hardware id 4003 from fdt
+[00102159] choose_uboot_dtb(): got hardware id 4019 from fdt
+[00102163] choose_uboot_dtb(): got hardware id 4024 from fdt
+[00102168] choose_uboot_dtb(): got hardware id 4001 from fdt
+[00102172] choose_uboot_dtb(): got hardware id 4007 from fdt
+[00102176] choose_uboot_dtb(): uboot dtb boardid find success 4007,4007
+[00102182] found dtb 00000000b00358d0 size 27147
+[00102185] Reserving 31264 Bytes for FDT at: 9f8e6440
+[00102189] New Stack Pointer is: 9f8e6440
+[00102194] Bank #0: 80000000 512 MiB
+[00102196] Bank #1: 180000000 512 MiB
+[00102198] relocation Offset is: 00000000
+[00102202] board_init_f(): dtb relocation 000000009f8e6440 size 31264
+[00102207] sprd_get_vboot_key(): load_buf is 0x9efffe00.
+[00102211] sprd_get_vboot_key(): sechdr_offset is 0x1f6410.
+[00102215] sprd_get_vboot_key(): sechdr_addr is 0x9f1f6210.
+[00102220] sprd_get_vboot_key(): sechdr_addr: 0x9f1f6210. cert_addr: 0x9f1f6270. cert_addr: 0x9f1f6270. cert_addr: 0x9f1f6270. 
+[00102230] sprd_get_vboot_key(): sechdr_offset is 0x1f6410, sechdr_addr->cert_offset is 0x1f6470.
+[00102238] cert_key
+[00102238] dumpHex:32 bytes
+[00102240] c1441a50e2f78a7fd2df488e599c7c36
+[00102243] f70997f1e45ed31923ba919468b80ea0
+[00102246] 
+[00102272] log base 0000000092400000
+[00102275] using memory 0x9f8ee000-0x9fff0000 for malloc()
+[00102281] monitor flash len: 0017E498
+[00102284] WARNING in /mnt/disk/jenkins/ci/workspace/chipset_pipeline_release/china_compile/component_code/bsp/bootloader/u-boot15/drivers/misc/adi.c line 324
+[00102297] pmic_misc_init(): pmic_misc_init
+[00102300] last shutdown flag ANA_REG_GLB_POR_OFF_FLAG:0x0
+[00102304] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00102310] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00102316] sprd_pmic_efuse_read(): pmic efuse read 14,val=0x8914
+[00102320] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00102326] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00102332] sprd_pmic_efuse_read(): pmic efuse read 14,val=0x8914
+[00102337] sprd_get_chipid(): chip id = 0x0, VID = 0x3
+[00102341] 		regu_ldo 000000009f16a948 (vddrf1v25) 1245 = 900 +345mv (trim=23 step=15000uv)
+[00102348] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00102354] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00102359] sprd_pmic_efuse_read(): pmic efuse read 19,val=0x7d8a
+[00102364] sprd_pmic_efuse_read_bits(): pmic efuse read bits 304 ++ 16 0x00007d8a
+[00102371] sprd_get_adc_small_scale_cal(): get pmic efuse block 19, deta: 0x00007d8a
+[00102377] sprd_get_adc_small_scale_cal(): 0.1V adc data 0x134
+[00102382] sprd_get_adc_small_scale_cal(): 1.0V adc data 0xd2c
+[00102386] sprd_small_scale_adc_efuse_get(): adc efuse small cal 1000,3372,100,308,cal_type:4
+[00102393] pmic_adc_Init(): sprd small scale efuse have cal
+[00102398] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00102404] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00102409] sprd_pmic_efuse_read(): pmic efuse read 18,val=0x8c8e
+[00102414] sprd_pmic_efuse_read_bits(): pmic efuse read bits 288 ++ 16 0x00008c8e
+[00102421] sprd_get_adc_bat_cal(): get pmic efuse block 18, deta: 0x00008c8e
+[00102426] sprd_bat_scale_adc_efuse_get(): adc efuse big cal 4200,3480,3600,2980,cal_type:3
+[00102433] pmic_adc_Init(): sprd big scale efuse have cal
+[00102438] Error!sprd_pinctrl_core_probe(): get pinctrl-boardid node error: FDT_ERR_NOTFOUND
+[00102445] Error!sprd_pinctrl_core_probe(): get pinctrl-common node error: FDT_ERR_NOTFOUND
+[00102452] [LED] init led]Now running in RAM - U-Boot at: 9f000000
+[00102457] board_mmc_initialize(): board_mmc_initialize entry
+[00102462] sprd_host_init(): mmc ldo_core:vddemmccore, ldo_io:vddgen0
+[00102468] sprd_sdhci_init: host version: 4
+[00102471] sprd_host_init(): sprd_host_init return 0
+[00102475] mmc_set_bus_width(): mmc_set_bus_width width=1
+[00102485] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00102490] sdhci_send_command interrupt status: 0x18001, CMD8, delay: 0x0
+[00102497] sdhci_send_command: ret = -1, interrupt status: 0x18000
+[00102502] sdhci_send_command interrupt status: 0x18001, CMD55, delay: 0x0
+[00102524] mmc_startup(): entry
+[00102532] csd register(128 bit): d04f0132 8f5903ff ffffffef 8a400000 
+[00102537] mmc_startup(): mmc->version =0x40000000
+[00102540] mmc_startup(): mmc_startup mmc->version=0x40040000
+[00102559] mmc_send_ext_csd(): mmc_send_ext_csd=0
+[00102562] mmc_startup(): mmc_startup mmc->version2=0x40040000
+[00102567] mmc_startup(): mmc->part_num = 0, erase_grp_size = 0x800
+[00102572] mmc_startup(): RST_n signal(0x1) has already be permanently enabled
+[00102578] mmc_set_capacity(): capacity -user: 0x1d1ec00000, -boot: 0x400000, -rpmb: 0x1000000
+[00102598] mmc_send_ext_csd(): mmc_send_ext_csd=0
+[00102617] mmc_send_ext_csd(): mmc_send_ext_csd=0
+[00102620] mmc_change_freq(): emmc type:7 card_caps:0x2f
+[00102624] mmc_startup(): mmc_change_freq=0
+[00102630] mmc_set_bus_width(): mmc_set_bus_width width=8
+[00102637] mmc_send_ext_csd(): mmc_send_ext_csd=0
+[00102641] mmc_startup(): mmc->tran_speed:52000000,blksz:512
+[00102648] mmc_startup(): mmc startup end
+[00102650] mmc_init: 0, time 175
+[00102655] mmc_set_capacity(): capacity -user: 0x1d1ec00000, -boot: 0x400000, -rpmb: 0x1000000
+[00102663] print_mmc_devices(): sprd_sdhci: 0 (eMMC)print_mmc_devices(): 
+[00102668] fdtdec_get_config_int: load-environment
+[00102674] Destroy Hash Table: 000000009f166fa0 table = 0000000000000000
+[00102680] Create Hash Table: N=97
+[00102682] INSERT: table 000000009f166fa0, filled 1/97 rv 000000009f8ee490 ==> name="bootargs" value="mem=512M loglevel=7 console=ttyS0,115200n8 init=/init mtdparts=sprd-nand:256k(spl),768k(2ndbl),512k(kpanic),-(ubipac)"
+[00102700] INSERT: table 000000009f166fa0, filled 2/97 rv 000000009f8ee968 ==> name="bootcmd" value="cboot normal"
+[00102709] INSERT: table 000000009f166fa0, filled 3/97 rv 000000009f8eea08 ==> name="bootdelay" value="0"
+[00102717] INSERT: table 000000009f166fa0, filled 4/97 rv 000000009f8ee5a8 ==> name="baudrate" value="115200"
+[00102726] INSERT: table 000000009f166fa0, filled 5/97 rv 000000009f8ee468 ==> name="preboot" value="role"
+[00102734] INSERT: table 000000009f166fa0, filled 6/97 rv 000000009f8ef1b0 ==> name="mtdparts" value="mtdparts=sprd-nand:256k(spl),768k(2ndbl),512k(kpanic),-(ubipac)"
+[00102748] INSERT: free(data = 000000009f8ee260)
+[00102751] INSERT: done
+[00102753] fdt_fixup_memory_region(): no auto memory region, no need fixup memory region
+[00102760] i2c0, sprd_i2c_init() freq=100000
+[00102763] serial
+[00102765] serial
+[00102766] serial
+[00102767] Initial value for argc=3
+[00102769] Final value for argc=3
+[00102771] Initial value for argc=3
+[00102773] Final value for argc=3
+[00102775] Initial value for argc=3
+[00102778] Final value for argc=3
+[00102783] power_button_pressed(): power_button_pressed status 2
+[00102787] i2c2, sprd_i2c_init() freq=100000
+[00102790] i2c2, sprd_i2c_init() freq=100000
+[00102995] Timed out in wait_for_ack: status=210202
+[00102999] I2C_CTL = 0x182007
+[00103000] I2C_ADDR_CFG = 0x76
+[00103002] I2C_COUNT = 0x1
+[00103004] I2C_STATUS = 0x210202
+[00103006] ADDR_DVD0 = 0x33004c
+[00103008] ADDR_DVD1 = 0x0
+[00103009] ADDR_STA0_DVD = 0x68
+[00103011] i2c_reg_read: bus=2 addr=0x3b, reg=0x08, val=0x00
+[00103015] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00103019] i2c2, sprd_i2c_init() freq=100000
+[00103023] i2c_reg_read: bus=2 addr=0x6b, reg=0x08, val=0x24
+[00103028] vendor id=0x6b, ret=0x24
+[00103030] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00103036] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00103042] sprd_pmic_efuse_read(): pmic efuse read 18,val=0x8c8e
+[00103046] sprd_pmic_efuse_read_bits(): pmic efuse read bits 288 ++ 16 0x00008c8e
+[00103053] sprd_get_adc_bat_cal(): get pmic efuse block 18, deta: 0x00008c8e
+[00103059] sprdbat_get_vbatauxadc_caldata(): adc_para from efuse is 0xd981068 0xba40e10 
+[00103158] pmic_efuse_wait_clear(): pmic efuse wait 4
+[00103164] pmic_efuse_wait_clear(): pmic efuse wait 14
+[00103169] sprd_pmic_efuse_read(): pmic efuse read 3,val=0x7b65
+[00103174] sprd_pmic_efuse_read_bits(): pmic efuse read bits 48 ++ 9 0x00000165
+[00103180] fgu:sprdfgu_cal_get(): fgu_cal_get 4.2 data data: 0x165
+[00103185] fgu:sprdfgu_cal_from_chip(): fgu_data: 0xb98
+[00103189] fgu:sprdfgu_cal_from_chip(): sprdfgu: one point
+[00103193] fgu:sprdfgu_cal_init(): 4200mv=2968, 3600mv=0
+[00103198] fgu:sprdfgu_cal_init(): fgu_cal.vol_1000mv_adc=707, vol_offset=0
+[00103203] i2c2, sprd_i2c_init() freq=100000
+[00103408] Timed out in wait_for_ack: status=210202
+[00103412] I2C_CTL = 0x182007
+[00103413] I2C_ADDR_CFG = 0x76
+[00103415] I2C_COUNT = 0x1
+[00103417] I2C_STATUS = 0x210202
+[00103419] ADDR_DVD0 = 0x33004c
+[00103420] ADDR_DVD1 = 0x0
+[00103422] ADDR_STA0_DVD = 0x68
+[00103424] i2c_reg_read: bus=2 addr=0x3b, reg=0x08, val=0x00
+[00103428] [bq2560x_i2c_init] i2c reg read fail ret=0x0
+[00103432] i2c2, sprd_i2c_init() freq=100000
+[00103436] i2c_reg_read: bus=2 addr=0x6b, reg=0x08, val=0x24
+[00103441] vendor id=0x6b, ret=0x24
+[00103443] i2c2, sprd_i2c_init() freq=100000
+[00103447] i2c_reg_read: bus=2 addr=0x6b, reg=0x0b, val=0x11
+[00103451] bq2560x_read_reg reg=0xb, value=0x11
+[00103455] i2c2, sprd_i2c_init() freq=100000
+[00103458] i2c_reg_write: bus=2 addr=0x6b, reg=0x0b, val=0x91
+[00103464] board_late_init(): CHG init OK!
+[00103467] [gpio keys] init!
+[00103469] init_log_partition_hdr(): init log type 0
+[00103485] init_log_partition_hdr(): init log type 1
+[00103496] init_log_partition_hdr(): reset log partition header
+[00103814] bootup init log success on 1 times
+[00103817] init_log_partition_hdr(): init log type 2
+[00103829] init_log_partition_hdr(): init log type 3
+[00103879] Warning: Your board does not use generic board. Please read
+[00103885] doc/README.generic-board and take action. Boards not
+[00103889] upgraded by the late 2014 may break or be removed.
+[00103894] Initial value for argc=3
+[00103896] Final value for argc=3
+[00103898] Initial value for argc=3
+[00103900] Final value for argc=3
+[00103902] do_role(): Get chipram env mode 102,go download
+[00103907] fdtdec_get_config_int: bootdelay
+[00103910] ### main_loop entered: bootdelay=0
+[00103913] fdtdec_get_config_int: kernel-offset
+[00103916] fdtdec_get_config_int: rootdisk-offset
+[00103920] fdtdec_get_config_string: bootcmd
+[00103923] fdtdec_get_config_int: bootsecure
+[00103926] ### main_loop: bootcmd="download"
+[00103929] Press q to abort autoboot in 0 secondsdo_download:enter
+[00104071] now time sec 0
+[00104072] now alarm sec 0
+[00104074] set_buf_base_size(): download buffer base 00000000b0000000, size 28000000
+alter buffer1 base 0000000092000000, size 200000
+alter buffer2 base 0000000092200000, size 200000
+[00104091] Find gpt header from user partition,emmc was used
+[00104098] mmc_set_capacity(): capacity -user: 0x1d1ec00000, -boot: 0x400000, -rpmb: 0x1000000
+[00104109] is_wr_rpmb_key rpmb key has been written
+[00104115] mmc_set_capacity(): capacity -user: 0x1d1ec00000, -boot: 0x400000, -rpmb: 0x1000000
+[00104122] The Emmc rpmb partition was used
+[00104125] dl_cmd_handler:enter
+[00105146] _decode_packet_data(): packet->body.size:0x4c, image size:0x820
+[00105151] dl_cmd_read_start(): partition_name=misc,size=0x820
+[00105156] _get_partition_attribute(): partition misc image type is RAW, normal partition!
+[00105163] dl_cmd_read_start(): operate result =1,send ack
+[00105211] _decode_packet_data(): packet->body.size:0x4c, image size:0x8000
+[00105216] dl_cmd_read_start(): partition_name=user_partition,size=0x8000
+[00105222] _get_partition_attribute(): partition user_partition image type is RAW, normal partition!
+[00105230] dl_cmd_read_start(): operate result =1,send ack
+[00116618] _decode_packet_data(): packet->body.size:0x4c, image size:0x100000
+[00116624] dl_cmd_read_start(): partition_name=vbmeta,size=0x100000
+[00116629] _get_partition_attribute(): partition vbmeta image type is RAW, normal partition!
+[00116636] dl_cmd_read_start(): operate result =1,send ack
+[00116952] _decode_packet_data(): packet->body.size:0x4c, image size:0x100000
+[00116957] dl_cmd_read_start(): partition_name=vbmeta_bak,size=0x100000
+[00116963] _get_partition_attribute(): partition vbmeta_bak image type is RAW, normal partition!
+[00116970] dl_cmd_read_start(): operate result =1,send ack
+[00191854] _decode_packet_data(): packet->body.size:0x4c, image size:0x8
+[00191860] dl_cmd_read_start(): partition_name=vbmeta,size=0x8
+[00191864] _get_partition_attribute(): partition vbmeta image type is RAW, normal partition!
+[00191871] dl_cmd_read_start(): operate result =1,send ack
+[00191915] _decode_packet_data(): packet->body.size:0x4c, image size:0xffffffff
+[00191921] dl_cmd_read_start(): partition_name=vbmeta,size=0xffffffff
+[00191927] _get_partition_attribute(): partition vbmeta image type is RAW, normal partition!
+[00191934] dl_cmd_read_start(): operate result =1,send ack
+[00191965] Error!common_raw_read(): read size(0x4 + 0x100000) overflow the total partition size(0x100000)
+[00191973] Error!dl_read_midst(): read error!
+[00191976] dl_cmd_read_midst(): operate result =2,send ack
+[00192008] dl_cmd_repartition(): Partition total num:71 
+[00192012] _parser_repartition_cfg(): Handle repartition packet version 0  
+[00192017] _parser_repartition_cfg_v0(): partition name:prodnv,partition_size:0x5000,partiton_start:0x800,
+[00192026] _parser_repartition_cfg_v0(): partition name:miscdata,partition_size:0x800,partiton_start:0x5800,
+[00192034] _parser_repartition_cfg_v0(): partition name:persist,partition_size:0x1000,partiton_start:0x6000,
+[00192043] _parser_repartition_cfg_v0(): partition name:misc,partition_size:0x1000,partiton_start:0x7000,
+[00192051] _parser_repartition_cfg_v0(): partition name:reserved0,partition_size:0x800,partiton_start:0x8000,
+[00192060] _parser_repartition_cfg_v0(): partition name:ddr_para,partition_size:0x800,partiton_start:0x8800,
+[00192068] _parser_repartition_cfg_v0(): partition name:nvme,partition_size:0x2800,partiton_start:0x9000,
+[00192077] _parser_repartition_cfg_v0(): partition name:oeminfo,partition_size:0x30000,partiton_start:0xb800,
+[00192085] _parser_repartition_cfg_v0(): partition name:cache,partition_size:0x34000,partiton_start:0x3b800,
+[00192094] _parser_repartition_cfg_v0(): partition name:updatednv,partition_size:0x1000,partiton_start:0x6f800,
+[00192103] _parser_repartition_cfg_v0(): partition name:l_fixnv1,partition_size:0x1000,partiton_start:0x70800,
+[00192111] _parser_repartition_cfg_v0(): partition name:l_fixnv2,partition_size:0x1000,partiton_start:0x71800,
+[00192120] _parser_repartition_cfg_v0(): partition name:l_runtimenv1,partition_size:0x1000,partiton_start:0x72800,
+[00192129] _parser_repartition_cfg_v0(): partition name:l_runtimenv2,partition_size:0x1000,partiton_start:0x73800,
+[00192138] _parser_repartition_cfg_v0(): partition name:gnssmodem,partition_size:0x800,partiton_start:0x74800,
+[00192147] _parser_repartition_cfg_v0(): partition name:wcnmodem,partition_size:0x5000,partiton_start:0x75000,
+[00192156] _parser_repartition_cfg_v0(): partition name:l_modem,partition_size:0xc800,partiton_start:0x7a000,
+[00192164] _parser_repartition_cfg_v0(): partition name:l_deltanv,partition_size:0x800,partiton_start:0x86800,
+[00192173] _parser_repartition_cfg_v0(): partition name:l_gdsp,partition_size:0x5000,partiton_start:0x87000,
+[00192182] _parser_repartition_cfg_v0(): partition name:l_ldsp,partition_size:0xa000,partiton_start:0x8c000,
+[00192190] _parser_repartition_cfg_v0(): partition name:l_agdsp,partition_size:0x3000,partiton_start:0x96000,
+[00192199] _parser_repartition_cfg_v0(): partition name:l_cdsp,partition_size:0x800,partiton_start:0x99000,
+[00192207] _parser_repartition_cfg_v0(): partition name:pm_sys,partition_size:0x1000,partiton_start:0x99800,
+[00192216] _parser_repartition_cfg_v0(): partition name:teecfg,partition_size:0x800,partiton_start:0x9a800,
+[00192224] _parser_repartition_cfg_v0(): partition name:teecfg_bak,partition_size:0x800,partiton_start:0x9b000,
+[00192233] _parser_repartition_cfg_v0(): partition name:reserved2,partition_size:0x1000,partiton_start:0x9b800,
+[00192242] _parser_repartition_cfg_v0(): partition name:trustos,partition_size:0x3000,partiton_start:0x9c800,
+[00192251] _parser_repartition_cfg_v0(): partition name:trustos_bak,partition_size:0x3000,partiton_start:0x9f800,
+[00192260] _parser_repartition_cfg_v0(): partition name:sml,partition_size:0x800,partiton_start:0xa2800,
+[00192268] _parser_repartition_cfg_v0(): partition name:sml_bak,partition_size:0x800,partiton_start:0xa3000,
+[00192277] _parser_repartition_cfg_v0(): partition name:uboot,partition_size:0x1800,partiton_start:0xa3800,
+[00192285] _parser_repartition_cfg_v0(): partition name:uboot_bak,partition_size:0x1800,partiton_start:0xa5000,
+[00192294] _parser_repartition_cfg_v0(): partition name:log,partition_size:0x10000,partiton_start:0xa6800,
+[00192302] _parser_repartition_cfg_v0(): partition name:bootfail_info,partition_size:0x2800,partiton_start:0xb6800,
+[00192311] _parser_repartition_cfg_v0(): partition name:rrecord,partition_size:0x6000,partiton_start:0xb9000,
+[00192320] _parser_repartition_cfg_v0(): partition name:sysdumpdb,partition_size:0x5000,partiton_start:0xbf000,
+[00192329] _parser_repartition_cfg_v0(): partition name:uboot_log,partition_size:0x2000,partiton_start:0xc4000,
+[00192338] _parser_repartition_cfg_v0(): partition name:reserved3,partition_size:0x2800,partiton_start:0xc6000,
+[00192347] _parser_repartition_cfg_v0(): partition name:dtbo,partition_size:0x4000,partiton_start:0xc8800,
+[00192355] _parser_repartition_cfg_v0(): partition name:boot,partition_size:0x11800,partiton_start:0xcc800,
+[00192363] _parser_repartition_cfg_v0(): partition name:ramdisk,partition_size:0x1000,partiton_start:0xde000,
+[00192372] _parser_repartition_cfg_v0(): partition name:w_force,partition_size:0x800,partiton_start:0xdf000,
+[00192381] _parser_repartition_cfg_v0(): partition name:vbmeta_bak,partition_size:0x800,partiton_start:0xdf800,
+[00192389] _parser_repartition_cfg_v0(): partition name:metadata,partition_size:0x8000,partiton_start:0xe0000,
+[00192398] _parser_repartition_cfg_v0(): partition name:vbmeta_system,partition_size:0x800,partiton_start:0xe8000,
+[00192407] _parser_repartition_cfg_v0(): partition name:vbmeta_vendor,partition_size:0x800,partiton_start:0xe8800,
+[00192416] _parser_repartition_cfg_v0(): partition name:vbmeta_odm,partition_size:0x800,partiton_start:0xe9000,
+[00192425] _parser_repartition_cfg_v0(): partition name:vbmeta_cust,partition_size:0x800,partiton_start:0xe9800,
+[00192434] _parser_repartition_cfg_v0(): partition name:vbmeta_hw_product,partition_size:0x800,partiton_start:0xea000,
+[00192444] _parser_repartition_cfg_v0(): partition name:recovery_vbmeta,partition_size:0x800,partiton_start:0xea800,
+[00192453] _parser_repartition_cfg_v0(): partition name:recovery,partition_size:0x16800,partiton_start:0xeb000,
+[00192462] _parser_repartition_cfg_v0(): partition name:recovery_ramdisk,partition_size:0x10000,partiton_start:0x101800,
+[00192471] _parser_repartition_cfg_v0(): partition name:recovery_vendor,partition_size:0xc000,partiton_start:0x111800,
+[00192481] _parser_repartition_cfg_v0(): partition name:erecovery_vbmeta,partition_size:0x800,partiton_start:0x11d800,
+[00192490] _parser_repartition_cfg_v0(): partition name:erecovery,partition_size:0x16800,partiton_start:0x11e000,
+[00192499] _parser_repartition_cfg_v0(): partition name:erecovery_ramdisk,partition_size:0x10000,partiton_start:0x134800,
+[00192509] _parser_repartition_cfg_v0(): partition name:erecovery_vendor,partition_size:0xc000,partiton_start:0x144800,
+[00192518] _parser_repartition_cfg_v0(): partition name:socko,partition_size:0x25800,partiton_start:0x150800,
+[00192527] _parser_repartition_cfg_v0(): partition name:odmko,partition_size:0xc800,partiton_start:0x176000,
+[00192536] _parser_repartition_cfg_v0(): partition name:eng_vendor,partition_size:0x6000,partiton_start:0x182800,
+[00192545] _parser_repartition_cfg_v0(): partition name:eng_system,partition_size:0xc800,partiton_start:0x188800,
+[00192554] _parser_repartition_cfg_v0(): partition name:patch,partition_size:0x40000,partiton_start:0x195000,
+[00192562] _parser_repartition_cfg_v0(): partition name:kpatch,partition_size:0x2000,partiton_start:0x1d5000,
+[00192571] _parser_repartition_cfg_v0(): partition name:reserved4,partition_size:0x1800,partiton_start:0x1d7000,
+[00192580] _parser_repartition_cfg_v0(): partition name:preas,partition_size:0x9c000,partiton_start:0x1d8800,
+[00192588] _parser_repartition_cfg_v0(): partition name:preavs,partition_size:0x10000,partiton_start:0x274800,
+[00192597] _parser_repartition_cfg_v0(): partition name:super,partition_size:0xafc000,partiton_start:0x284800,
+[00192606] _parser_repartition_cfg_v0(): partition name:version,partition_size:0x10000,partiton_start:0xd80800,
+[00192615] _parser_repartition_cfg_v0(): partition name:preload,partition_size:0x2f0000,partiton_start:0xd90800,
+[00192624] _parser_repartition_cfg_v0(): partition name:flash_ageing,partition_size:0x100000,partiton_start:0x1080800,
+[00192633] _parser_repartition_cfg_v0(): partition name:userdata,partition_size:0x0,partiton_start:0x1180800,
+[00192642] gpt_fill_pte: name: prodnv offset[0]: 0x5800 size[0]: 0x5000
+[00192647] gpt_fill_pte: name: miscdata offset[1]: 0x6000 size[1]: 0x800
+[00192653] gpt_fill_pte: name: persist offset[2]: 0x7000 size[2]: 0x1000
+[00192658] gpt_fill_pte: name: misc offset[3]: 0x8000 size[3]: 0x1000
+[00192663] gpt_fill_pte: name: reserved0 offset[4]: 0x8800 size[4]: 0x800
+[00192669] gpt_fill_pte: name: ddr_para offset[5]: 0x9000 size[5]: 0x800
+[00192674] gpt_fill_pte: name: nvme offset[6]: 0xb800 size[6]: 0x2800
+[00192679] gpt_fill_pte: name: oeminfo offset[7]: 0x3b800 size[7]: 0x30000
+[00192685] gpt_fill_pte: name: cache offset[8]: 0x6f800 size[8]: 0x34000
+[00192690] gpt_fill_pte: name: updatednv offset[9]: 0x70800 size[9]: 0x1000
+[00192696] gpt_fill_pte: name: l_fixnv1 offset[10]: 0x71800 size[10]: 0x1000
+[00192702] gpt_fill_pte: name: l_fixnv2 offset[11]: 0x72800 size[11]: 0x1000
+[00192708] gpt_fill_pte: name: l_runtimenv1 offset[12]: 0x73800 size[12]: 0x1000
+[00192714] gpt_fill_pte: name: l_runtimenv2 offset[13]: 0x74800 size[13]: 0x1000
+[00192720] gpt_fill_pte: name: gnssmodem offset[14]: 0x75000 size[14]: 0x800
+[00192726] gpt_fill_pte: name: wcnmodem offset[15]: 0x7a000 size[15]: 0x5000
+[00192732] gpt_fill_pte: name: l_modem offset[16]: 0x86800 size[16]: 0xc800
+[00192737] gpt_fill_pte: name: l_deltanv offset[17]: 0x87000 size[17]: 0x800
+[00192743] gpt_fill_pte: name: l_gdsp offset[18]: 0x8c000 size[18]: 0x5000
+[00192749] gpt_fill_pte: name: l_ldsp offset[19]: 0x96000 size[19]: 0xa000
+[00192754] gpt_fill_pte: name: l_agdsp offset[20]: 0x99000 size[20]: 0x3000
+[00192760] gpt_fill_pte: name: l_cdsp offset[21]: 0x99800 size[21]: 0x800
+[00192766] gpt_fill_pte: name: pm_sys offset[22]: 0x9a800 size[22]: 0x1000
+[00192771] gpt_fill_pte: name: teecfg offset[23]: 0x9b000 size[23]: 0x800
+[00192777] gpt_fill_pte: name: teecfg_bak offset[24]: 0x9b800 size[24]: 0x800
+[00192783] gpt_fill_pte: name: reserved2 offset[25]: 0x9c800 size[25]: 0x1000
+[00192789] gpt_fill_pte: name: trustos offset[26]: 0x9f800 size[26]: 0x3000
+[00192794] gpt_fill_pte: name: trustos_bak offset[27]: 0xa2800 size[27]: 0x3000
+[00192800] gpt_fill_pte: name: sml offset[28]: 0xa3000 size[28]: 0x800
+[00192806] gpt_fill_pte: name: sml_bak offset[29]: 0xa3800 size[29]: 0x800
+[00192811] gpt_fill_pte: name: uboot offset[30]: 0xa5000 size[30]: 0x1800
+[00192817] gpt_fill_pte: name: uboot_bak offset[31]: 0xa6800 size[31]: 0x1800
+[00192823] gpt_fill_pte: name: log offset[32]: 0xb6800 size[32]: 0x10000
+[00192828] gpt_fill_pte: name: bootfail_info offset[33]: 0xb9000 size[33]: 0x2800
+[00192834] gpt_fill_pte: name: rrecord offset[34]: 0xbf000 size[34]: 0x6000
+[00192840] gpt_fill_pte: name: sysdumpdb offset[35]: 0xc4000 size[35]: 0x5000
+[00192846] gpt_fill_pte: name: uboot_log offset[36]: 0xc6000 size[36]: 0x2000
+[00192852] gpt_fill_pte: name: reserved3 offset[37]: 0xc8800 size[37]: 0x2800
+[00192858] gpt_fill_pte: name: dtbo offset[38]: 0xcc800 size[38]: 0x4000
+[00192863] gpt_fill_pte: name: boot offset[39]: 0xde000 size[39]: 0x11800
+[00192869] gpt_fill_pte: name: ramdisk offset[40]: 0xdf000 size[40]: 0x1000
+[00192874] gpt_fill_pte: name: w_force offset[41]: 0xdf800 size[41]: 0x800
+[00192880] gpt_fill_pte: name: vbmeta_bak offset[42]: 0xe0000 size[42]: 0x800
+[00192886] gpt_fill_pte: name: metadata offset[43]: 0xe8000 size[43]: 0x8000
+[00192892] gpt_fill_pte: name: vbmeta_system offset[44]: 0xe8800 size[44]: 0x800
+[00192898] gpt_fill_pte: name: vbmeta_vendor offset[45]: 0xe9000 size[45]: 0x800
+[00192904] gpt_fill_pte: name: vbmeta_odm offset[46]: 0xe9800 size[46]: 0x800
+[00192910] gpt_fill_pte: name: vbmeta_cust offset[47]: 0xea000 size[47]: 0x800
+[00192916] gpt_fill_pte: name: vbmeta_hw_product offset[48]: 0xea800 size[48]: 0x800
+[00192922] gpt_fill_pte: name: recovery_vbmeta offset[49]: 0xeb000 size[49]: 0x800
+[00192929] gpt_fill_pte: name: recovery offset[50]: 0x101800 size[50]: 0x16800
+[00192935] gpt_fill_pte: name: recovery_ramdisk offset[51]: 0x111800 size[51]: 0x10000
+[00192941] gpt_fill_pte: name: recovery_vendor offset[52]: 0x11d800 size[52]: 0xc000
+[00192948] gpt_fill_pte: name: erecovery_vbmeta offset[53]: 0x11e000 size[53]: 0x800
+[00192954] gpt_fill_pte: name: erecovery offset[54]: 0x134800 size[54]: 0x16800
+[00192960] gpt_fill_pte: name: erecovery_ramdisk offset[55]: 0x144800 size[55]: 0x10000
+[00192967] gpt_fill_pte: name: erecovery_vendor offset[56]: 0x150800 size[56]: 0xc000
+[00192974] gpt_fill_pte: name: socko offset[57]: 0x176000 size[57]: 0x25800
+[00192979] gpt_fill_pte: name: odmko offset[58]: 0x182800 size[58]: 0xc800
+[00192985] gpt_fill_pte: name: eng_vendor offset[59]: 0x188800 size[59]: 0x6000
+[00192991] gpt_fill_pte: name: eng_system offset[60]: 0x195000 size[60]: 0xc800
+[00192997] gpt_fill_pte: name: patch offset[61]: 0x1d5000 size[61]: 0x40000
+[00193003] gpt_fill_pte: name: kpatch offset[62]: 0x1d7000 size[62]: 0x2000
+[00193009] gpt_fill_pte: name: reserved4 offset[63]: 0x1d8800 size[63]: 0x1800
+[00193015] gpt_fill_pte: name: preas offset[64]: 0x274800 size[64]: 0x9c000
+[00193020] gpt_fill_pte: name: preavs offset[65]: 0x284800 size[65]: 0x10000
+[00193026] gpt_fill_pte: name: super offset[66]: 0xd80800 size[66]: 0xafc000
+[00193032] gpt_fill_pte: name: version offset[67]: 0xd90800 size[67]: 0x10000
+[00193038] gpt_fill_pte: name: preload offset[68]: 0x1080800 size[68]: 0x2f0000
+[00193044] gpt_fill_pte: name: flash_ageing offset[69]: 0x1180800 size[69]: 0x100000
+[00193050] gpt_fill_pte: name: userdata offset[70]: 0x1180800 size[70]: 0x0
+[00193056] max lba: e8f6000
+[00193082] GPT successfully written to block device!
+[00193088] dl_repartition(): partition_info backup !
+[00193092] init_log_partition_hdr(): init log type 0
+[00193103] init_log_partition_hdr(): init log type 1
+[00193115] bootup init log success on 2 times
+[00193118] init_log_partition_hdr(): init log type 2
+[00193130] init_log_partition_hdr(): init log type 3
+[00193180] dl_cmd_repartition(): Partition total num:71 
+[00193184] _parser_repartition_cfg(): Handle repartition packet version 0  
+[00193190] _parser_repartition_cfg_v0(): partition name:prodnv,partition_size:0x5000,partiton_start:0x800,
+[00193198] _parser_repartition_cfg_v0(): partition name:miscdata,partition_size:0x800,partiton_start:0x5800,
+[00193207] _parser_repartition_cfg_v0(): partition name:persist,partition_size:0x1000,partiton_start:0x6000,
+[00193215] _parser_repartition_cfg_v0(): partition name:misc,partition_size:0x1000,partiton_start:0x7000,
+[00193224] _parser_repartition_cfg_v0(): partition name:reserved0,partition_size:0x800,partiton_start:0x8000,
+[00193232] _parser_repartition_cfg_v0(): partition name:ddr_para,partition_size:0x800,partiton_start:0x8800,
+[00193241] _parser_repartition_cfg_v0(): partition name:nvme,partition_size:0x2800,partiton_start:0x9000,
+[00193249] _parser_repartition_cfg_v0(): partition name:oeminfo,partition_size:0x30000,partiton_start:0xb800,
+[00193258] _parser_repartition_cfg_v0(): partition name:cache,partition_size:0x34000,partiton_start:0x3b800,
+[00193266] _parser_repartition_cfg_v0(): partition name:updatednv,partition_size:0x1000,partiton_start:0x6f800,
+[00193275] _parser_repartition_cfg_v0(): partition name:l_fixnv1,partition_size:0x1000,partiton_start:0x70800,
+[00193284] _parser_repartition_cfg_v0(): partition name:l_fixnv2,partition_size:0x1000,partiton_start:0x71800,
+[00193293] _parser_repartition_cfg_v0(): partition name:l_runtimenv1,partition_size:0x1000,partiton_start:0x72800,
+[00193302] _parser_repartition_cfg_v0(): partition name:l_runtimenv2,partition_size:0x1000,partiton_start:0x73800,
+[00193311] _parser_repartition_cfg_v0(): partition name:gnssmodem,partition_size:0x800,partiton_start:0x74800,
+[00193320] _parser_repartition_cfg_v0(): partition name:wcnmodem,partition_size:0x5000,partiton_start:0x75000,
+[00193328] _parser_repartition_cfg_v0(): partition name:l_modem,partition_size:0xc800,partiton_start:0x7a000,
+[00193337] _parser_repartition_cfg_v0(): partition name:l_deltanv,partition_size:0x800,partiton_start:0x86800,
+[00193346] _parser_repartition_cfg_v0(): partition name:l_gdsp,partition_size:0x5000,partiton_start:0x87000,
+[00193354] _parser_repartition_cfg_v0(): partition name:l_ldsp,partition_size:0xa000,partiton_start:0x8c000,
+[00193363] _parser_repartition_cfg_v0(): partition name:l_agdsp,partition_size:0x3000,partiton_start:0x96000,
+[00193371] _parser_repartition_cfg_v0(): partition name:l_cdsp,partition_size:0x800,partiton_start:0x99000,
+[00193380] _parser_repartition_cfg_v0(): partition name:pm_sys,partition_size:0x1000,partiton_start:0x99800,
+[00193389] _parser_repartition_cfg_v0(): partition name:teecfg,partition_size:0x800,partiton_start:0x9a800,
+[00193397] _parser_repartition_cfg_v0(): partition name:teecfg_bak,partition_size:0x800,partiton_start:0x9b000,
+[00193406] _parser_repartition_cfg_v0(): partition name:reserved2,partition_size:0x1000,partiton_start:0x9b800,
+[00193415] _parser_repartition_cfg_v0(): partition name:trustos,partition_size:0x3000,partiton_start:0x9c800,
+[00193423] _parser_repartition_cfg_v0(): partition name:trustos_bak,partition_size:0x3000,partiton_start:0x9f800,
+[00193432] _parser_repartition_cfg_v0(): partition name:sml,partition_size:0x800,partiton_start:0xa2800,
+[00193441] _parser_repartition_cfg_v0(): partition name:sml_bak,partition_size:0x800,partiton_start:0xa3000,
+[00193449] _parser_repartition_cfg_v0(): partition name:uboot,partition_size:0x1800,partiton_start:0xa3800,
+[00193458] _parser_repartition_cfg_v0(): partition name:uboot_bak,partition_size:0x1800,partiton_start:0xa5000,
+[00193466] _parser_repartition_cfg_v0(): partition name:log,partition_size:0x10000,partiton_start:0xa6800,
+[00193475] _parser_repartition_cfg_v0(): partition name:bootfail_info,partition_size:0x2800,partiton_start:0xb6800,
+[00193484] _parser_repartition_cfg_v0(): partition name:rrecord,partition_size:0x6000,partiton_start:0xb9000,
+[00193493] _parser_repartition_cfg_v0(): partition name:sysdumpdb,partition_size:0x5000,partiton_start:0xbf000,
+[00193501] _parser_repartition_cfg_v0(): partition name:uboot_log,partition_size:0x2000,partiton_start:0xc4000,
+[00193510] _parser_repartition_cfg_v0(): partition name:reserved3,partition_size:0x2800,partiton_start:0xc6000,
+[00193519] _parser_repartition_cfg_v0(): partition name:dtbo,partition_size:0x4000,partiton_start:0xc8800,
+[00193527] _parser_repartition_cfg_v0(): partition name:boot,partition_size:0x11800,partiton_start:0xcc800,
+[00193536] _parser_repartition_cfg_v0(): partition name:ramdisk,partition_size:0x1000,partiton_start:0xde000,
+[00193545] _parser_repartition_cfg_v0(): partition name:w_force,partition_size:0x800,partiton_start:0xdf000,
+[00193553] _parser_repartition_cfg_v0(): partition name:vbmeta_bak,partition_size:0x800,partiton_start:0xdf800,
+[00193562] _parser_repartition_cfg_v0(): partition name:metadata,partition_size:0x8000,partiton_start:0xe0000,
+[00193571] _parser_repartition_cfg_v0(): partition name:vbmeta_system,partition_size:0x800,partiton_start:0xe8000,
+[00193580] _parser_repartition_cfg_v0(): partition name:vbmeta_vendor,partition_size:0x800,partiton_start:0xe8800,
+[00193589] _parser_repartition_cfg_v0(): partition name:vbmeta_odm,partition_size:0x800,partiton_start:0xe9000,
+[00193598] _parser_repartition_cfg_v0(): partition name:vbmeta_cust,partition_size:0x800,partiton_start:0xe9800,
+[00193607] _parser_repartition_cfg_v0(): partition name:vbmeta_hw_product,partition_size:0x800,partiton_start:0xea000,
+[00193616] _parser_repartition_cfg_v0(): partition name:recovery_vbmeta,partition_size:0x800,partiton_start:0xea800,
+[00193625] _parser_repartition_cfg_v0(): partition name:recovery,partition_size:0x16800,partiton_start:0xeb000,
+[00193634] _parser_repartition_cfg_v0(): partition name:recovery_ramdisk,partition_size:0x10000,partiton_start:0x101800,
+[00193644] _parser_repartition_cfg_v0(): partition name:recovery_vendor,partition_size:0xc000,partiton_start:0x111800,
+[00193653] _parser_repartition_cfg_v0(): partition name:erecovery_vbmeta,partition_size:0x800,partiton_start:0x11d800,
+[00193663] _parser_repartition_cfg_v0(): partition name:erecovery,partition_size:0x16800,partiton_start:0x11e000,
+[00193672] _parser_repartition_cfg_v0(): partition name:erecovery_ramdisk,partition_size:0x10000,partiton_start:0x134800,
+[00193681] _parser_repartition_cfg_v0(): partition name:erecovery_vendor,partition_size:0xc000,partiton_start:0x144800,
+[00193691] _parser_repartition_cfg_v0(): partition name:socko,partition_size:0x25800,partiton_start:0x150800,
+[00193700] _parser_repartition_cfg_v0(): partition name:odmko,partition_size:0xc800,partiton_start:0x176000,
+[00193708] _parser_repartition_cfg_v0(): partition name:eng_vendor,partition_size:0x6000,partiton_start:0x182800,
+[00193717] _parser_repartition_cfg_v0(): partition name:eng_system,partition_size:0xc800,partiton_start:0x188800,
+[00193726] _parser_repartition_cfg_v0(): partition name:patch,partition_size:0x40000,partiton_start:0x195000,
+[00193735] _parser_repartition_cfg_v0(): partition name:kpatch,partition_size:0x2000,partiton_start:0x1d5000,
+[00193743] _parser_repartition_cfg_v0(): partition name:reserved4,partition_size:0x1800,partiton_start:0x1d7000,
+[00193752] _parser_repartition_cfg_v0(): partition name:preas,partition_size:0x9c000,partiton_start:0x1d8800,
+[00193761] _parser_repartition_cfg_v0(): partition name:preavs,partition_size:0x10000,partiton_start:0x274800,
+[00193770] _parser_repartition_cfg_v0(): partition name:super,partition_size:0xafc000,partiton_start:0x284800,
+[00193778] _parser_repartition_cfg_v0(): partition name:version,partition_size:0x10000,partiton_start:0xd80800,
+[00193787] _parser_repartition_cfg_v0(): partition name:preload,partition_size:0x2f0000,partiton_start:0xd90800,
+[00193796] _parser_repartition_cfg_v0(): partition name:flash_ageing,partition_size:0x100000,partiton_start:0x1080800,
+[00193806] _parser_repartition_cfg_v0(): partition name:userdata,partition_size:0x0,partiton_start:0x1180800,
+[00193814] gpt_fill_pte: name: prodnv offset[0]: 0x5800 size[0]: 0x5000
+[00193820] gpt_fill_pte: name: miscdata offset[1]: 0x6000 size[1]: 0x800
+[00193825] gpt_fill_pte: name: persist offset[2]: 0x7000 size[2]: 0x1000
+[00193831] gpt_fill_pte: name: misc offset[3]: 0x8000 size[3]: 0x1000
+[00193836] gpt_fill_pte: name: reserved0 offset[4]: 0x8800 size[4]: 0x800
+[00193841] gpt_fill_pte: name: ddr_para offset[5]: 0x9000 size[5]: 0x800
+[00193847] gpt_fill_pte: name: nvme offset[6]: 0xb800 size[6]: 0x2800
+[00193852] gpt_fill_pte: name: oeminfo offset[7]: 0x3b800 size[7]: 0x30000
+[00193858] gpt_fill_pte: name: cache offset[8]: 0x6f800 size[8]: 0x34000
+[00193863] gpt_fill_pte: name: updatednv offset[9]: 0x70800 size[9]: 0x1000
+[00193869] gpt_fill_pte: name: l_fixnv1 offset[10]: 0x71800 size[10]: 0x1000
+[00193875] gpt_fill_pte: name: l_fixnv2 offset[11]: 0x72800 size[11]: 0x1000
+[00193880] gpt_fill_pte: name: l_runtimenv1 offset[12]: 0x73800 size[12]: 0x1000
+[00193886] gpt_fill_pte: name: l_runtimenv2 offset[13]: 0x74800 size[13]: 0x1000
+[00193893] gpt_fill_pte: name: gnssmodem offset[14]: 0x75000 size[14]: 0x800
+[00193898] gpt_fill_pte: name: wcnmodem offset[15]: 0x7a000 size[15]: 0x5000
+[00193904] gpt_fill_pte: name: l_modem offset[16]: 0x86800 size[16]: 0xc800
+[00193910] gpt_fill_pte: name: l_deltanv offset[17]: 0x87000 size[17]: 0x800
+[00193916] gpt_fill_pte: name: l_gdsp offset[18]: 0x8c000 size[18]: 0x5000
+[00193921] gpt_fill_pte: name: l_ldsp offset[19]: 0x96000 size[19]: 0xa000
+[00193927] gpt_fill_pte: name: l_agdsp offset[20]: 0x99000 size[20]: 0x3000
+[00193933] gpt_fill_pte: name: l_cdsp offset[21]: 0x99800 size[21]: 0x800
+[00193938] gpt_fill_pte: name: pm_sys offset[22]: 0x9a800 size[22]: 0x1000
+[00193944] gpt_fill_pte: name: teecfg offset[23]: 0x9b000 size[23]: 0x800
+[00193949] gpt_fill_pte: name: teecfg_bak offset[24]: 0x9b800 size[24]: 0x800
+[00193955] gpt_fill_pte: name: reserved2 offset[25]: 0x9c800 size[25]: 0x1000
+[00193961] gpt_fill_pte: name: trustos offset[26]: 0x9f800 size[26]: 0x3000
+[00193967] gpt_fill_pte: name: trustos_bak offset[27]: 0xa2800 size[27]: 0x3000
+[00193973] gpt_fill_pte: name: sml offset[28]: 0xa3000 size[28]: 0x800
+[00193978] gpt_fill_pte: name: sml_bak offset[29]: 0xa3800 size[29]: 0x800
+[00193984] gpt_fill_pte: name: uboot offset[30]: 0xa5000 size[30]: 0x1800
+[00193989] gpt_fill_pte: name: uboot_bak offset[31]: 0xa6800 size[31]: 0x1800
+[00193995] gpt_fill_pte: name: log offset[32]: 0xb6800 size[32]: 0x10000
+[00194001] gpt_fill_pte: name: bootfail_info offset[33]: 0xb9000 size[33]: 0x2800
+[00194007] gpt_fill_pte: name: rrecord offset[34]: 0xbf000 size[34]: 0x6000
+[00194013] gpt_fill_pte: name: sysdumpdb offset[35]: 0xc4000 size[35]: 0x5000
+[00194018] gpt_fill_pte: name: uboot_log offset[36]: 0xc6000 size[36]: 0x2000
+[00194024] gpt_fill_pte: name: reserved3 offset[37]: 0xc8800 size[37]: 0x2800
+[00194030] gpt_fill_pte: name: dtbo offset[38]: 0xcc800 size[38]: 0x4000
+[00194036] gpt_fill_pte: name: boot offset[39]: 0xde000 size[39]: 0x11800
+[00194041] gpt_fill_pte: name: ramdisk offset[40]: 0xdf000 size[40]: 0x1000
+[00194047] gpt_fill_pte: name: w_force offset[41]: 0xdf800 size[41]: 0x800
+[00194053] gpt_fill_pte: name: vbmeta_bak offset[42]: 0xe0000 size[42]: 0x800
+[00194058] gpt_fill_pte: name: metadata offset[43]: 0xe8000 size[43]: 0x8000
+[00194064] gpt_fill_pte: name: vbmeta_system offset[44]: 0xe8800 size[44]: 0x800
+[00194070] gpt_fill_pte: name: vbmeta_vendor offset[45]: 0xe9000 size[45]: 0x800
+[00194077] gpt_fill_pte: name: vbmeta_odm offset[46]: 0xe9800 size[46]: 0x800
+[00194082] gpt_fill_pte: name: vbmeta_cust offset[47]: 0xea000 size[47]: 0x800
+[00194088] gpt_fill_pte: name: vbmeta_hw_product offset[48]: 0xea800 size[48]: 0x800
+[00194095] gpt_fill_pte: name: recovery_vbmeta offset[49]: 0xeb000 size[49]: 0x800
+[00194101] gpt_fill_pte: name: recovery offset[50]: 0x101800 size[50]: 0x16800
+[00194107] gpt_fill_pte: name: recovery_ramdisk offset[51]: 0x111800 size[51]: 0x10000
+[00194114] gpt_fill_pte: name: recovery_vendor offset[52]: 0x11d800 size[52]: 0xc000
+[00194120] gpt_fill_pte: name: erecovery_vbmeta offset[53]: 0x11e000 size[53]: 0x800
+[00194127] gpt_fill_pte: name: erecovery offset[54]: 0x134800 size[54]: 0x16800
+[00194133] gpt_fill_pte: name: erecovery_ramdisk offset[55]: 0x144800 size[55]: 0x10000
+[00194140] gpt_fill_pte: name: erecovery_vendor offset[56]: 0x150800 size[56]: 0xc000
+[00194146] gpt_fill_pte: name: socko offset[57]: 0x176000 size[57]: 0x25800
+[00194152] gpt_fill_pte: name: odmko offset[58]: 0x182800 size[58]: 0xc800
+[00194158] gpt_fill_pte: name: eng_vendor offset[59]: 0x188800 size[59]: 0x6000
+[00194164] gpt_fill_pte: name: eng_system offset[60]: 0x195000 size[60]: 0xc800
+[00194170] gpt_fill_pte: name: patch offset[61]: 0x1d5000 size[61]: 0x40000
+[00194175] gpt_fill_pte: name: kpatch offset[62]: 0x1d7000 size[62]: 0x2000
+[00194181] gpt_fill_pte: name: reserved4 offset[63]: 0x1d8800 size[63]: 0x1800
+[00194187] gpt_fill_pte: name: preas offset[64]: 0x274800 size[64]: 0x9c000
+[00194193] gpt_fill_pte: name: preavs offset[65]: 0x284800 size[65]: 0x10000
+[00194199] gpt_fill_pte: name: super offset[66]: 0xd80800 size[66]: 0xafc000
+[00194204] gpt_fill_pte: name: version offset[67]: 0xd90800 size[67]: 0x10000
+[00194210] gpt_fill_pte: name: preload offset[68]: 0x1080800 size[68]: 0x2f0000
+[00194216] gpt_fill_pte: name: flash_ageing offset[69]: 0x1180800 size[69]: 0x100000
+[00194223] gpt_fill_pte: name: userdata offset[70]: 0x1180800 size[70]: 0x0
+[00194229] max lba: e8f6000
+[00194255] GPT successfully written to block device!
+[00194260] dl_repartition(): partition_info backup !
+[00194264] init_log_partition_hdr(): init log type 0
+[00194276] init_log_partition_hdr(): init log type 1
+[00194287] bootup init log success on 2 times
+[00194290] init_log_partition_hdr(): init log type 2
+[00194302] init_log_partition_hdr(): init log type 3
+[00194352] _decode_packet_data(): packet->body.size:0x4c, image size:0x100000
+[00194358] dl_cmd_write_start(): partition_name=w_force,size=0x100000,checksum=0x0
+[00194364] _get_partition_attribute(): partition w_force image type is RAW, normal partition!
+[00194372] dl_cmd_write_start(): operate result =1,send ack
+[00194403] _decode_packet_data(): packet->body.size:0x4c, image size:0x100000
+[00194408] dl_cmd_write_start(): partition_name=w_force,size=0x100000,checksum=0x0
+[00194415] _get_partition_attribute(): partition w_force image type is RAW, normal partition!
+[00194422] dl_cmd_write_start(): operate result =1,send ack
+[00194683] dl_secure_process_flow(): w_force partition isn't secure image need to verify 
+[00194757] dl_cmd_repartition(): Partition total num:71 
+[00194760] _parser_repartition_cfg(): Handle repartition packet version 0  
+[00194766] _parser_repartition_cfg_v0(): partition name:prodnv,partition_size:0x5000,partiton_start:0x800,
+[00194775] _parser_repartition_cfg_v0(): partition name:miscdata,partition_size:0x800,partiton_start:0x5800,
+[00194783] _parser_repartition_cfg_v0(): partition name:persist,partition_size:0x1000,partiton_start:0x6000,
+[00194792] _parser_repartition_cfg_v0(): partition name:misc,partition_size:0x1000,partiton_start:0x7000,
+[00194800] _parser_repartition_cfg_v0(): partition name:reserved0,partition_size:0x800,partiton_start:0x8000,
+[00194809] _parser_repartition_cfg_v0(): partition name:ddr_para,partition_size:0x800,partiton_start:0x8800,
+[00194817] _parser_repartition_cfg_v0(): partition name:nvme,partition_size:0x2800,partiton_start:0x9000,
+[00194826] _parser_repartition_cfg_v0(): partition name:oeminfo,partition_size:0x30000,partiton_start:0xb800,
+[00194834] _parser_repartition_cfg_v0(): partition name:cache,partition_size:0x34000,partiton_start:0x3b800,
+[00194843] _parser_repartition_cfg_v0(): partition name:updatednv,partition_size:0x1000,partiton_start:0x6f800,
+[00194852] _parser_repartition_cfg_v0(): partition name:l_fixnv1,partition_size:0x1000,partiton_start:0x70800,
+[00194860] _parser_repartition_cfg_v0(): partition name:l_fixnv2,partition_size:0x1000,partiton_start:0x71800,
+[00194869] _parser_repartition_cfg_v0(): partition name:l_runtimenv1,partition_size:0x1000,partiton_start:0x72800,
+[00194878] _parser_repartition_cfg_v0(): partition name:l_runtimenv2,partition_size:0x1000,partiton_start:0x73800,
+[00194887] _parser_repartition_cfg_v0(): partition name:gnssmodem,partition_size:0x800,partiton_start:0x74800,
+[00194896] _parser_repartition_cfg_v0(): partition name:wcnmodem,partition_size:0x5000,partiton_start:0x75000,
+[00194905] _parser_repartition_cfg_v0(): partition name:l_modem,partition_size:0xc800,partiton_start:0x7a000,
+[00194913] _parser_repartition_cfg_v0(): partition name:l_deltanv,partition_size:0x800,partiton_start:0x86800,
+[00194922] _parser_repartition_cfg_v0(): partition name:l_gdsp,partition_size:0x5000,partiton_start:0x87000,
+[00194931] _parser_repartition_cfg_v0(): partition name:l_ldsp,partition_size:0xa000,partiton_start:0x8c000,
+[00194939] _parser_repartition_cfg_v0(): partition name:l_agdsp,partition_size:0x3000,partiton_start:0x96000,
+[00194948] _parser_repartition_cfg_v0(): partition name:l_cdsp,partition_size:0x800,partiton_start:0x99000,
+[00194956] _parser_repartition_cfg_v0(): partition name:pm_sys,partition_size:0x1000,partiton_start:0x99800,
+[00194965] _parser_repartition_cfg_v0(): partition name:teecfg,partition_size:0x800,partiton_start:0x9a800,
+[00194973] _parser_repartition_cfg_v0(): partition name:teecfg_bak,partition_size:0x800,partiton_start:0x9b000,
+[00194982] _parser_repartition_cfg_v0(): partition name:reserved2,partition_size:0x1000,partiton_start:0x9b800,
+[00194991] _parser_repartition_cfg_v0(): partition name:trustos,partition_size:0x3000,partiton_start:0x9c800,
+[00195000] _parser_repartition_cfg_v0(): partition name:trustos_bak,partition_size:0x3000,partiton_start:0x9f800,
+[00195009] _parser_repartition_cfg_v0(): partition name:sml,partition_size:0x800,partiton_start:0xa2800,
+[00195017] _parser_repartition_cfg_v0(): partition name:sml_bak,partition_size:0x800,partiton_start:0xa3000,
+[00195026] _parser_repartition_cfg_v0(): partition name:uboot,partition_size:0x1800,partiton_start:0xa3800,
+[00195034] _parser_repartition_cfg_v0(): partition name:uboot_bak,partition_size:0x1800,partiton_start:0xa5000,
+[00195043] _parser_repartition_cfg_v0(): partition name:log,partition_size:0x10000,partiton_start:0xa6800,
+[00195051] _parser_repartition_cfg_v0(): partition name:bootfail_info,partition_size:0x2800,partiton_start:0xb6800,
+[00195060] _parser_repartition_cfg_v0(): partition name:rrecord,partition_size:0x6000,partiton_start:0xb9000,
+[00195069] _parser_repartition_cfg_v0(): partition name:sysdumpdb,partition_size:0x5000,partiton_start:0xbf000,
+[00195078] _parser_repartition_cfg_v0(): partition name:uboot_log,partition_size:0x2000,partiton_start:0xc4000,
+[00195087] _parser_repartition_cfg_v0(): partition name:reserved3,partition_size:0x2800,partiton_start:0xc6000,
+[00195096] _parser_repartition_cfg_v0(): partition name:dtbo,partition_size:0x4000,partiton_start:0xc8800,
+[00195104] _parser_repartition_cfg_v0(): partition name:boot,partition_size:0x11800,partiton_start:0xcc800,
+[00195112] _parser_repartition_cfg_v0(): partition name:ramdisk,partition_size:0x1000,partiton_start:0xde000,
+[00195121] _parser_repartition_cfg_v0(): partition name:vbmeta,partition_size:0x800,partiton_start:0xdf000,
+[00195130] _parser_repartition_cfg_v0(): partition name:vbmeta_bak,partition_size:0x800,partiton_start:0xdf800,
+[00195138] _parser_repartition_cfg_v0(): partition name:metadata,partition_size:0x8000,partiton_start:0xe0000,
+[00195147] _parser_repartition_cfg_v0(): partition name:vbmeta_system,partition_size:0x800,partiton_start:0xe8000,
+[00195156] _parser_repartition_cfg_v0(): partition name:vbmeta_vendor,partition_size:0x800,partiton_start:0xe8800,
+[00195165] _parser_repartition_cfg_v0(): partition name:vbmeta_odm,partition_size:0x800,partiton_start:0xe9000,
+[00195174] _parser_repartition_cfg_v0(): partition name:vbmeta_cust,partition_size:0x800,partiton_start:0xe9800,
+[00195183] _parser_repartition_cfg_v0(): partition name:vbmeta_hw_product,partition_size:0x800,partiton_start:0xea000,
+[00195193] _parser_repartition_cfg_v0(): partition name:recovery_vbmeta,partition_size:0x800,partiton_start:0xea800,
+[00195202] _parser_repartition_cfg_v0(): partition name:recovery,partition_size:0x16800,partiton_start:0xeb000,
+[00195211] _parser_repartition_cfg_v0(): partition name:recovery_ramdisk,partition_size:0x10000,partiton_start:0x101800,
+[00195220] _parser_repartition_cfg_v0(): partition name:recovery_vendor,partition_size:0xc000,partiton_start:0x111800,
+[00195230] _parser_repartition_cfg_v0(): partition name:erecovery_vbmeta,partition_size:0x800,partiton_start:0x11d800,
+[00195239] _parser_repartition_cfg_v0(): partition name:erecovery,partition_size:0x16800,partiton_start:0x11e000,
+[00195248] _parser_repartition_cfg_v0(): partition name:erecovery_ramdisk,partition_size:0x10000,partiton_start:0x134800,
+[00195258] _parser_repartition_cfg_v0(): partition name:erecovery_vendor,partition_size:0xc000,partiton_start:0x144800,
+[00195267] _parser_repartition_cfg_v0(): partition name:socko,partition_size:0x25800,partiton_start:0x150800,
+[00195276] _parser_repartition_cfg_v0(): partition name:odmko,partition_size:0xc800,partiton_start:0x176000,
+[00195285] _parser_repartition_cfg_v0(): partition name:eng_vendor,partition_size:0x6000,partiton_start:0x182800,
+[00195294] _parser_repartition_cfg_v0(): partition name:eng_system,partition_size:0xc800,partiton_start:0x188800,
+[00195302] _parser_repartition_cfg_v0(): partition name:patch,partition_size:0x40000,partiton_start:0x195000,
+[00195311] _parser_repartition_cfg_v0(): partition name:kpatch,partition_size:0x2000,partiton_start:0x1d5000,
+[00195320] _parser_repartition_cfg_v0(): partition name:reserved4,partition_size:0x1800,partiton_start:0x1d7000,
+[00195329] _parser_repartition_cfg_v0(): partition name:preas,partition_size:0x9c000,partiton_start:0x1d8800,
+[00195337] _parser_repartition_cfg_v0(): partition name:preavs,partition_size:0x10000,partiton_start:0x274800,
+[00195346] _parser_repartition_cfg_v0(): partition name:super,partition_size:0xafc000,partiton_start:0x284800,
+[00195355] _parser_repartition_cfg_v0(): partition name:version,partition_size:0x10000,partiton_start:0xd80800,
+[00195364] _parser_repartition_cfg_v0(): partition name:preload,partition_size:0x2f0000,partiton_start:0xd90800,
+[00195373] _parser_repartition_cfg_v0(): partition name:flash_ageing,partition_size:0x100000,partiton_start:0x1080800,
+[00195382] _parser_repartition_cfg_v0(): partition name:userdata,partition_size:0x0,partiton_start:0x1180800,
+[00195391] gpt_fill_pte: name: prodnv offset[0]: 0x5800 size[0]: 0x5000
+[00195396] gpt_fill_pte: name: miscdata offset[1]: 0x6000 size[1]: 0x800
+[00195401] gpt_fill_pte: name: persist offset[2]: 0x7000 size[2]: 0x1000
+[00195407] gpt_fill_pte: name: misc offset[3]: 0x8000 size[3]: 0x1000
+[00195412] gpt_fill_pte: name: reserved0 offset[4]: 0x8800 size[4]: 0x800
+[00195418] gpt_fill_pte: name: ddr_para offset[5]: 0x9000 size[5]: 0x800
+[00195423] gpt_fill_pte: name: nvme offset[6]: 0xb800 size[6]: 0x2800
+[00195428] gpt_fill_pte: name: oeminfo offset[7]: 0x3b800 size[7]: 0x30000
+[00195434] gpt_fill_pte: name: cache offset[8]: 0x6f800 size[8]: 0x34000
+[00195439] gpt_fill_pte: name: updatednv offset[9]: 0x70800 size[9]: 0x1000
+[00195445] gpt_fill_pte: name: l_fixnv1 offset[10]: 0x71800 size[10]: 0x1000
+[00195451] gpt_fill_pte: name: l_fixnv2 offset[11]: 0x72800 size[11]: 0x1000
+[00195457] gpt_fill_pte: name: l_runtimenv1 offset[12]: 0x73800 size[12]: 0x1000
+[00195463] gpt_fill_pte: name: l_runtimenv2 offset[13]: 0x74800 size[13]: 0x1000
+[00195469] gpt_fill_pte: name: gnssmodem offset[14]: 0x75000 size[14]: 0x800
+[00195475] gpt_fill_pte: name: wcnmodem offset[15]: 0x7a000 size[15]: 0x5000
+[00195481] gpt_fill_pte: name: l_modem offset[16]: 0x86800 size[16]: 0xc800
+[00195486] gpt_fill_pte: name: l_deltanv offset[17]: 0x87000 size[17]: 0x800
+[00195492] gpt_fill_pte: name: l_gdsp offset[18]: 0x8c000 size[18]: 0x5000
+[00195498] gpt_fill_pte: name: l_ldsp offset[19]: 0x96000 size[19]: 0xa000
+[00195503] gpt_fill_pte: name: l_agdsp offset[20]: 0x99000 size[20]: 0x3000
+[00195509] gpt_fill_pte: name: l_cdsp offset[21]: 0x99800 size[21]: 0x800
+[00195515] gpt_fill_pte: name: pm_sys offset[22]: 0x9a800 size[22]: 0x1000
+[00195520] gpt_fill_pte: name: teecfg offset[23]: 0x9b000 size[23]: 0x800
+[00195526] gpt_fill_pte: name: teecfg_bak offset[24]: 0x9b800 size[24]: 0x800
+[00195532] gpt_fill_pte: name: reserved2 offset[25]: 0x9c800 size[25]: 0x1000
+[00195538] gpt_fill_pte: name: trustos offset[26]: 0x9f800 size[26]: 0x3000
+[00195543] gpt_fill_pte: name: trustos_bak offset[27]: 0xa2800 size[27]: 0x3000
+[00195549] gpt_fill_pte: name: sml offset[28]: 0xa3000 size[28]: 0x800
+[00195555] gpt_fill_pte: name: sml_bak offset[29]: 0xa3800 size[29]: 0x800
+[00195560] gpt_fill_pte: name: uboot offset[30]: 0xa5000 size[30]: 0x1800
+[00195566] gpt_fill_pte: name: uboot_bak offset[31]: 0xa6800 size[31]: 0x1800
+[00195572] gpt_fill_pte: name: log offset[32]: 0xb6800 size[32]: 0x10000
+[00195577] gpt_fill_pte: name: bootfail_info offset[33]: 0xb9000 size[33]: 0x2800
+[00195583] gpt_fill_pte: name: rrecord offset[34]: 0xbf000 size[34]: 0x6000
+[00195589] gpt_fill_pte: name: sysdumpdb offset[35]: 0xc4000 size[35]: 0x5000
+[00195595] gpt_fill_pte: name: uboot_log offset[36]: 0xc6000 size[36]: 0x2000
+[00195601] gpt_fill_pte: name: reserved3 offset[37]: 0xc8800 size[37]: 0x2800
+[00195607] gpt_fill_pte: name: dtbo offset[38]: 0xcc800 size[38]: 0x4000
+[00195612] gpt_fill_pte: name: boot offset[39]: 0xde000 size[39]: 0x11800
+[00195618] gpt_fill_pte: name: ramdisk offset[40]: 0xdf000 size[40]: 0x1000
+[00195623] gpt_fill_pte: name: vbmeta offset[41]: 0xdf800 size[41]: 0x800
+[00195629] gpt_fill_pte: name: vbmeta_bak offset[42]: 0xe0000 size[42]: 0x800
+[00195635] gpt_fill_pte: name: metadata offset[43]: 0xe8000 size[43]: 0x8000
+[00195641] gpt_fill_pte: name: vbmeta_system offset[44]: 0xe8800 size[44]: 0x800
+[00195647] gpt_fill_pte: name: vbmeta_vendor offset[45]: 0xe9000 size[45]: 0x800
+[00195653] gpt_fill_pte: name: vbmeta_odm offset[46]: 0xe9800 size[46]: 0x800
+[00195659] gpt_fill_pte: name: vbmeta_cust offset[47]: 0xea000 size[47]: 0x800
+[00195665] gpt_fill_pte: name: vbmeta_hw_product offset[48]: 0xea800 size[48]: 0x800
+[00195671] gpt_fill_pte: name: recovery_vbmeta offset[49]: 0xeb000 size[49]: 0x800
+[00195678] gpt_fill_pte: name: recovery offset[50]: 0x101800 size[50]: 0x16800
+[00195684] gpt_fill_pte: name: recovery_ramdisk offset[51]: 0x111800 size[51]: 0x10000
+[00195690] gpt_fill_pte: name: recovery_vendor offset[52]: 0x11d800 size[52]: 0xc000
+[00195697] gpt_fill_pte: name: erecovery_vbmeta offset[53]: 0x11e000 size[53]: 0x800
+[00195703] gpt_fill_pte: name: erecovery offset[54]: 0x134800 size[54]: 0x16800
+[00195709] gpt_fill_pte: name: erecovery_ramdisk offset[55]: 0x144800 size[55]: 0x10000
+[00195716] gpt_fill_pte: name: erecovery_vendor offset[56]: 0x150800 size[56]: 0xc000
+[00195723] gpt_fill_pte: name: socko offset[57]: 0x176000 size[57]: 0x25800
+[00195728] gpt_fill_pte: name: odmko offset[58]: 0x182800 size[58]: 0xc800
+[00195734] gpt_fill_pte: name: eng_vendor offset[59]: 0x188800 size[59]: 0x6000
+[00195740] gpt_fill_pte: name: eng_system offset[60]: 0x195000 size[60]: 0xc800
+[00195746] gpt_fill_pte: name: patch offset[61]: 0x1d5000 size[61]: 0x40000
+[00195752] gpt_fill_pte: name: kpatch offset[62]: 0x1d7000 size[62]: 0x2000
+[00195757] gpt_fill_pte: name: reserved4 offset[63]: 0x1d8800 size[63]: 0x1800
+[00195763] gpt_fill_pte: name: preas offset[64]: 0x274800 size[64]: 0x9c000
+[00195769] gpt_fill_pte: name: preavs offset[65]: 0x284800 size[65]: 0x10000
+[00195775] gpt_fill_pte: name: super offset[66]: 0xd80800 size[66]: 0xafc000
+[00195781] gpt_fill_pte: name: version offset[67]: 0xd90800 size[67]: 0x10000
+[00195787] gpt_fill_pte: name: preload offset[68]: 0x1080800 size[68]: 0x2f0000
+[00195793] gpt_fill_pte: name: flash_ageing offset[69]: 0x1180800 size[69]: 0x100000
+[00195799] gpt_fill_pte: name: userdata offset[70]: 0x1180800 size[70]: 0x0
+[00195805] max lba: e8f6000
+[00195830] GPT successfully written to block device!
+[00195836] dl_repartition(): partition_info backup !
+[00195840] init_log_part
+: init log type 1
+[00195863] bootup init log success on 2 times
+ket_data(): packet->body.size:0x4c, image size:0x100000
+[0019593
+0,checksum=0x0
+[00195992] _get_partition_attribute(): partition 

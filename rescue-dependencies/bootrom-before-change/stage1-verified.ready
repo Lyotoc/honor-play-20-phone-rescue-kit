@@ -1,0 +1,10 @@
+{
+  "uboot_sha256": "cf98408f2ad57e3e5cc06b6535ded4088cb79e977b7a66fb99044ebc4588e036",
+  "both_uboot_readback_verified": true,
+  "both_spl_zero_verified": true,
+  "misc_wipe_request_verified": true,
+  "metadata_erased": true,
+  "persist_erased_by_spd_dump_userdata_command": true,
+  "userdata_clear_pending_recovery": true,
+  "next_action": "reset_then_two_readme_RAM_startup_passes"
+}

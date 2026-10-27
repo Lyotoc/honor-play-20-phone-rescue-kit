@@ -1,0 +1,12 @@
+# 分区镜像本体：体积过大，不进入仓库。
+# 请从 Releases 下载 images.zip.001 / images.zip.002 合并后解压得到 images/。
+/images/
+/images.zip.*
+
+# 构建工具链与缓存：非救砖包内容，且 zig.exe 单文件超过 GitHub 100 MB 限制。
+/rescue-dependencies/persistent-boot-test/compiler/
+/rescue-dependencies/persistent-boot-test/zig-cache/
+
+# 系统杂项
+.DS_Store
+Thumbs.db

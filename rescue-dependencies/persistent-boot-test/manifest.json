@@ -1,0 +1,51 @@
+{
+  "upstream_commit": "ea1cd3159061cca7211a326ae8abecf784d50c9b",
+  "state_before_test": "Magisk 28.1 working, both eMMC boot regions all-zero, patched U-Boot in both copies",
+  "files": {
+    "before-boot0.bin": {
+      "bytes": 4194304,
+      "sha256": "bb9f8df61474d25e71fa00722318cd387396ca1736605e1248821cc0de3d3af8"
+    },
+    "before-boot1.bin": {
+      "bytes": 4194304,
+      "sha256": "bb9f8df61474d25e71fa00722318cd387396ca1736605e1248821cc0de3d3af8"
+    },
+    "spl-unlock.bin": {
+      "bytes": 63156,
+      "sha256": "5703bb1378894e698dc17286343f8f11f1d474070b6c16f6d7d6d6dde0ab2785"
+    },
+    "zero-spl-256k.bin": {
+      "bytes": 262144,
+      "sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90"
+    },
+    "patch-tools.zip": {
+      "bytes": 47033,
+      "sha256": "e77ab36fbc799b130faa3abfc9236d35c8199a976f7f238d5bdbc513125478b0"
+    }
+  },
+  "candidate": {
+    "file": "spl-persistent-ums512.bin",
+    "bytes": 63124,
+    "sha256": "02192340297ed5862be346d95917d57dbdda8ceb01b58c8f618ef59dfbe36187",
+    "patched_payload_matches_tested_ram_spl": true,
+    "rollback_version": 0,
+    "upstream_cfg": "ums512.cfg",
+    "state": "RAM_test_failed_NOT_FLASHED"
+  },
+  "patcher_exe_sha256": "c001b62cb11722aa366cdbe5981f67c77ea63b9ce55451fa761ef279776474a0",
+  "flash_writes_in_this_task": false,
+  "last_verified_android_after_first_reset": {
+    "boot_completed": true,
+    "root": "uid=0(root), u:r:magisk:s0",
+    "verified_boot_state": "orange"
+  },
+  "current_state": "restored_to_working_tethered_Android_with_Magisk_root",
+  "persistent_boot_achieved": false,
+  "final_verification": {
+    "boot_completed": true,
+    "magisk_version": "28.1",
+    "root_verified": true,
+    "all_relevant_boot_partition_hashes_unchanged": true,
+    "tethered_startup_still_required": true
+  }
+}

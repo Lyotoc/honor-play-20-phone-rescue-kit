@@ -1,0 +1,14 @@
+1
+stopped
+0
+unlocked
+orange
+uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0
+28.1:MAGISK:R
+bb9f8df61474d25e71fa00722318cd387396ca1736605e1248821cc0de3d3af8  /dev/block/mmcblk0boot0
+bb9f8df61474d25e71fa00722318cd387396ca1736605e1248821cc0de3d3af8  /dev/block/mmcblk0boot1
+cf98408f2ad57e3e5cc06b6535ded4088cb79e977b7a66fb99044ebc4588e036  /dev/block/mmcblk0p31
+cf98408f2ad57e3e5cc06b6535ded4088cb79e977b7a66fb99044ebc4588e036  /dev/block/mmcblk0p32
+51ca5c7b35c57a3f67acda7b97c680ff39edc369bd1ed34de4ccf497181abfc9  /dev/block/mmcblk0p40
+d96c5f9fc7604dfa25d674c9e2f38e91e3f34602b79718c1fc78a3be6e4a5503  /dev/block/mmcblk0p42
+d96c5f9fc7604dfa25d674c9e2f38e91e3f34602b79718c1fc78a3be6e4a5503  /dev/block/mmcblk0p43

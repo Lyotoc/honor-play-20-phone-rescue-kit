@@ -1,0 +1,15 @@
+{
+  "result": "success",
+  "core_version": "28.1:MAGISK:R",
+  "manager_version": "28.1",
+  "root_id": "uid=0(root) gid=0(root) groups=0(root) context=u:r:magisk:s0",
+  "boot_completed": true,
+  "bootanim": "stopped",
+  "bootloader_state": "unlocked",
+  "verified_boot_state": "orange",
+  "tethered_boot_required": true,
+  "vbmeta_and_backup_restored_to_original": true,
+  "separate_ramdisk_original": true,
+  "data_erase_during_magisk_task": false,
+  "boot_sha256": "51ca5c7b35c57a3f67acda7b97c680ff39edc369bd1ed34de4ccf497181abfc9"
+}

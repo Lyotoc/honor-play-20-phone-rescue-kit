@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "emmc-boot0",
+    "Device": "/dev/block/mmcblk0boot0",
+    "Bytes": 4194304,
+    "SHA256": "C79E284FD634AF21BC5D5920F8E0F2AA1AE2D382F9EB482CBEA257E28A97FD25"
+  },
+  {
+    "Name": "emmc-boot1",
+    "Device": "/dev/block/mmcblk0boot1",
+    "Bytes": 4194304,
+    "SHA256": "C79E284FD634AF21BC5D5920F8E0F2AA1AE2D382F9EB482CBEA257E28A97FD25"
+  },
+  {
+    "Name": "uboot",
+    "Device": "/dev/block/mmcblk0p31",
+    "Bytes": 3145728,
+    "SHA256": "8583D2638A3FE07B1A335EF5D6AC6619B6A96CC7648BEC81BDB92C000C7E1C42"
+  },
+  {
+    "Name": "uboot_bak",
+    "Device": "/dev/block/mmcblk0p32",
+    "Bytes": 3145728,
+    "SHA256": "8583D2638A3FE07B1A335EF5D6AC6619B6A96CC7648BEC81BDB92C000C7E1C42"
+  },
+  {
+    "Name": "misc",
+    "Device": "/dev/block/mmcblk0p4",
+    "Bytes": 2097152,
+    "SHA256": "5647F05EC18958947D32874EEB788FA396A05D0BAB7C1B71F112CEB7E9B31EEE"
+  },
+  {
+    "Name": "metadata",
+    "Device": "/dev/block/mmcblk0p44",
+    "Bytes": 16777216,
+    "SHA256": "7A15EF4BC2F2E2E4412DA4D429C19C3B8BB6DFFD9268ECE6B9A6D0E24A47C52D"
+  },
+  {
+    "Name": "miscdata",
+    "Device": "/dev/block/mmcblk0p2",
+    "Bytes": 1048576,
+    "SHA256": "81809C8DF9D376B1606642F2557C78CC97253BCAF9277A4FA02250B29D630F8E"
+  }
+]

@@ -1,0 +1,1 @@
+The generic upstream UMS512 candidate did not boot this phone in the RAM-only trial. It has NOT been written to either SPL partition. Do not flash it as a proven persistent boot solution. Source and generation checks alone do not establish BootROM compatibility.
